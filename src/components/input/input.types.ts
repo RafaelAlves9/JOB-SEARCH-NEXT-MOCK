@@ -1,5 +1,5 @@
-import type { EMask } from "@enums/EMask";
-import type { ReactElement } from "react";
+import type { EMask } from '@enums/EMask';
+import type { ReactElement } from 'react';
 
 export type InputTypes = {
    control: any;

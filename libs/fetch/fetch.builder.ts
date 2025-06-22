@@ -5,9 +5,9 @@ type FetchOptions = {
 };
 
 export class FetchBuilder {
-   private baseUrl = "";
+   private baseUrl = '';
    private headers: Record<string, string> = {};
-   private credentials: RequestCredentials = "same-origin";
+   private credentials: RequestCredentials = 'same-origin';
 
    static build() {
       return new FetchBuilder();
@@ -24,7 +24,7 @@ export class FetchBuilder {
    }
 
    haveCredentials() {
-      this.credentials = "include";
+      this.credentials = 'include';
       return this;
    }
 

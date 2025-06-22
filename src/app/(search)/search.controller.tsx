@@ -4,13 +4,13 @@ import { useState, useCallback } from 'react';
 import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { z } from 'zod';
-import { IJob, IJobSearchForm, IJobSearchViewModel } from './job-search.type';
+import { IJob, ISearchForm, ISearchViewModel } from './search.type';
 
-const jobSearchSchema = z.object({
-   keywords: z.string().min(1, 'As palavras-chave são obrigatórias.'),
+const searchSchema = z.object({
+   keywords: z.string().min(1, 'Keywords are required'),
 });
 
-export const useJobSearchController = (): IJobSearchViewModel => {
+export const useSearchController = (): ISearchViewModel => {
    const [isLoading, setIsLoading] = useState(false);
    const [isFetchingMore, setIsFetchingMore] = useState(false);
    const [jobs, setJobs] = useState<IJob[]>([]);
@@ -23,38 +23,44 @@ export const useJobSearchController = (): IJobSearchViewModel => {
       control,
       handleSubmit,
       formState: { errors },
-   } = useForm<IJobSearchForm>({
-      resolver: zodResolver(jobSearchSchema),
+   } = useForm<ISearchForm>({
+      resolver: zodResolver(searchSchema),
       defaultValues: {
          keywords: '',
       },
    });
 
-   const fetchLinkedInJobs = useCallback(async (searchData: IJobSearchForm, pageNum: number): Promise<{ jobs: IJob[], total: number, hasMore: boolean }> => {
-      const response = await fetch('/api/job-search', {
-         method: 'POST',
-         headers: {
-            'Content-Type': 'application/json',
-         },
-         body: JSON.stringify({ ...searchData, page: pageNum }),
-      });
+   const fetchLinkedInJobs = useCallback(
+      async (
+         searchData: ISearchForm,
+         pageNum: number,
+      ): Promise<{ jobs: IJob[]; total: number; hasMore: boolean }> => {
+         const response = await fetch('/api/job-search', {
+            method: 'POST',
+            headers: {
+               'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({ ...searchData, page: pageNum }),
+         });
 
-      if (!response.ok) {
-         const errorData = await response.json();
-         throw new Error(errorData.message || 'Failed to fetch jobs');
-      }
+         if (!response.ok) {
+            const errorData = await response.json();
+            throw new Error(errorData.message || 'Failed to fetch jobs');
+         }
 
-      const data = await response.json();
-      const newJobs = data.jobs || data;
+         const data = await response.json();
+         const newJobs = data.jobs || data;
 
-      return {
-         jobs: newJobs,
-         total: data.total || (newJobs.length > 0 ? newJobs.length : 0),
-         hasMore: newJobs.length > 0, // A API não retorna 'hasMore', então inferimos
-      };
-   }, []);
+         return {
+            jobs: newJobs,
+            total: data.total || (newJobs.length > 0 ? newJobs.length : 0),
+            hasMore: data.hasMore,
+         };
+      },
+      [],
+   );
 
-   const onSearch = async (data: IJobSearchForm) => {
+   const onSearch = async (data: ISearchForm) => {
       setIsLoading(true);
       setJobs([]);
       setPage(1);
@@ -83,7 +89,7 @@ export const useJobSearchController = (): IJobSearchViewModel => {
 
       try {
          const results = await fetchLinkedInJobs({ keywords: currentKeywords }, nextPage);
-         setJobs(prevJobs => [...prevJobs, ...results.jobs]);
+         setJobs((prevJobs) => [...prevJobs, ...results.jobs]);
          setPage(nextPage);
          setHasMore(results.hasMore);
       } catch (error) {
@@ -106,4 +112,4 @@ export const useJobSearchController = (): IJobSearchViewModel => {
       hasMore,
       isFetchingMore,
    };
-}; 
+};

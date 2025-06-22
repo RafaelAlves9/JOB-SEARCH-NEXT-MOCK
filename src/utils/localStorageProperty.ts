@@ -1,9 +1,9 @@
 'use client';
 
 export function getCookieJSON(name: string): any | null {
-   "use client"
+   'use client';
    const cookies = document.cookie.split('; ');
-   const cookie = cookies.find(row => row.startsWith(`${name}=`));
+   const cookie = cookies.find((row) => row.startsWith(`${name}=`));
    if (!cookie) return null;
 
    try {

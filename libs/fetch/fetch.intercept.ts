@@ -1,9 +1,9 @@
-import { handleStatusHttpResponse } from "@src/utils/handleStatusResponse";
+import { handleStatusHttpResponse } from '../../src/utils/handleStatusResponse';
 
 export async function fetchWithInterceptor(
    fetchFn: (url: string, init?: RequestInit) => Promise<Response>,
-   url: string, 
-   init: RequestInit = {}
+   url: string,
+   init: RequestInit = {},
 ): Promise<Response> {
    try {
       let headers = { ...init.headers };
@@ -14,7 +14,7 @@ export async function fetchWithInterceptor(
 
       const configWithSession = {
          ...init,
-         headers
+         headers,
       };
 
       const res = await fetchFn(url, configWithSession);
@@ -26,7 +26,7 @@ export async function fetchWithInterceptor(
 
       return res;
    } catch (err) {
-      console.error("Erro global:", err);
+      console.error('Erro global:', err);
       throw err;
    }
 }

@@ -1,25 +1,14 @@
-export const UserIcon = ({
-   height,
-   color,
-}: {
-   height: string;
-   color?: string;
-}) => (
-   <svg
-      height={height}
-      viewBox="0 0 24 24"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-   >
+export const UserIcon = ({ height, color }: { height: string; color?: string }) => (
+   <svg height={height} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path
          d="M12 12C14.7614 12 17 9.76142 17 7C17 4.23858 14.7614 2 12 2C9.23858 2 7 4.23858 7 7C7 9.76142 9.23858 12 12 12Z"
-         stroke={color ?? "#A3A3A3"}
+         stroke={color ?? '#A3A3A3'}
          strokeLinecap="round"
          strokeLinejoin="round"
       />
       <path
          d="M20.5899 22C20.5899 18.13 16.7399 15 11.9999 15C7.25991 15 3.40991 18.13 3.40991 22"
-         stroke={color ?? "#A3A3A3"}
+         stroke={color ?? '#A3A3A3'}
          strokeLinecap="round"
          strokeLinejoin="round"
       />
@@ -27,13 +16,7 @@ export const UserIcon = ({
 );
 
 export const ArrowUpIcon = ({ height }: { height: string }) => (
-   <svg
-      xmlns="http://www.w3.org/2000/svg"
-      width="100%"
-      height={height}
-      viewBox="0 0 24 24"
-      fill="none"
-   >
+   <svg xmlns="http://www.w3.org/2000/svg" width="100%" height={height} viewBox="0 0 24 24" fill="none">
       <path
          stroke="#667085"
          strokeLinecap="round"
@@ -45,13 +28,7 @@ export const ArrowUpIcon = ({ height }: { height: string }) => (
 );
 
 export const ArrowDownIcon = ({ height }: { height: string }) => (
-   <svg
-      xmlns="http://www.w3.org/2000/svg"
-      width="100%"
-      height={height}
-      viewBox="0 0 24 24"
-      fill="none"
-   >
+   <svg xmlns="http://www.w3.org/2000/svg" width="100%" height={height} viewBox="0 0 24 24" fill="none">
       <path
          stroke="#667085"
          strokeLinecap="round"
@@ -63,13 +40,7 @@ export const ArrowDownIcon = ({ height }: { height: string }) => (
 );
 
 export const CheckIcon = ({ height }: { height: string }) => (
-   <svg
-      xmlns="http://www.w3.org/2000/svg"
-      width="100%"
-      height={height}
-      viewBox="0 0 24 24"
-      fill="none"
-   >
+   <svg xmlns="http://www.w3.org/2000/svg" width="100%" height={height} viewBox="0 0 24 24" fill="none">
       <path
          stroke="red"
          strokeLinecap="round"
@@ -80,20 +51,8 @@ export const CheckIcon = ({ height }: { height: string }) => (
    </svg>
 );
 
-export const ArrowLeftIcon = ({
-   height,
-   color,
-}: {
-   height: string;
-   color: string;
-}) => (
-   <svg
-      xmlns="http://www.w3.org/2000/svg"
-      width="100%"
-      height={height}
-      viewBox="0 0 18 18"
-      fill="none"
-   >
+export const ArrowLeftIcon = ({ height, color }: { height: string; color: string }) => (
+   <svg xmlns="http://www.w3.org/2000/svg" width="100%" height={height} viewBox="0 0 18 18" fill="none">
       <path
          stroke={color}
          strokeLinecap="round"
@@ -104,20 +63,8 @@ export const ArrowLeftIcon = ({
    </svg>
 );
 
-export const ArrowRightIcon = ({
-   height,
-   color,
-}: {
-   height: string;
-   color: string;
-}) => (
-   <svg
-      xmlns="http://www.w3.org/2000/svg"
-      width="100%"
-      height={height}
-      viewBox="0 0 18 18"
-      fill="none"
-   >
+export const ArrowRightIcon = ({ height, color }: { height: string; color: string }) => (
+   <svg xmlns="http://www.w3.org/2000/svg" width="100%" height={height} viewBox="0 0 18 18" fill="none">
       <path
          stroke={color}
          strokeLinecap="round"
@@ -129,27 +76,16 @@ export const ArrowRightIcon = ({
 );
 
 export const EyesOpenIcon = (props: any) => (
-   <svg
-      xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 19 13"
-      fill="none"
-      id="EyesOpenIcon"
-      {...props}
-   >
+   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19 13" fill="none" id="EyesOpenIcon" {...props}>
       <path
-         fill={props.color ?? "#7A7A7A"}
+         fill={props.color ?? '#7A7A7A'}
          d="M9.564 2.986a3.549 3.549 0 0 0-3.557 3.54 3.549 3.549 0 0 0 3.557 3.539 3.549 3.549 0 0 0 3.557-3.54 3.548 3.548 0 0 0-3.557-3.54Zm0 5.9c-1.307 0-2.398-1.085-2.398-2.387a2.368 2.368 0 0 1 2.371-2.36 2.368 2.368 0 0 1 2.371 2.36c0 1.302-1.036 2.386-2.344 2.386Zm9.416-2.523c-.007-.03-.004-.062-.013-.09-.003-.013-.011-.02-.016-.03-.006-.017-.004-.037-.013-.053C17.213 2.26 13.498 0 9.538 0 5.576 0 1.785 2.257.06 6.186c-.007.017-.006.034-.012.053-.005.011-.013.017-.017.029-.009.03-.005.06-.011.09a.803.803 0 0 0-.021.16c0 .053.01.104.02.157.007.03.003.062.012.09.004.013.012.019.017.03.006.016.004.037.012.053C1.786 10.776 5.541 13 9.501 13c3.96 0 7.713-2.22 9.437-6.148.01-.018.008-.035.014-.053.004-.01.012-.018.015-.03.01-.029.007-.06.013-.09a.795.795 0 0 0 .02-.16.8.8 0 0 0-.02-.156ZM9.5 11.82c-3.358 0-6.664-1.761-8.289-5.303 1.61-3.53 4.96-5.338 8.326-5.338 3.366 0 6.642 1.81 8.251 5.341-1.608 3.53-4.92 5.3-8.288 5.3Z"
       />
    </svg>
 );
 
 export const EyesCloseIcon = ({ height }: { height: string }) => (
-   <svg
-      xmlns="http://www.w3.org/2000/svg"
-      height={height}
-      viewBox="0 0 22 21"
-      fill="none"
-   >
+   <svg xmlns="http://www.w3.org/2000/svg" height={height} viewBox="0 0 22 21" fill="none">
       <path
          stroke="#7A7A7A"
          strokeLinecap="round"
@@ -168,13 +104,7 @@ export const EyesCloseIcon = ({ height }: { height: string }) => (
 );
 
 export const LockInIcon = ({ height }: { height: string }) => (
-   <svg
-      xmlns="http://www.w3.org/2000/svg"
-      width="100%"
-      height={height}
-      viewBox="0 0 19 23"
-      fill="none"
-   >
+   <svg xmlns="http://www.w3.org/2000/svg" width="100%" height={height} viewBox="0 0 19 23" fill="none">
       <path
          fill="#A3A3A3"
          d="M16.83 9.91h-1.568V5.95c0-3.281-2.669-5.95-5.95-5.95a5.956 5.956 0 0 0-5.948 5.95v3.96H1.796C.806 9.91 0 10.715 0 11.705v8.944c0 .99.805 1.795 1.796 1.795H16.83c.99 0 1.796-.805 1.796-1.795v-8.944c0-.99-.806-1.795-1.796-1.795ZM4.261 5.95A5.057 5.057 0 0 1 9.313.897a5.057 5.057 0 0 1 5.051 5.051v3.96H4.261V5.95Zm13.467 14.699a.899.899 0 0 1-.898.897H1.796a.899.899 0 0 1-.898-.897v-8.944c0-.495.403-.898.898-.898H16.83c.495 0 .898.403.898.898v8.944Z"
@@ -187,12 +117,7 @@ export const LockInIcon = ({ height }: { height: string }) => (
 );
 
 export const SearchIcon = (props: any) => (
-   <svg
-      xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 17 30"
-      fill="none"
-      {...props}
-   >
+   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 30" fill="none" {...props}>
       <path
          stroke="#4A4A4A"
          strokeLinecap="round"
@@ -203,20 +128,8 @@ export const SearchIcon = (props: any) => (
    </svg>
 );
 
-export const IconHomeSidebar = ({
-   height,
-   width,
-}: {
-   height: string;
-   width: string;
-}) => (
-   <svg
-      width={width}
-      height={height}
-      viewBox="0 0 16 17"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-   >
+export const IconHomeSidebar = ({ height, width }: { height: string; width: string }) => (
+   <svg width={width} height={height} viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
@@ -238,20 +151,8 @@ export const IconHomeSidebar = ({
    </svg>
 );
 
-export const IconVoluntarySidebar = ({
-   height,
-   width,
-}: {
-   height: string;
-   width: string;
-}) => (
-   <svg
-      width={width}
-      height={height}
-      viewBox="0 0 16 17"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-   >
+export const IconVoluntarySidebar = ({ height, width }: { height: string; width: string }) => (
+   <svg width={width} height={height} viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
@@ -278,20 +179,8 @@ export const IconVoluntarySidebar = ({
       />
    </svg>
 );
-export const IconTestSidebar = ({
-   height,
-   width,
-}: {
-   height: string;
-   width: string;
-}) => (
-   <svg
-      width={width}
-      height={height}
-      viewBox="0 0 16 17"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-   >
+export const IconTestSidebar = ({ height, width }: { height: string; width: string }) => (
+   <svg width={width} height={height} viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
@@ -313,20 +202,8 @@ export const IconTestSidebar = ({
    </svg>
 );
 
-export const IconUserSidebar = ({
-   height,
-   width,
-}: {
-   height: string;
-   width: string;
-}) => (
-   <svg
-      width={width}
-      height={height}
-      viewBox="0 0 14 17"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-   >
+export const IconUserSidebar = ({ height, width }: { height: string; width: string }) => (
+   <svg width={width} height={height} viewBox="0 0 14 17" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
@@ -342,20 +219,8 @@ export const IconUserSidebar = ({
    </svg>
 );
 
-export const IconPresentSidebar = ({
-   height,
-   width,
-}: {
-   height: string;
-   width: string;
-}) => (
-   <svg
-      width={width}
-      height={height}
-      viewBox="0 0 16 17"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-   >
+export const IconPresentSidebar = ({ height, width }: { height: string; width: string }) => (
+   <svg width={width} height={height} viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
@@ -365,20 +230,8 @@ export const IconPresentSidebar = ({
    </svg>
 );
 
-export const IconReportsSidebar = ({
-   height,
-   width,
-}: {
-   height: string;
-   width: string;
-}) => (
-   <svg
-      width={width}
-      height={height}
-      viewBox="0 0 16 17"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-   >
+export const IconReportsSidebar = ({ height, width }: { height: string; width: string }) => (
+   <svg width={width} height={height} viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
@@ -405,20 +258,8 @@ export const IconReportsSidebar = ({
       />
    </svg>
 );
-export const IconScoreExtractSidebar = ({
-   height,
-   width,
-}: {
-   height: string;
-   width: string;
-}) => (
-   <svg
-      width={width}
-      height={height}
-      viewBox="0 0 16 17"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-   >
+export const IconScoreExtractSidebar = ({ height, width }: { height: string; width: string }) => (
+   <svg width={width} height={height} viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
@@ -445,20 +286,8 @@ export const IconScoreExtractSidebar = ({
       />
    </svg>
 );
-export const IconSettingsSidebar = ({
-   height,
-   width,
-}: {
-   height: string;
-   width: string;
-}) => (
-   <svg
-      width={width}
-      height={height}
-      viewBox="0 0 16 16"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-   >
+export const IconSettingsSidebar = ({ height, width }: { height: string; width: string }) => (
+   <svg width={width} height={height} viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
@@ -474,20 +303,8 @@ export const IconSettingsSidebar = ({
    </svg>
 );
 
-export const IconLogoutSidebar = ({
-   height,
-   width,
-}: {
-   height: string;
-   width: string;
-}) => (
-   <svg
-      width={width}
-      height={height}
-      viewBox="0 0 12 13"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-   >
+export const IconLogoutSidebar = ({ height, width }: { height: string; width: string }) => (
+   <svg width={width} height={height} viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
@@ -509,20 +326,8 @@ export const IconLogoutSidebar = ({
    </svg>
 );
 
-export const IconEditPincel = ({
-   height,
-   width,
-}: {
-   height: string;
-   width: string;
-}) => (
-   <svg
-      width={width}
-      height={height}
-      viewBox="0 0 12 12"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-   >
+export const IconEditPincel = ({ height, width }: { height: string; width: string }) => (
+   <svg width={width} height={height} viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
@@ -544,20 +349,8 @@ export const IconEditPincel = ({
    </svg>
 );
 
-export const IconRemove = ({
-   height,
-   width,
-}: {
-   height: string;
-   width: string;
-}) => (
-   <svg
-      width={width}
-      height={height}
-      viewBox="0 0 16 17"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-   >
+export const IconRemove = ({ height, width }: { height: string; width: string }) => (
+   <svg width={width} height={height} viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
@@ -585,20 +378,8 @@ export const IconRemove = ({
    </svg>
 );
 
-export const IconArrowRight = ({
-   height,
-   width,
-}: {
-   height: string;
-   width: string;
-}) => (
-   <svg
-      width={width}
-      height={height}
-      viewBox="0 0 4 8"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-   >
+export const IconArrowRight = ({ height, width }: { height: string; width: string }) => (
+   <svg width={width} height={height} viewBox="0 0 4 8" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
@@ -608,20 +389,8 @@ export const IconArrowRight = ({
    </svg>
 );
 
-export const IconArrowLeft = ({
-   height,
-   width,
-}: {
-   height: string;
-   width: string;
-}) => (
-   <svg
-      width={width}
-      height={height}
-      viewBox="0 0 4 8"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-   >
+export const IconArrowLeft = ({ height, width }: { height: string; width: string }) => (
+   <svg width={width} height={height} viewBox="0 0 4 8" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
@@ -631,20 +400,8 @@ export const IconArrowLeft = ({
    </svg>
 );
 
-export const IconArrowLeftSidebar = ({
-   height,
-   width,
-}: {
-   height: string;
-   width: string;
-}) => (
-   <svg
-      width={width}
-      height={height}
-      viewBox="0 0 4 8"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-   >
+export const IconArrowLeftSidebar = ({ height, width }: { height: string; width: string }) => (
+   <svg width={width} height={height} viewBox="0 0 4 8" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
@@ -654,20 +411,8 @@ export const IconArrowLeftSidebar = ({
    </svg>
 );
 
-export const IconArrowUpTable = ({
-   height,
-   width,
-}: {
-   height: string;
-   width: string;
-}) => (
-   <svg
-      width={width}
-      height={height}
-      viewBox="0 0 8 4"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-   >
+export const IconArrowUpTable = ({ height, width }: { height: string; width: string }) => (
+   <svg width={width} height={height} viewBox="0 0 8 4" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
@@ -677,20 +422,8 @@ export const IconArrowUpTable = ({
    </svg>
 );
 
-export const IconArrowRightWithCircle = ({
-   height,
-   width,
-}: {
-   height: string;
-   width: string;
-}) => (
-   <svg
-      width={width}
-      height={height}
-      viewBox="0 0 16 16"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-   >
+export const IconArrowRightWithCircle = ({ height, width }: { height: string; width: string }) => (
+   <svg width={width} height={height} viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
@@ -712,20 +445,8 @@ export const IconArrowRightWithCircle = ({
    </svg>
 );
 
-export const IconSearch = ({
-   height,
-   width,
-}: {
-   height: string;
-   width: string;
-}) => (
-   <svg
-      width={width}
-      height={height}
-      viewBox="0 0 16 16"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-   >
+export const IconSearch = ({ height, width }: { height: string; width: string }) => (
+   <svg width={width} height={height} viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
@@ -735,20 +456,8 @@ export const IconSearch = ({
    </svg>
 );
 
-export const IconCircleClose = ({
-   height,
-   width,
-}: {
-   height: string;
-   width: string;
-}) => (
-   <svg
-      width={width}
-      height={height}
-      viewBox="0 0 12 12"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-   >
+export const IconCircleClose = ({ height, width }: { height: string; width: string }) => (
+   <svg width={width} height={height} viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
@@ -772,29 +481,17 @@ export const IconCircleClose = ({
 
 export const ConfirmIcon = ({ color }: { color?: string }) => {
    return (
-      <svg
-         width="12"
-         height="10"
-         viewBox="0 0 12 10"
-         fill="none"
-         xmlns="http://www.w3.org/2000/svg"
-      >
+      <svg width="12" height="10" viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg">
          <path
             d="M5.57453 7.2488L10.0364 0.955852C10.3815 0.469233 11.0561 0.354114 11.5434 0.698416C12.0307 1.04293 12.1462 1.71677 11.8012 2.20318L7.31563 8.52944C7.30317 8.54737 7.28987 8.56487 7.27615 8.58194C6.7903 9.18537 6.06798 9.56109 5.29413 9.61274C5.2329 9.61675 5.17188 9.61864 5.11086 9.61864C4.40479 9.61886 3.71835 9.34835 3.2021 8.86215L0.352067 6.2627C-0.0888043 5.86063 -0.119842 5.17793 0.282811 4.73769C0.685465 4.29746 1.36936 4.26668 1.81024 4.66875L4.66745 7.27473C4.67294 7.27958 4.67822 7.28464 4.68371 7.28991C4.85453 7.45226 5.04941 7.46512 5.15034 7.45838C5.24789 7.45205 5.42926 7.41579 5.57453 7.2488Z"
-            fill={color ?? "white"}
+            fill={color ?? 'white'}
          />
       </svg>
    );
 };
 
 export const Box = ({ color }: { color: string }) => (
-   <svg
-      xmlns="http://www.w3.org/2000/svg"
-      width="16"
-      height="16"
-      viewBox="0 0 16 16"
-      fill={color}
-   >
+   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill={color}>
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
@@ -804,44 +501,32 @@ export const Box = ({ color }: { color: string }) => (
    </svg>
 );
 
-export const DocumentIcon = ({
-   color,
-   height,
-}: {
-   color?: string;
-   height?: string;
-}) => (
-   <svg
-      width="16"
-      height={height ?? "16"}
-      viewBox="0 0 16 16"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-   >
+export const DocumentIcon = ({ color, height }: { color?: string; height?: string }) => (
+   <svg width="16" height={height ?? '16'} viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
       <g clip-path="url(#clip0_7615_8902)">
          <path
             fill-rule="evenodd"
             clip-rule="evenodd"
             d="M4.46331 7.34894C4.46331 7.04069 4.71334 6.79081 5.02177 6.79081H10.2341C10.5425 6.79081 10.7925 7.04069 10.7925 7.34894C10.7925 7.65719 10.5425 7.90707 10.2341 7.90707H5.02177C4.71334 7.90707 4.46331 7.65719 4.46331 7.34894Z"
-            fill={color ?? "#FF0000"}
+            fill={color ?? '#FF0000'}
          />
          <path
             fill-rule="evenodd"
             clip-rule="evenodd"
             d="M4.46331 10.3256C4.46331 10.0174 4.71334 9.76752 5.02177 9.76752H8.28319C8.59162 9.76752 8.84165 10.0174 8.84165 10.3256C8.84165 10.6339 8.59162 10.8838 8.28319 10.8838H5.02177C4.71334 10.8838 4.46331 10.6339 4.46331 10.3256Z"
-            fill={color ?? "#FF0000"}
+            fill={color ?? '#FF0000'}
          />
          <path
             fill-rule="evenodd"
             clip-rule="evenodd"
             d="M6.458 0.000113212C6.47629 0.000165162 6.49398 0.000215367 6.511 0.000215367H9.48947C9.50649 0.000215367 9.52418 0.000165162 9.54247 0.000113212C9.87232 -0.000823296 10.3994 -0.00231972 10.8231 0.279997C11.3326 0.619495 11.5372 1.22881 11.5372 2.0467C11.5372 2.06372 11.5372 2.08139 11.5373 2.09967C11.5382 2.42933 11.5397 2.95606 11.2572 3.37954C10.9175 3.88878 10.3078 4.09318 9.48947 4.09318H6.511C6.49398 4.09318 6.47629 4.09323 6.458 4.09329C6.12815 4.09422 5.6011 4.09572 5.17738 3.8134C4.66783 3.4739 4.46331 2.86458 4.46331 2.0467C4.46331 1.22881 4.66783 0.619495 5.17738 0.279997C5.6011 -0.00231967 6.12815 -0.000823296 6.458 0.000113212ZM5.79694 1.20879C5.74802 1.24138 5.58023 1.37623 5.58023 2.0467C5.58023 2.71717 5.74802 2.85202 5.79694 2.88461C5.90818 2.95873 6.09047 2.97692 6.511 2.97692H9.48947C10.1603 2.97692 10.2953 2.80923 10.3279 2.76035C10.402 2.64917 10.4202 2.46698 10.4202 2.0467C10.4202 1.37623 10.2524 1.24138 10.2035 1.20879C10.0923 1.13467 9.91 1.11648 9.48947 1.11648H6.511C6.09047 1.11648 5.90818 1.13467 5.79694 1.20879Z"
-            fill={color ?? "#FF0000"}
+            fill={color ?? '#FF0000'}
          />
          <path
             fill-rule="evenodd"
             clip-rule="evenodd"
             d="M5.57942 2.03147C5.59607 2.33927 5.3599 2.60228 5.05192 2.61892C3.85596 2.68352 3.11059 2.93467 2.6406 3.44311C2.16438 3.95829 1.85716 4.86028 1.85716 6.51176V10.9768C1.85716 12.4553 2.05174 13.3813 2.55667 13.9581C3.04546 14.5164 3.953 14.8837 5.76639 14.8837H10.2341C12.0475 14.8837 12.955 14.5164 13.4438 13.9581C13.9487 13.3813 14.1433 12.4553 14.1433 10.9768V6.51176C14.1433 4.85618 13.8359 3.95463 13.3601 3.4406C12.8904 2.9332 12.1454 2.68357 10.9486 2.61892C10.6406 2.60228 10.4044 2.33927 10.421 2.03147C10.4377 1.72367 10.7009 1.48764 11.0088 1.50428C12.2915 1.57357 13.408 1.84859 14.18 2.68256C14.9459 3.50991 15.2602 4.76646 15.2602 6.51176V10.9768C15.2602 12.475 15.0825 13.7815 14.2844 14.6931C13.4701 15.6232 12.1438 16 10.2341 16H5.76639C3.8567 16 2.53039 15.6232 1.7161 14.6931C0.917959 13.7815 0.740234 12.475 0.740234 10.9768V6.51176C0.740234 4.7698 1.05476 3.51369 1.82019 2.68564C2.59185 1.85084 3.70802 1.57362 4.99163 1.50428C5.29961 1.48764 5.56277 1.72367 5.57942 2.03147Z"
-            fill={color ?? "#FF0000"}
+            fill={color ?? '#FF0000'}
          />
       </g>
       <defs>
@@ -852,15 +537,7 @@ export const DocumentIcon = ({
    </svg>
 );
 
-export const DoublesSheets = ({
-   color,
-   onClick,
-   height,
-}: {
-   color: string;
-   onClick?: () => void;
-   height?: string;
-}) => (
+export const DoublesSheets = ({ color, onClick, height }: { color: string; onClick?: () => void; height?: string }) => (
    <svg
       xmlns="http://www.w3.org/2000/svg"
       width="16"
@@ -899,54 +576,31 @@ export const DoublesSheets = ({
 );
 
 export const CancelalertsIcon = ({ height }: { height: string }) => (
-   <svg
-      xmlns="http://www.w3.org/2000/svg"
-      width="100%"
-      height={height}
-      viewBox="0 0 100 100"
-      fill="none"
-   >
+   <svg xmlns="http://www.w3.org/2000/svg" width="100%" height={height} viewBox="0 0 100 100" fill="none">
       <path
          stroke="red"
          strokeLinecap="round"
          strokeLinejoin="round"
          d="M49 89.833c22.459 0 40.834-18.375 40.834-40.833S71.459 8.167 49 8.167C26.542 8.167 8.167 26.542 8.167 49S26.542 89.833 49 89.833Z"
       />
-      <path
-         stroke="red"
-         strokeLinecap="square"
-         d="M59.605 59.605 38 38m21.605 0L38 59.605"
-      />
+      <path stroke="red" strokeLinecap="square" d="M59.605 59.605 38 38m21.605 0L38 59.605" />
    </svg>
 );
 
-export const ClockIcon = ({
-   color,
-   onClick,
-}: {
-   color?: string;
-   onClick?: () => void;
-}) => (
-   <svg
-      xmlns="http://www.w3.org/2000/svg"
-      width="16"
-      height="16"
-      viewBox="0 0 16 16"
-      fill="none"
-      onClick={onClick}
-   >
+export const ClockIcon = ({ color, onClick }: { color?: string; onClick?: () => void }) => (
+   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" onClick={onClick}>
       <g clip-path="url(#clip0_5978_4858)">
          <path
             fill-rule="evenodd"
             clip-rule="evenodd"
             d="M8 1.11628C4.20035 1.11628 1.11628 4.20035 1.11628 8C1.11628 11.7997 4.20035 14.8837 8 14.8837C11.7997 14.8837 14.8837 11.7997 14.8837 8C14.8837 4.20035 11.7997 1.11628 8 1.11628ZM0 8C0 3.58384 3.58384 0 8 0C12.4162 0 16 3.58384 16 8C16 12.4162 12.4162 16 8 16C3.58384 16 0 12.4162 0 8Z"
-            fill={color ?? "#FF0000"}
+            fill={color ?? '#FF0000'}
          />
          <path
             fill-rule="evenodd"
             clip-rule="evenodd"
             d="M7.72465 4.10047C8.0329 4.10047 8.28279 4.35036 8.28279 4.65861V7.70977C8.28279 7.82403 8.32642 7.98966 8.42344 8.15978C8.52049 8.32995 8.64075 8.45168 8.73849 8.5096L8.73998 8.51049L11.047 9.88723C11.3117 10.0452 11.3982 10.3878 11.2402 10.6525C11.0822 10.9172 10.7396 11.0038 10.4749 10.8458L8.16941 9.46993C8.16914 9.46977 8.16886 9.4696 8.16859 9.46944C7.86486 9.2892 7.62076 9.0056 7.45376 8.71277C7.2866 8.41964 7.16651 8.06434 7.16651 7.70977V4.65861C7.16651 4.35036 7.4164 4.10047 7.72465 4.10047Z"
-            fill={color ?? "#FF0000"}
+            fill={color ?? '#FF0000'}
          />
       </g>
       <defs>
@@ -957,13 +611,7 @@ export const ClockIcon = ({
    </svg>
 );
 export const CalendarIcon = () => (
-   <svg
-      width="17"
-      height="16"
-      viewBox="0 0 17 16"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-   >
+   <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
@@ -974,31 +622,19 @@ export const CalendarIcon = () => (
 );
 
 export const FileIcon = ({ color }: { color?: string }) => (
-   <svg
-      width="14"
-      height="16"
-      viewBox="0 0 14 16"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-   >
+   <svg width="14" height="16" viewBox="0 0 14 16" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
          d="M0.600098 6.04878C0.600098 2.705 3.46216 0 7.00011 0C10.538 0 13.4001 2.705 13.4001 6.04878V10.3415C13.4001 12.1711 11.8263 13.6585 9.89043 13.6585C7.95457 13.6585 6.38076 12.1711 6.38076 10.3415V7.60976C6.38076 7.28647 6.65805 7.02439 7.00011 7.02439C7.34217 7.02439 7.61946 7.28647 7.61946 7.60976V10.3415C7.61946 11.5245 8.63868 12.4878 9.89043 12.4878C11.1422 12.4878 12.1614 11.5245 12.1614 10.3415V6.04878C12.1614 3.35158 9.85392 1.17073 7.00011 1.17073C4.14628 1.17073 1.83881 3.35158 1.83881 6.04878V10.7317C1.83881 12.9918 3.78292 14.8293 6.17431 14.8293C6.51637 14.8293 6.79366 15.0913 6.79366 15.4146C6.79366 15.7379 6.51637 16 6.17431 16C3.09881 16 0.600098 13.6384 0.600098 10.7317V6.04878Z"
-         fill={color ?? "#4A4A4A"}
+         fill={color ?? '#4A4A4A'}
       />
    </svg>
 );
 
 export const BombIcon = () => {
    return (
-      <svg
-         width="20"
-         height="20"
-         viewBox="0 0 20 20"
-         fill="none"
-         xmlns="http://www.w3.org/2000/svg"
-      >
+      <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
          <path
             fill-rule="evenodd"
             clip-rule="evenodd"
@@ -1038,7 +674,7 @@ export const UserLoginIcon = ({ height }: { height: string }) => (
       xmlns="http://www.w3.org/2000/svg"
       height={height}
       viewBox="0 0 135 135"
-      fontSize={"10px"}
+      fontSize={'10px'}
       fontWeight="bolder"
       fill="none"
    >
@@ -1112,17 +748,9 @@ export const alertsIcon = ({ height }: { height: string }) => (
 );
 
 export const EnaexLogoIcon = ({ height }: { height: string }) => (
-   <svg
-      height={height}
-      viewBox="0 0 271 42"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-   >
+   <svg height={height} viewBox="0 0 271 42" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M82.1836 5.67175H88.4161V0H82.1836V5.67175Z" fill="#3E444E" />
-      <path
-         d="M88.4161 8.47527H82.1836V31.9817H88.4161V8.47527Z"
-         fill="#3E444E"
-      />
+      <path d="M88.4161 8.47527H82.1836V31.9817H88.4161V8.47527Z" fill="#3E444E" />
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
@@ -1147,10 +775,7 @@ export const EnaexLogoIcon = ({ height }: { height: string }) => (
          d="M140.675 13.0687V8.69093H143.953V2.13499H150.034V8.69093H153.851V13.0687H150.034V25.4905C150.034 26.4538 150.156 27.0576 150.401 27.302C150.645 27.5321 151.393 27.6471 152.644 27.6471H153.226C153.442 27.6327 153.65 27.6183 153.851 27.6039V32.1974L150.94 32.3052C148.036 32.4059 146.052 31.9027 144.988 30.7956C144.298 30.0912 143.953 29.0057 143.953 27.5392V13.0687H140.675Z"
          fill="#3E444E"
       />
-      <path
-         d="M189.667 5.82271V0.19409H163.917V5.82271H173.471V31.9817H180.156V5.82271H189.667Z"
-         fill="#3E444E"
-      />
+      <path d="M189.667 5.82271V0.19409H163.917V5.82271H173.471V31.9817H180.156V5.82271H189.667Z" fill="#3E444E" />
       <path
          d="M201.659 7.91457C201.774 7.91457 201.867 7.92175 201.939 7.93613C202.025 7.93613 202.205 7.94332 202.478 7.9577V14.2548C202.09 14.2117 201.745 14.183 201.443 14.1686C201.141 14.1542 200.897 14.147 200.71 14.147C198.237 14.147 196.576 14.9521 195.728 16.5624C195.254 17.4681 195.017 18.8627 195.017 20.7461V31.9817H188.827V8.47527H194.693V12.5727C195.642 11.0056 196.469 9.93454 197.173 9.35946C198.323 8.3962 199.818 7.91457 201.659 7.91457Z"
          fill="#3E444E"
@@ -1188,13 +813,7 @@ export const LineLogoLoginIcon = ({ width }: { width: string }) => (
 );
 
 export const InternalFireIcon = ({ color }: { color?: string }) => (
-   <svg
-      width="64"
-      height="64"
-      viewBox="0 0 64 64"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-   >
+   <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path
          d="M0 32C0 14.3269 14.3269 0 32 0C49.6731 0 64 14.3269 64 32C64 49.6731 49.6731 64 32 64C14.3269 64 0 49.6731 0 32Z"
          fill="#F7F7F7"
@@ -1204,124 +823,98 @@ export const InternalFireIcon = ({ color }: { color?: string }) => (
             fill-rule="evenodd"
             clip-rule="evenodd"
             d="M16.0001 38.6966C16 37.4503 16.6273 36.3183 17.6344 35.3112L30.2726 22.673C31.2797 21.6659 32.4117 21.0385 33.6581 21.0386C34.9044 21.0388 36.0365 21.6664 37.0439 22.6737L40.6556 26.2854C41.6629 27.2927 42.2905 28.4248 42.2906 29.6712C42.2908 30.9176 41.6634 32.0495 40.6563 33.0566L28.0181 45.6948C27.011 46.7019 25.879 47.3293 24.6327 47.3292C23.3863 47.3291 22.2542 46.7014 21.2469 45.6941L17.6352 42.0824C16.6279 41.0751 16.0002 39.943 16.0001 38.6966ZM17.9153 38.6968C17.9153 39.2561 18.1907 39.9298 18.9893 40.7283L22.601 44.34C23.3995 45.1386 24.0732 45.4139 24.6324 45.414C25.1917 45.4141 25.8653 45.1388 26.6637 44.3405L39.3019 31.7022C40.1003 30.9039 40.3755 30.2303 40.3755 29.671C40.3754 29.1117 40.1 28.4381 39.3015 27.6395L35.6898 24.0278C34.8912 23.2293 34.2176 22.9539 33.6583 22.9538C33.099 22.9538 32.4254 23.229 31.627 24.0274L18.9888 36.6656C18.1905 37.464 17.9152 38.1376 17.9153 38.6968Z"
-            fill={color ?? "#4A4A4A"}
+            fill={color ?? '#4A4A4A'}
          />
          <path
             fill-rule="evenodd"
             clip-rule="evenodd"
             d="M42.4789 20.6837C42.8834 21.0881 42.8834 21.7439 42.4789 22.1484L39.7171 24.9102C39.3126 25.3147 38.6569 25.3147 38.2524 24.9102C37.848 24.5057 37.848 23.85 38.2524 23.4455L41.0143 20.6837C41.4187 20.2792 42.0745 20.2792 42.4789 20.6837Z"
-            fill={color ?? "#4A4A4A"}
+            fill={color ?? '#4A4A4A'}
          />
          <path
             fill-rule="evenodd"
             clip-rule="evenodd"
             d="M44.2726 21.6433C44.5284 21.1317 45.1505 20.9243 45.6621 21.1801L47.043 21.8706C47.5546 22.1264 47.762 22.7485 47.5062 23.2601C47.2504 23.7717 46.6283 23.9791 46.1166 23.7233L44.7357 23.0328C44.2241 22.777 44.0167 22.1549 44.2726 21.6433Z"
-            fill={color ?? "#4A4A4A"}
+            fill={color ?? '#4A4A4A'}
          />
          <path
             fill-rule="evenodd"
             clip-rule="evenodd"
             d="M39.9025 15.6564C40.4141 15.4006 41.0362 15.608 41.292 16.1196L41.9825 17.5005C42.2383 18.0121 42.0309 18.6343 41.5193 18.8901C41.0077 19.1459 40.3856 18.9385 40.1298 18.4269L39.4393 17.046C39.1835 16.5344 39.3909 15.9122 39.9025 15.6564Z"
-            fill={color ?? "#4A4A4A"}
+            fill={color ?? '#4A4A4A'}
          />
          <path
             fill-rule="evenodd"
             clip-rule="evenodd"
             d="M46.6217 16.5409C47.0262 16.9454 47.0262 17.6011 46.6217 18.0056L45.2408 19.3865C44.8363 19.791 44.1806 19.791 43.7761 19.3865C43.3716 18.9821 43.3716 18.3263 43.7761 17.9218L45.157 16.5409C45.5615 16.1364 46.2172 16.1364 46.6217 16.5409Z"
-            fill={color ?? "#4A4A4A"}
+            fill={color ?? '#4A4A4A'}
          />
          <path
             d="M39.3229 40.0889C38.9323 40.4794 38.2992 40.4794 37.9086 40.0889C37.5181 39.6983 37.5181 39.0652 37.9086 38.6747L40.7371 35.8462C41.5181 35.0651 42.7844 35.0651 43.5655 35.8462L46.3939 38.6747C46.7845 39.0652 46.7845 39.6983 46.3939 40.0889C46.0034 40.4794 45.3703 40.4794 44.9797 40.0889L43.1513 38.2604L43.1513 47.16C43.1513 47.7122 42.7035 48.16 42.1513 48.16C41.599 48.16 41.1513 47.7122 41.1513 47.16L41.1513 38.2604L39.3229 40.0889Z"
-            fill={color ?? "#4A4A4A"}
+            fill={color ?? '#4A4A4A'}
          />
       </g>
       <defs>
          <clipPath id="clip0_7831_5042">
-            <rect
-               width="32"
-               height="32"
-               fill="white"
-               transform="translate(16 16)"
-            />
+            <rect width="32" height="32" fill="white" transform="translate(16 16)" />
          </clipPath>
       </defs>
    </svg>
 );
 
-export const InternalFireIconWithHover = ({
-   hovered,
-}: {
-   hovered?: boolean;
-}) => (
-   <svg
-      width="64"
-      height="64"
-      viewBox="0 0 64 64"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-   >
+export const InternalFireIconWithHover = ({ hovered }: { hovered?: boolean }) => (
+   <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path
          d="M0 32C0 14.3269 14.3269 0 32 0C49.6731 0 64 14.3269 64 32C64 49.6731 49.6731 64 32 64C14.3269 64 0 49.6731 0 32Z"
-         fill={hovered ? "red" : "#F7F7F7"}
+         fill={hovered ? 'red' : '#F7F7F7'}
       />
       <g clip-path="url(#clip0_7831_5042)">
          <path
             fill-rule="evenodd"
             clip-rule="evenodd"
             d="M16.0001 38.6966C16 37.4503 16.6273 36.3183 17.6344 35.3112L30.2726 22.673C31.2797 21.6659 32.4117 21.0385 33.6581 21.0386C34.9044 21.0388 36.0365 21.6664 37.0439 22.6737L40.6556 26.2854C41.6629 27.2927 42.2905 28.4248 42.2906 29.6712C42.2908 30.9176 41.6634 32.0495 40.6563 33.0566L28.0181 45.6948C27.011 46.7019 25.879 47.3293 24.6327 47.3292C23.3863 47.3291 22.2542 46.7014 21.2469 45.6941L17.6352 42.0824C16.6279 41.0751 16.0002 39.943 16.0001 38.6966ZM17.9153 38.6968C17.9153 39.2561 18.1907 39.9298 18.9893 40.7283L22.601 44.34C23.3995 45.1386 24.0732 45.4139 24.6324 45.414C25.1917 45.4141 25.8653 45.1388 26.6637 44.3405L39.3019 31.7022C40.1003 30.9039 40.3755 30.2303 40.3755 29.671C40.3754 29.1117 40.1 28.4381 39.3015 27.6395L35.6898 24.0278C34.8912 23.2293 34.2176 22.9539 33.6583 22.9538C33.099 22.9538 32.4254 23.229 31.627 24.0274L18.9888 36.6656C18.1905 37.464 17.9152 38.1376 17.9153 38.6968Z"
-            fill={hovered ? "red" : "#4A4A4A"}
+            fill={hovered ? 'red' : '#4A4A4A'}
             className={``}
          />
          <path
             fill-rule="evenodd"
             clip-rule="evenodd"
             d="M42.4789 20.6837C42.8834 21.0881 42.8834 21.7439 42.4789 22.1484L39.7171 24.9102C39.3126 25.3147 38.6569 25.3147 38.2524 24.9102C37.848 24.5057 37.848 23.85 38.2524 23.4455L41.0143 20.6837C41.4187 20.2792 42.0745 20.2792 42.4789 20.6837Z"
-            fill={hovered ? "red" : "#4A4A4A"}
+            fill={hovered ? 'red' : '#4A4A4A'}
          />
          <path
             fill-rule="evenodd"
             clip-rule="evenodd"
             d="M44.2726 21.6433C44.5284 21.1317 45.1505 20.9243 45.6621 21.1801L47.043 21.8706C47.5546 22.1264 47.762 22.7485 47.5062 23.2601C47.2504 23.7717 46.6283 23.9791 46.1166 23.7233L44.7357 23.0328C44.2241 22.777 44.0167 22.1549 44.2726 21.6433Z"
-            fill={hovered ? "red" : "#4A4A4A"}
+            fill={hovered ? 'red' : '#4A4A4A'}
          />
          <path
             fill-rule="evenodd"
             clip-rule="evenodd"
             d="M39.9025 15.6564C40.4141 15.4006 41.0362 15.608 41.292 16.1196L41.9825 17.5005C42.2383 18.0121 42.0309 18.6343 41.5193 18.8901C41.0077 19.1459 40.3856 18.9385 40.1298 18.4269L39.4393 17.046C39.1835 16.5344 39.3909 15.9122 39.9025 15.6564Z"
-            fill={hovered ? "red" : "#4A4A4A"}
+            fill={hovered ? 'red' : '#4A4A4A'}
          />
          <path
             fill-rule="evenodd"
             clip-rule="evenodd"
             d="M46.6217 16.5409C47.0262 16.9454 47.0262 17.6011 46.6217 18.0056L45.2408 19.3865C44.8363 19.791 44.1806 19.791 43.7761 19.3865C43.3716 18.9821 43.3716 18.3263 43.7761 17.9218L45.157 16.5409C45.5615 16.1364 46.2172 16.1364 46.6217 16.5409Z"
-            fill={hovered ? "red" : "#4A4A4A"}
+            fill={hovered ? 'red' : '#4A4A4A'}
          />
          <path
             d="M39.3229 40.0889C38.9323 40.4794 38.2992 40.4794 37.9086 40.0889C37.5181 39.6983 37.5181 39.0652 37.9086 38.6747L40.7371 35.8462C41.5181 35.0651 42.7844 35.0651 43.5655 35.8462L46.3939 38.6747C46.7845 39.0652 46.7845 39.6983 46.3939 40.0889C46.0034 40.4794 45.3703 40.4794 44.9797 40.0889L43.1513 38.2604L43.1513 47.16C43.1513 47.7122 42.7035 48.16 42.1513 48.16C41.599 48.16 41.1513 47.7122 41.1513 47.16L41.1513 38.2604L39.3229 40.0889Z"
-            fill={hovered ? "red" : "#4A4A4A"}
+            fill={hovered ? 'red' : '#4A4A4A'}
          />
       </g>
       <defs>
          <clipPath id="clip0_7831_5042">
-            <rect
-               width="32"
-               height="32"
-               fill="white"
-               transform="translate(16 16)"
-            />
+            <rect width="32" height="32" fill="white" transform="translate(16 16)" />
          </clipPath>
       </defs>
    </svg>
 );
 
 export const ExternalFireIcon = ({ color }: { color?: string }) => (
-   <svg
-      width="64"
-      height="64"
-      viewBox="0 0 64 64"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-   >
+   <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path
          d="M0 32C0 14.3269 14.3269 0 32 0C49.6731 0 64 14.3269 64 32C64 49.6731 49.6731 64 32 64C14.3269 64 0 49.6731 0 32Z"
          fill="#F7F7F7"
@@ -1331,70 +924,52 @@ export const ExternalFireIcon = ({ color }: { color?: string }) => (
             fill-rule="evenodd"
             clip-rule="evenodd"
             d="M16.0001 38.6966C15.9999 37.4503 16.6273 36.3183 17.6344 35.3112L30.2726 22.673C31.2797 21.6659 32.4117 21.0385 33.658 21.0386C34.9044 21.0388 36.0365 21.6664 37.0438 22.6737L40.6555 26.2854C41.6628 27.2927 42.2905 28.4248 42.2906 29.6712C42.2907 30.9176 41.6634 32.0495 40.6563 33.0566L28.0181 45.6948C27.011 46.7019 25.879 47.3293 24.6326 47.3292C23.3863 47.3291 22.2542 46.7014 21.2468 45.6941L17.6351 42.0824C16.6278 41.0751 16.0002 39.943 16.0001 38.6966ZM17.9152 38.6968C17.9153 39.2561 18.1907 39.9298 18.9892 40.7283L22.6009 44.34C23.3995 45.1386 24.0731 45.4139 24.6324 45.414C25.1917 45.4141 25.8653 45.1388 26.6637 44.3405L39.3019 31.7022C40.1002 30.9039 40.3755 30.2303 40.3754 29.671C40.3754 29.1117 40.1 28.4381 39.3014 27.6395L35.6897 24.0278C34.8912 23.2293 34.2175 22.9539 33.6583 22.9538C33.099 22.9538 32.4254 23.229 31.627 24.0274L18.9888 36.6656C18.1904 37.464 17.9152 38.1376 17.9152 38.6968Z"
-            fill={color ?? "#4A4A4A"}
+            fill={color ?? '#4A4A4A'}
          />
          <path
             fill-rule="evenodd"
             clip-rule="evenodd"
             d="M42.4789 20.6837C42.8834 21.0881 42.8834 21.7439 42.4789 22.1484L39.7171 24.9102C39.3126 25.3147 38.6569 25.3147 38.2524 24.9102C37.8479 24.5057 37.8479 23.85 38.2524 23.4455L41.0142 20.6837C41.4187 20.2792 42.0745 20.2792 42.4789 20.6837Z"
-            fill={color ?? "#4A4A4A"}
+            fill={color ?? '#4A4A4A'}
          />
          <path
             fill-rule="evenodd"
             clip-rule="evenodd"
             d="M44.2725 21.6433C44.5283 21.1317 45.1504 20.9243 45.662 21.1801L47.043 21.8706C47.5546 22.1264 47.7619 22.7485 47.5061 23.2601C47.2503 23.7717 46.6282 23.9791 46.1166 23.7233L44.7357 23.0328C44.2241 22.777 44.0167 22.1549 44.2725 21.6433Z"
-            fill={color ?? "#4A4A4A"}
+            fill={color ?? '#4A4A4A'}
          />
          <path
             fill-rule="evenodd"
             clip-rule="evenodd"
             d="M39.9025 15.6564C40.4141 15.4006 41.0362 15.608 41.292 16.1196L41.9825 17.5005C42.2383 18.0121 42.0309 18.6343 41.5193 18.8901C41.0077 19.1459 40.3856 18.9385 40.1298 18.4269L39.4393 17.046C39.1835 16.5344 39.3909 15.9122 39.9025 15.6564Z"
-            fill={color ?? "#4A4A4A"}
+            fill={color ?? '#4A4A4A'}
          />
          <path
             fill-rule="evenodd"
             clip-rule="evenodd"
             d="M46.6217 16.5409C47.0261 16.9454 47.0261 17.6011 46.6217 18.0056L45.2408 19.3865C44.8363 19.791 44.1805 19.791 43.7761 19.3865C43.3716 18.9821 43.3716 18.3263 43.7761 17.9218L45.157 16.5409C45.5614 16.1364 46.2172 16.1364 46.6217 16.5409Z"
-            fill={color ?? "#4A4A4A"}
+            fill={color ?? '#4A4A4A'}
          />
          <path
             d="M44.9796 43.3315C45.3701 42.941 46.0032 42.941 46.3938 43.3315C46.7843 43.722 46.7843 44.3552 46.3938 44.7457L43.5653 47.5742C42.7843 48.3552 41.518 48.3552 40.7369 47.5742L37.9085 44.7457C37.5179 44.3552 37.5179 43.722 37.9085 43.3315C38.299 42.941 38.9322 42.941 39.3227 43.3315L41.1511 45.1599L41.1511 36.2604C41.1511 35.7082 41.5989 35.2604 42.1511 35.2604C42.7034 35.2604 43.1511 35.7082 43.1511 36.2604V45.1599L44.9796 43.3315Z"
-            fill={color ?? "#4A4A4A"}
+            fill={color ?? '#4A4A4A'}
          />
       </g>
       <defs>
          <clipPath id="clip0_7831_11524">
-            <rect
-               width="32"
-               height="32"
-               fill="white"
-               transform="translate(16 16)"
-            />
+            <rect width="32" height="32" fill="white" transform="translate(16 16)" />
          </clipPath>
       </defs>
    </svg>
 );
 
-export const SyncIcon = ({
-   color,
-   onClick,
-}: {
-   color?: string;
-   onClick?: () => void;
-}) => (
-   <svg
-      width="16"
-      height="17"
-      viewBox="0 0 16 17"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-      onClick={onClick}
-   >
+export const SyncIcon = ({ color, onClick }: { color?: string; onClick?: () => void }) => (
+   <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg" onClick={onClick}>
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
          d="M2.7907 4.96512C3.09895 4.96512 3.34884 5.215 3.34884 5.52326V10.7326C3.34884 11.0408 3.09895 11.2907 2.7907 11.2907C2.48245 11.2907 2.23256 11.0408 2.23256 10.7326V5.52326C2.23256 5.215 2.48245 4.96512 2.7907 4.96512Z"
-         fill={color ?? "#636769"}
+         fill={color ?? '#636769'}
       />
       <path
          fill-rule="evenodd"
@@ -1423,20 +998,14 @@ export const SyncIcon = ({
    </svg>
 );
 
-export const AddIcon = ({
-   width,
-   color,
-}: {
-   width: string;
-   color?: string;
-}) => (
+export const AddIcon = ({ width, color }: { width: string; color?: string }) => (
    <svg xmlns="http://www.w3.org/2000/svg" width={width} viewBox="0 0 23 23">
       <path
-         fill={color ?? "#fff"}
+         fill={color ?? '#fff'}
          d="M12.488 8.25a.688.688 0 0 0-1.375 0v2.063H9.051a.688.688 0 0 0 0 1.374h2.062v2.063a.687.687 0 1 0 1.375 0v-2.063h2.063a.687.687 0 1 0 0-1.374h-2.063V8.25Z"
       />
       <path
-         fill={color ?? "#fff"}
+         fill={color ?? '#fff'}
          fillRule="evenodd"
          d="M11.8 1.146c-5.443 0-9.855 4.412-9.855 9.854 0 5.442 4.412 9.854 9.854 9.854 5.443 0 9.855-4.412 9.855-9.854 0-5.442-4.412-9.854-9.854-9.854ZM3.32 11a8.48 8.48 0 1 1 16.959 0A8.48 8.48 0 0 1 3.32 11Z"
          clipRule="evenodd"
@@ -1444,45 +1013,21 @@ export const AddIcon = ({
    </svg>
 );
 
-export const ProcessIcon = ({
-   color,
-   width,
-}: {
-   width?: string;
-   color?: string;
-}) => {
+export const ProcessIcon = ({ color, width }: { width?: string; color?: string }) => {
    return (
-      <svg
-         width={width ?? "16"}
-         height="17"
-         viewBox="0 0 16 17"
-         fill="none"
-         xmlns="http://www.w3.org/2000/svg"
-      >
+      <svg width={width ?? '16'} height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
          <path
             fill-rule="evenodd"
             clip-rule="evenodd"
             d="M8 1.61628C4.17203 1.61628 1.11628 4.69889 1.11628 8.5C1.11628 8.80825 0.866392 9.05814 0.55814 9.05814C0.249888 9.05814 0 8.80825 0 8.5C0 4.0853 3.55262 0.5 8 0.5C10.6476 0.5 12.6302 1.60586 13.9399 2.69839C14.3056 3.00345 14.6201 3.30844 14.8837 3.58987V1.47488C14.8837 1.16663 15.1336 0.916744 15.4419 0.916744C15.7501 0.916744 16 1.16663 16 1.47488V5.19581C16 5.50407 15.7501 5.75395 15.4419 5.75395H12.1377C11.8294 5.75395 11.5795 5.50407 11.5795 5.19581C11.5795 4.88756 11.8294 4.63767 12.1377 4.63767H14.325C14.0473 4.31573 13.6803 3.93558 13.2248 3.55557C12.0544 2.57925 10.3161 1.61628 8 1.61628ZM15.4419 7.94186C15.7501 7.94186 16 8.19175 16 8.5C16 12.9162 12.4162 16.5 8 16.5C5.75222 16.5 3.96985 15.3687 2.77665 14.2864C2.45993 13.9992 2.18117 13.7123 1.94233 13.4455V15.5251C1.94233 15.8334 1.69244 16.0833 1.38419 16.0833C1.07593 16.0833 0.826046 15.8334 0.826046 15.5251V11.8042C0.826046 11.4959 1.07593 11.246 1.38419 11.246H4.74791C5.05616 11.246 5.30605 11.4959 5.30605 11.8042C5.30605 12.1124 5.05616 12.3623 4.74791 12.3623H2.48342C2.75192 12.6887 3.10208 13.0746 3.5266 13.4596C4.61434 14.4462 6.13988 15.3837 8 15.3837C11.7997 15.3837 14.8837 12.2997 14.8837 8.5C14.8837 8.19175 15.1336 7.94186 15.4419 7.94186Z"
-            fill={color ?? "#636769"}
+            fill={color ?? '#636769'}
          />
       </svg>
    );
 };
 
-export const HomeIcon = ({
-   height,
-   color,
-}: {
-   height: string;
-   color: string;
-}) => (
-   <svg
-      xmlns="http://www.w3.org/2000/svg"
-      width="100%"
-      height={height}
-      viewBox="0 0 24 24"
-      fill="none"
-   >
+export const HomeIcon = ({ height, color }: { height: string; color: string }) => (
+   <svg xmlns="http://www.w3.org/2000/svg" width="100%" height={height} viewBox="0 0 24 24" fill="none">
       <path
          stroke={color}
          strokeLinejoin="round"
@@ -1499,20 +1044,8 @@ export const HomeIcon = ({
    </svg>
 );
 
-export const UnidadOfServiceIcon = ({
-   height,
-   color,
-}: {
-   height: string;
-   color: string;
-}) => (
-   <svg
-      xmlns="http://www.w3.org/2000/svg"
-      width="100%"
-      height={height}
-      viewBox="0 0 21 20"
-      fill="none"
-   >
+export const UnidadOfServiceIcon = ({ height, color }: { height: string; color: string }) => (
+   <svg xmlns="http://www.w3.org/2000/svg" width="100%" height={height} viewBox="0 0 21 20" fill="none">
       <path
          stroke={color}
          strokeLinecap="round"
@@ -1523,20 +1056,8 @@ export const UnidadOfServiceIcon = ({
    </svg>
 );
 
-export const TransporterIcon = ({
-   height,
-   color,
-}: {
-   height: string;
-   color: string;
-}) => (
-   <svg
-      xmlns="http://www.w3.org/2000/svg"
-      width="100%"
-      height={height}
-      viewBox="0 0 22 22"
-      fill="none"
-   >
+export const TransporterIcon = ({ height, color }: { height: string; color: string }) => (
+   <svg xmlns="http://www.w3.org/2000/svg" width="100%" height={height} viewBox="0 0 22 22" fill="none">
       <path
          stroke={color}
          strokeLinecap="round"
@@ -1546,26 +1067,9 @@ export const TransporterIcon = ({
    </svg>
 );
 
-export const DistribuctionIcon = ({
-   height,
-   color,
-}: {
-   height: string;
-   color: string;
-}) => (
-   <svg
-      xmlns="http://www.w3.org/2000/svg"
-      width="100%"
-      height={height}
-      viewBox="0 0 18 22"
-      fill="none"
-   >
-      <path
-         stroke={color}
-         strokeLinecap="round"
-         strokeWidth={1.5}
-         d="M9.499 6.29a2.999 2.999 0 1 0 2.458 2.458"
-      />
+export const DistribuctionIcon = ({ height, color }: { height: string; color: string }) => (
+   <svg xmlns="http://www.w3.org/2000/svg" width="100%" height={height} viewBox="0 0 18 22" fill="none">
+      <path stroke={color} strokeLinecap="round" strokeWidth={1.5} d="M9.499 6.29a2.999 2.999 0 1 0 2.458 2.458" />
       <path
          stroke={color}
          strokeLinecap="round"
@@ -1575,20 +1079,8 @@ export const DistribuctionIcon = ({
    </svg>
 );
 
-export const ClientIcon = ({
-   height,
-   color,
-}: {
-   height: string;
-   color: string;
-}) => (
-   <svg
-      xmlns="http://www.w3.org/2000/svg"
-      width="100%"
-      height={height}
-      viewBox="0 0 24 24"
-      fill="none"
-   >
+export const ClientIcon = ({ height, color }: { height: string; color: string }) => (
+   <svg xmlns="http://www.w3.org/2000/svg" width="100%" height={height} viewBox="0 0 24 24" fill="none">
       <path
          fillRule="evenodd"
          clipRule="evenodd"
@@ -1604,20 +1096,8 @@ export const ClientIcon = ({
    </svg>
 );
 
-export const OrderIcon = ({
-   height,
-   color,
-}: {
-   height: string;
-   color: string;
-}) => (
-   <svg
-      xmlns="http://www.w3.org/2000/svg"
-      width="100%"
-      height={height}
-      viewBox="0 0 32 33"
-      fill="none"
-   >
+export const OrderIcon = ({ height, color }: { height: string; color: string }) => (
+   <svg xmlns="http://www.w3.org/2000/svg" width="100%" height={height} viewBox="0 0 32 33" fill="none">
       <path
          fill={color}
          d="M10.87 28.352h8.686a.646.646 0 0 0 0-1.291H10.87a1.933 1.933 0 0 1-1.93-1.93V12.286a.646.646 0 0 0-1.292 0V25.13a3.225 3.225 0 0 0 3.222 3.222Z"
@@ -1639,31 +1119,10 @@ export const OrderIcon = ({
    </svg>
 );
 
-export const UsersIcon = ({
-   height,
-   color,
-}: {
-   height: string;
-   color: string;
-}) => (
-   <svg
-      xmlns="http://www.w3.org/2000/svg"
-      width="100%"
-      height={height}
-      viewBox="0 0 22 22"
-      fill="none"
-   >
-      <path
-         stroke={color}
-         strokeWidth={1.563}
-         d="M8.085 9.583a4.167 4.167 0 1 0 0-8.333 4.167 4.167 0 0 0 0 8.333Z"
-      />
-      <path
-         stroke={color}
-         strokeLinecap="round"
-         strokeWidth={1.563}
-         d="M14.543 8.625a3.125 3.125 0 1 0 0-6.25"
-      />
+export const UsersIcon = ({ height, color }: { height: string; color: string }) => (
+   <svg xmlns="http://www.w3.org/2000/svg" width="100%" height={height} viewBox="0 0 22 22" fill="none">
+      <path stroke={color} strokeWidth={1.563} d="M8.085 9.583a4.167 4.167 0 1 0 0-8.333 4.167 4.167 0 0 0 0 8.333Z" />
+      <path stroke={color} strokeLinecap="round" strokeWidth={1.563} d="M14.543 8.625a3.125 3.125 0 1 0 0-6.25" />
       <path
          stroke={color}
          strokeWidth={1.563}
@@ -1679,12 +1138,7 @@ export const UsersIcon = ({
 );
 
 export const LogoutIcon = ({ height }: { height: string }) => (
-   <svg
-      xmlns="http://www.w3.org/2000/svg"
-      height={height}
-      viewBox="0 0 32 32"
-      fill="none"
-   >
+   <svg xmlns="http://www.w3.org/2000/svg" height={height} viewBox="0 0 32 32" fill="none">
       <path
          stroke="red"
          strokeLinecap="round"
@@ -1702,13 +1156,7 @@ export const LogoutIcon = ({ height }: { height: string }) => (
 );
 
 export const FilterIcon = () => (
-   <svg
-      width="16"
-      height="16"
-      viewBox="0 0 16 16"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-   >
+   <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
@@ -1737,69 +1185,54 @@ export const FilterIcon = () => (
 );
 
 export const StatusIcon = ({ height }: { height: string }) => (
-   <svg
-      xmlns="http://www.w3.org/2000/svg"
-      width="100%"
-      height={height}
-      viewBox="0 0 17 17"
-      fill="none"
-   >
+   <svg xmlns="http://www.w3.org/2000/svg" width="100%" height={height} viewBox="0 0 17 17" fill="none">
       <path
          fill="#494D50"
          fillRule="evenodd"
          d="M14.089 6.029a7.32 7.32 0 0 0-4.12-4.12 2.92 2.92 0 0 0-.519.844 6.342 6.342 0 0 1 3.795 3.795 2.92 2.92 0 0 0 .844-.52ZM7.519 2.38a6.324 6.324 0 1 0 6.099 6.099c.333-.105.65-.244.949-.414a7.297 7.297 0 1 1-6.635-6.634 4.84 4.84 0 0 0-.414.949Z"
          clipRule="evenodd"
       />
-      <path
-         fill="#494D50"
-         d="M12.165 6.756a2.919 2.919 0 1 0 0-5.838 2.919 2.919 0 0 0 0 5.838Z"
-      />
+      <path fill="#494D50" d="M12.165 6.756a2.919 2.919 0 1 0 0-5.838 2.919 2.919 0 0 0 0 5.838Z" />
    </svg>
 );
 export const NotTraceableBoxItem = ({ color }: { color?: string }) => (
-   <svg
-      width="16"
-      height="16"
-      viewBox="0 0 16 16"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-   >
+   <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
       <g clip-path="url(#clip0_8048_24442)">
          <path
             fill-rule="evenodd"
             clip-rule="evenodd"
             d="M12.5626 9.9902C12.0116 9.9902 11.5 10.1833 11.0918 10.5087L11.0909 10.5095C10.5516 10.9374 10.2108 11.6002 10.2108 12.3423C10.2108 12.7833 10.3342 13.1987 10.5497 13.5483C10.5535 13.5544 10.5572 13.5607 10.5608 13.5671C10.6047 13.6451 10.662 13.7246 10.7314 13.8056C10.7339 13.8086 10.7364 13.8115 10.7389 13.8146C10.7448 13.8206 10.7525 13.8287 10.7604 13.8374C10.7705 13.8485 10.7829 13.8629 10.7963 13.8804C11.218 14.3771 11.8518 14.6944 12.5626 14.6944C13.158 14.6944 13.6948 14.4772 14.1028 14.11C14.1075 14.1058 14.1122 14.1016 14.1171 14.0976C14.2929 13.9501 14.4479 13.7669 14.5687 13.5597C14.571 13.5558 14.5732 13.552 14.5756 13.5483C14.7911 13.1987 14.9145 12.7833 14.9145 12.3423C14.9145 11.7276 14.6753 11.1687 14.2829 10.7406L14.2814 10.7389C14.2189 10.6702 14.1657 10.6191 14.1185 10.5837C14.1079 10.5757 14.0976 10.5674 14.0876 10.5586C13.6771 10.2009 13.1516 9.9902 12.5626 9.9902ZM10.4157 9.65947C11.006 9.189 11.7535 8.90462 12.5626 8.90462C13.4143 8.90462 14.1859 9.21019 14.7865 9.72791C14.9052 9.81932 15.0053 9.92153 15.0838 10.0079C15.6461 10.6218 16 11.4376 16 12.3423C16 12.9845 15.8208 13.5947 15.503 14.1124C15.322 14.4212 15.09 14.6969 14.8219 14.9232C14.2177 15.464 13.4257 15.78 12.5626 15.78C11.5135 15.78 10.5743 15.3063 9.95382 14.5652C9.95266 14.5638 9.95151 14.5624 9.95037 14.561C9.94444 14.5549 9.93674 14.5469 9.92884 14.5382C9.91911 14.5274 9.90712 14.5135 9.89413 14.4967C9.79663 14.3814 9.70173 14.2522 9.62022 14.109C9.30373 13.5921 9.12528 12.9831 9.12528 12.3423C9.12528 11.2609 9.62368 10.2882 10.4157 9.65947Z"
-            fill={color ?? "#222222"}
+            fill={color ?? '#222222'}
          />
          <path
             fill-rule="evenodd"
             clip-rule="evenodd"
             d="M10.9417 12.3278C10.9417 12.028 11.1846 11.785 11.4844 11.785H13.6409C13.9406 11.785 14.1836 12.028 14.1836 12.3278C14.1836 12.6276 13.9406 12.8706 13.6409 12.8706H11.4844C11.1846 12.8706 10.9417 12.6276 10.9417 12.3278Z"
-            fill={color ?? "#222222"}
+            fill={color ?? '#222222'}
          />
          <path
             fill-rule="evenodd"
             clip-rule="evenodd"
             d="M12.5626 10.7284C12.8624 10.7284 13.1054 10.9714 13.1054 11.2712V13.4351C13.1054 13.7349 12.8624 13.9779 12.5626 13.9779C12.2629 13.9779 12.0199 13.7349 12.0199 13.4351V11.2712C12.0199 10.9714 12.2629 10.7284 12.5626 10.7284Z"
-            fill={color ?? "#222222"}
+            fill={color ?? '#222222'}
          />
          <path
             fill-rule="evenodd"
             clip-rule="evenodd"
             d="M0.637462 4.42789C0.787599 4.16843 1.11962 4.07981 1.37906 4.22997L7.49693 7.77074L13.5715 4.25176C13.8309 4.10151 14.163 4.18999 14.3132 4.44939C14.4635 4.70879 14.375 5.04088 14.1156 5.19114L7.76909 8.86763C7.6009 8.96507 7.39344 8.96511 7.22521 8.86774L0.835365 5.16955C0.575928 5.0194 0.487324 4.68735 0.637462 4.42789Z"
-            fill={color ?? "#222222"}
+            fill={color ?? '#222222'}
          />
          <path
             fill-rule="evenodd"
             clip-rule="evenodd"
             d="M7.49706 7.84792C7.7968 7.84792 8.0398 8.09093 8.0398 8.39071V14.9549C8.0398 15.2546 7.7968 15.4976 7.49706 15.4976C7.19731 15.4976 6.95432 15.2546 6.95432 14.9549V8.39071C6.95432 8.09093 7.19731 7.84792 7.49706 7.84792Z"
-            fill={color ?? "#222222"}
+            fill={color ?? '#222222'}
          />
          <path
             fill-rule="evenodd"
             clip-rule="evenodd"
             d="M7.49706 1.30555C7.02147 1.30555 6.57619 1.40861 6.26479 1.58345C6.26394 1.58393 6.26308 1.58441 6.26223 1.58488L2.39769 3.72723C2.06484 3.91155 1.7305 4.25672 1.47792 4.68512C1.22531 5.11356 1.08548 5.57265 1.08548 5.95184V10.0481C1.08548 10.4273 1.22531 10.8864 1.47792 11.3148C1.7305 11.7432 2.06484 12.0884 2.39769 12.2727L2.39791 12.2728L6.26222 14.4151C6.26308 14.4155 6.26394 14.416 6.26479 14.4165C6.57619 14.5913 7.02147 14.6944 7.49706 14.6944C7.97265 14.6944 8.41793 14.5913 8.72933 14.4165C8.73047 14.4158 8.73162 14.4152 8.73277 14.4146L9.53932 13.9694C9.27349 13.4838 9.12528 12.9263 9.12528 12.3423C9.12528 11.2608 9.6237 10.2881 10.4157 9.65941C11.0061 9.18898 11.7535 8.90462 12.5626 8.90462C13.0421 8.90462 13.4962 9.00146 13.9086 9.17847V5.95184C13.9086 5.57265 13.7688 5.11356 13.5162 4.68512C13.2636 4.25672 12.9293 3.91155 12.5964 3.72723L12.5962 3.72711L8.7319 1.58488C8.73104 1.58441 8.73018 1.58393 8.72933 1.58345C8.41793 1.40861 7.97265 1.30555 7.49706 1.30555ZM9.25937 0.636089C8.74603 0.348276 8.10641 0.219971 7.49706 0.219971C6.88771 0.219971 6.2481 0.348273 5.73476 0.636082L1.87187 2.77752C1.87182 2.77755 1.87177 2.77758 1.87172 2.7776C1.8717 2.77762 1.87168 2.77763 1.87165 2.77764C1.32898 3.07822 0.867376 3.58336 0.542886 4.13372C0.218381 4.6841 0 5.33229 0 5.95184V10.0481C0 10.6676 0.218381 11.3158 0.542885 11.8662C0.867375 12.4166 1.32898 12.9217 1.87166 13.2223C1.87173 13.2224 1.8718 13.2224 1.87187 13.2224L5.73341 15.3631C5.73389 15.3634 5.73437 15.3636 5.73486 15.3639C6.24817 15.6517 6.88774 15.78 7.49706 15.78C8.10619 15.78 8.74556 15.6518 9.2588 15.3642C9.25944 15.3638 9.26008 15.3635 9.26071 15.3631L10.5816 14.6341C10.7245 14.5552 10.8243 14.4161 10.8534 14.2554C10.8824 14.0948 10.8376 13.9296 10.7314 13.8056C10.662 13.7246 10.6047 13.6451 10.5608 13.5671C10.5572 13.5607 10.5535 13.5544 10.5497 13.5483C10.3342 13.1987 10.2108 12.7833 10.2108 12.3423C10.2108 11.6002 10.5516 10.9374 11.0909 10.5095L11.0918 10.5087C11.5 10.1833 12.0116 9.9902 12.5626 9.9902C13.1516 9.9902 13.6771 10.2009 14.0876 10.5586C14.2335 10.6858 14.436 10.7256 14.6191 10.6632C14.8023 10.6008 14.9384 10.4456 14.9763 10.2559C14.9943 10.1658 14.9942 10.0906 14.9941 10.0541C14.9941 10.052 14.9941 10.05 14.9941 10.0481V5.95184C14.9941 5.33229 14.7757 4.6841 14.4512 4.13372C14.1267 3.58336 13.6651 3.07822 13.1225 2.77764C13.1224 2.7776 13.1223 2.77756 13.1222 2.77752L9.26071 0.636843C9.26027 0.636591 9.25982 0.63634 9.25937 0.636089Z"
-            fill={color ?? "#222222"}
+            fill={color ?? '#222222'}
          />
       </g>
       <defs>
@@ -1811,49 +1244,37 @@ export const NotTraceableBoxItem = ({ color }: { color?: string }) => (
 );
 
 export const PersonIcons = ({ color }: { color?: string }) => (
-   <svg
-      width="16"
-      height="16"
-      viewBox="0 0 16 16"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-   >
+   <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
          d="M5.8933 1.16618C4.49247 1.16618 3.35687 2.29743 3.35687 3.69289C3.35687 5.08836 4.49247 6.21961 5.8933 6.21961C7.29413 6.21961 8.42973 5.08836 8.42973 3.69289C8.42973 2.29743 7.29413 1.16618 5.8933 1.16618ZM2.18621 3.69289C2.18621 1.65336 3.84593 0 5.8933 0C7.94067 0 9.60039 1.65336 9.60039 3.69289C9.60039 5.73242 7.94067 7.38578 5.8933 7.38578C3.84593 7.38578 2.18621 5.73242 2.18621 3.69289Z"
-         fill={color ?? "#222222"}
+         fill={color ?? '#222222'}
       />
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
          d="M10.1467 1.42274C10.1467 1.1007 10.4088 0.839647 10.732 0.839647C12.3484 0.839647 13.6587 2.14494 13.6587 3.75509C13.6587 5.36523 12.3484 6.67053 10.732 6.67053C10.4088 6.67053 10.1467 6.40947 10.1467 6.08744C10.1467 5.76541 10.4088 5.50435 10.732 5.50435C11.7019 5.50435 12.488 4.72118 12.488 3.75509C12.488 2.78899 11.7019 2.00582 10.732 2.00582C10.4088 2.00582 10.1467 1.74477 10.1467 1.42274Z"
-         fill={color ?? "#222222"}
+         fill={color ?? '#222222'}
       />
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
          d="M2.47583 10.6144C1.57415 11.1277 1.17066 11.7479 1.17066 12.3071C1.17066 12.8663 1.57415 13.4865 2.47583 13.9998C3.36096 14.5037 4.62281 14.8338 6.04841 14.8338C7.47401 14.8338 8.73586 14.5037 9.62099 13.9998C10.5227 13.4865 10.9262 12.8663 10.9262 12.3071C10.9262 11.7479 10.5227 11.1277 9.62099 10.6144C8.73586 10.1106 7.47401 9.78039 6.04841 9.78039C4.62281 9.78039 3.36096 10.1106 2.47583 10.6144ZM1.89502 9.60188C2.98715 8.9802 4.45683 8.61422 6.04841 8.61422C7.63999 8.61422 9.10967 8.9802 10.2018 9.60188C11.2774 10.2141 12.0968 11.1488 12.0968 12.3071C12.0968 13.4654 11.2774 14.4001 10.2018 15.0123C9.10967 15.634 7.63999 16 6.04841 16C4.45683 16 2.98715 15.634 1.89502 15.0123C0.81946 14.4001 0 13.4654 0 12.3071C0 11.1488 0.81946 10.2141 1.89502 9.60188Z"
-         fill={color ?? "#222222"}
+         fill={color ?? '#222222'}
       />
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
          d="M12.5016 9.84973C12.5709 9.53518 12.883 9.3361 13.1987 9.40508C13.9494 9.56907 14.6259 9.86528 15.1281 10.2747C15.6299 10.6837 16 11.2459 16 11.9183C16 12.5236 15.6986 13.0422 15.2725 13.4365C14.8483 13.8291 14.2743 14.1269 13.6323 14.3195C13.3228 14.4123 12.9963 14.2376 12.9031 13.9292C12.8099 13.6209 12.9853 13.2956 13.2948 13.2028C13.8128 13.0474 14.2144 12.824 14.4757 12.5821C14.7352 12.342 14.8293 12.1132 14.8293 11.9183C14.8293 11.7034 14.7133 11.4434 14.3867 11.1772C14.0606 10.9113 13.5663 10.6793 12.948 10.5442C12.6322 10.4752 12.4324 10.1643 12.5016 9.84973Z"
-         fill={color ?? "#222222"}
+         fill={color ?? '#222222'}
       />
    </svg>
 );
 
 export const SmallCalendar = ({ isSelected }: { isSelected: boolean }) => {
    return isSelected ? (
-      <svg
-         width="16"
-         height="16"
-         viewBox="0 0 16 16"
-         fill="none"
-         xmlns="http://www.w3.org/2000/svg"
-      >
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
          <g clip-path="url(#clip0_15433_8036)">
             <path
                fill-rule="evenodd"
@@ -1893,13 +1314,7 @@ export const SmallCalendar = ({ isSelected }: { isSelected: boolean }) => {
          </defs>
       </svg>
    ) : (
-      <svg
-         width="16"
-         height="16"
-         viewBox="0 0 16 16"
-         fill="none"
-         xmlns="http://www.w3.org/2000/svg"
-      >
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
          <g clip-path="url(#clip0_15433_8036)">
             <path
                fill-rule="evenodd"
@@ -1941,16 +1356,10 @@ export const SmallCalendar = ({ isSelected }: { isSelected: boolean }) => {
    );
 };
 
-export const ClipBoardIcon = ({
-   color,
-   height,
-}: {
-   color?: string;
-   height?: string;
-}) => (
+export const ClipBoardIcon = ({ color, height }: { color?: string; height?: string }) => (
    <svg
-      width={height ?? "16"}
-      height={height ?? "16"}
+      width={height ?? '16'}
+      height={height ?? '16'}
       viewBox="0 0 16 16"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -1960,25 +1369,25 @@ export const ClipBoardIcon = ({
             fill-rule="evenodd"
             clip-rule="evenodd"
             d="M4.46331 7.34894C4.46331 7.04069 4.71334 6.79081 5.02177 6.79081H10.2341C10.5425 6.79081 10.7925 7.04069 10.7925 7.34894C10.7925 7.65719 10.5425 7.90707 10.2341 7.90707H5.02177C4.71334 7.90707 4.46331 7.65719 4.46331 7.34894Z"
-            fill={color ?? "#222222"}
+            fill={color ?? '#222222'}
          />
          <path
             fill-rule="evenodd"
             clip-rule="evenodd"
             d="M4.46331 10.3256C4.46331 10.0174 4.71334 9.76752 5.02177 9.76752H8.28319C8.59162 9.76752 8.84165 10.0174 8.84165 10.3256C8.84165 10.6339 8.59162 10.8838 8.28319 10.8838H5.02177C4.71334 10.8838 4.46331 10.6339 4.46331 10.3256Z"
-            fill={color ?? "#222222"}
+            fill={color ?? '#222222'}
          />
          <path
             fill-rule="evenodd"
             clip-rule="evenodd"
             d="M6.458 0.000113212C6.47629 0.000165162 6.49398 0.000215367 6.511 0.000215367H9.48947C9.50649 0.000215367 9.52418 0.000165162 9.54247 0.000113212C9.87232 -0.000823296 10.3994 -0.00231972 10.8231 0.279997C11.3326 0.619495 11.5372 1.22881 11.5372 2.0467C11.5372 2.06372 11.5372 2.08139 11.5373 2.09967C11.5382 2.42933 11.5397 2.95606 11.2572 3.37954C10.9175 3.88878 10.3078 4.09318 9.48947 4.09318H6.511C6.49398 4.09318 6.47629 4.09323 6.458 4.09329C6.12815 4.09422 5.6011 4.09572 5.17738 3.8134C4.66783 3.4739 4.46331 2.86458 4.46331 2.0467C4.46331 1.22881 4.66783 0.619495 5.17738 0.279997C5.6011 -0.00231967 6.12815 -0.000823296 6.458 0.000113212ZM5.79694 1.20879C5.74802 1.24138 5.58023 1.37623 5.58023 2.0467C5.58023 2.71717 5.74802 2.85202 5.79694 2.88461C5.90818 2.95873 6.09047 2.97692 6.511 2.97692H9.48947C10.1603 2.97692 10.2953 2.80923 10.3279 2.76035C10.402 2.64917 10.4202 2.46698 10.4202 2.0467C10.4202 1.37623 10.2524 1.24138 10.2035 1.20879C10.0923 1.13467 9.91 1.11648 9.48947 1.11648H6.511C6.09047 1.11648 5.90818 1.13467 5.79694 1.20879Z"
-            fill={color ?? "#222222"}
+            fill={color ?? '#222222'}
          />
          <path
             fill-rule="evenodd"
             clip-rule="evenodd"
             d="M5.57942 2.03147C5.59607 2.33927 5.3599 2.60228 5.05192 2.61892C3.85596 2.68352 3.11059 2.93467 2.6406 3.44311C2.16438 3.95829 1.85716 4.86028 1.85716 6.51176V10.9768C1.85716 12.4553 2.05174 13.3813 2.55667 13.9581C3.04546 14.5164 3.953 14.8837 5.76639 14.8837H10.2341C12.0475 14.8837 12.955 14.5164 13.4438 13.9581C13.9487 13.3813 14.1433 12.4553 14.1433 10.9768V6.51176C14.1433 4.85618 13.8359 3.95463 13.3601 3.4406C12.8904 2.9332 12.1454 2.68357 10.9486 2.61892C10.6406 2.60228 10.4044 2.33927 10.421 2.03147C10.4377 1.72367 10.7009 1.48764 11.0088 1.50428C12.2915 1.57357 13.408 1.84859 14.18 2.68256C14.9459 3.50991 15.2602 4.76646 15.2602 6.51176V10.9768C15.2602 12.475 15.0825 13.7815 14.2844 14.6931C13.4701 15.6232 12.1438 16 10.2341 16H5.76639C3.8567 16 2.53039 15.6232 1.7161 14.6931C0.917959 13.7815 0.740234 12.475 0.740234 10.9768V6.51176C0.740234 4.7698 1.05476 3.51369 1.82019 2.68564C2.59185 1.85084 3.70802 1.57362 4.99163 1.50428C5.29961 1.48764 5.56277 1.72367 5.57942 2.03147Z"
-            fill={color ?? "#222222"}
+            fill={color ?? '#222222'}
          />
       </g>
       <defs>
@@ -1989,21 +1398,10 @@ export const ClipBoardIcon = ({
    </svg>
 );
 
-export const GoBackIcon = ({
-   height,
-   strokeColor,
-}: {
-   height: string;
-   strokeColor?: string;
-}) => (
-   <svg
-      xmlns="http://www.w3.org/2000/svg"
-      height={height}
-      viewBox="0 0 19 19"
-      fill="none"
-   >
+export const GoBackIcon = ({ height, strokeColor }: { height: string; strokeColor?: string }) => (
+   <svg xmlns="http://www.w3.org/2000/svg" height={height} viewBox="0 0 19 19" fill="none">
       <path
-         stroke={strokeColor ?? "#fff"}
+         stroke={strokeColor ?? '#fff'}
          strokeLinecap="round"
          strokeLinejoin="round"
          strokeWidth={1.5}
@@ -2013,12 +1411,7 @@ export const GoBackIcon = ({
 );
 
 export const DetailsIcon = ({ height }: { height: string }) => (
-   <svg
-      xmlns="http://www.w3.org/2000/svg"
-      height={height}
-      viewBox="0 0 800 189"
-      fill="none"
-   >
+   <svg xmlns="http://www.w3.org/2000/svg" height={height} viewBox="0 0 800 189" fill="none">
       <path
          d="M188.235 94.4707C188.235 146.424 146.071 188.588 94.1176 188.588C42.1647 188.588 0 146.424 0 94.4707C0 42.5177 42.1647 0.353027 94.1176 0.353027C146.071 0.353027 188.235 42.5177 188.235 94.4707ZM400 0.353027C348.047 0.353027 305.882 42.5177 305.882 94.4707C305.882 146.424 348.047 188.588 400 188.588C451.953 188.588 494.118 146.424 494.118 94.4707C494.118 42.5177 451.953 0.353027 400 0.353027ZM705.882 0.353027C653.929 0.353027 611.765 42.5177 611.765 94.4707C611.765 146.424 653.929 188.588 705.882 188.588C757.835 188.588 800 146.424 800 94.4707C800 42.5177 757.835 0.353027 705.882 0.353027Z"
          fill="black"
@@ -2026,41 +1419,15 @@ export const DetailsIcon = ({ height }: { height: string }) => (
    </svg>
 );
 
-export const CloseWithBgIcon = ({
-   height,
-   onClick,
-}: {
-   height: string;
-   onClick?: () => void;
-}) => (
-   <svg
-      xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 20 20"
-      height={height}
-      onClick={onClick}
-      fill="none"
-   >
-      <circle
-         cx={10}
-         cy={10}
-         r={9.615}
-         fill="#F5F5F5"
-         stroke="none"
-         strokeWidth={0.77}
-      />
+export const CloseWithBgIcon = ({ height, onClick }: { height: string; onClick?: () => void }) => (
+   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" height={height} onClick={onClick} fill="none">
+      <circle cx={10} cy={10} r={9.615} fill="#F5F5F5" stroke="none" strokeWidth={0.77} />
       <path
          fill="url(#a)"
          d="M7.142 6.195 10 9.053l2.858-2.858a.671.671 0 0 1 .898-.04l.049.045c.26.26.26.682 0 .942L10.947 10l2.858 2.858c.238.238.26.616.04.898l-.045.049a.667.667 0 0 1-.942 0L10 10.947l-2.858 2.858a.672.672 0 0 1-.898.04l-.049-.045a.666.666 0 0 1 0-.942L9.053 10 6.195 7.142a.672.672 0 0 1-.04-.898l.045-.049c.26-.26.682-.26.942 0Zm-.466 7.472h-.005.005Zm.044-.004-.014.002.014-.002Zm-.098 0h.006-.006Zm-.042-.009.005.002-.005-.002Zm.183 0-.018.004a.385.385 0 0 0 .018-.004Zm.038-.014-.014.006a.259.259 0 0 0 .014-.006Zm-.26 0c.001 0 .002.001 0 0Zm-.039-.02-.035-.023c.014.011.03.021.046.03l-.01-.006Zm.338 0-.011.007a.224.224 0 0 0 .01-.006Zm6.787-.133-.006.01-.024.036a.336.336 0 0 0 .03-.046Zm.018-.04-.005.012a.33.33 0 0 0 .005-.013Zm.013-.043-.004.016a.393.393 0 0 0 .004-.016Zm.007-.04-.002.014.002-.014Zm-.336-6.697L10 9.996l-3.33-3.33-.003.005L9.996 10l-3.33 3.33.005.003L10 10.004l3.33 3.33.004-.005L10.004 10l3.33-3.33-.005-.003Zm.338 6.657v.01-.01Zm-.004-.044.002.014a.387.387 0 0 0-.002-.014Zm-.01-.043.005.018a.396.396 0 0 0-.004-.018Zm-.013-.037.006.013a.264.264 0 0 0-.006-.013Zm-.02-.04.007.011a.24.24 0 0 0-.006-.01ZM6.374 6.83l.005.009a.362.362 0 0 1-.005-.01Zm-.019-.042.004.011a.329.329 0 0 1-.004-.011Zm-.012-.042.003.012a.326.326 0 0 1-.003-.012Zm-.007-.04.001.01-.001-.01Zm-.002-.044v.01-.01Zm.004-.04v.007-.006Zm.009-.041-.001.005.001-.005Zm.013-.039c0 .002 0 .001 0 0Zm.02-.039.024-.035a.332.332 0 0 0-.03.046l.006-.01Zm.45-.129.01.006.036.024a.33.33 0 0 0-.046-.03Zm6.342 0-.009.005a.26.26 0 0 1 .01-.005Zm-6.658 0-.009.005a.318.318 0 0 1 .009-.005Zm6.974 0 .01.006.036.024a.33.33 0 0 0-.046-.03Zm-6.933-.019-.01.004a.323.323 0 0 1 .01-.003Zm.233 0 .014.006a.332.332 0 0 0-.014-.006Zm6.426 0-.011.004a.359.359 0 0 1 .011-.004Zm.233 0 .013.006a.347.347 0 0 0-.013-.006Zm-6.85-.012-.01.003a.346.346 0 0 1 .01-.003Zm.149 0 .018.004a.336.336 0 0 0-.018-.004Zm6.51 0-.012.003a.368.368 0 0 1 .012-.003Zm.149 0 .016.004a.339.339 0 0 0-.016-.004Zm-6.767-.007-.01.001.01-.001Zm.067 0 .016.002a.339.339 0 0 0-.016-.002Zm6.592 0-.01.001.01-.001Zm.067 0 .015.002a.34.34 0 0 0-.015-.002Zm-.044-.002h.02-.02Zm-6.658 0h.02-.02Z"
       />
       <defs>
-         <linearGradient
-            id="a"
-            x1={406}
-            x2={406}
-            y1={6}
-            y2={806}
-            gradientUnits="userSpaceOnUse"
-         >
+         <linearGradient id="a" x1={406} x2={406} y1={6} y2={806} gradientUnits="userSpaceOnUse">
             <stop stopColor="#4a4a4ab7" />
             <stop offset={1} stopColor="#F82020" />
          </linearGradient>
@@ -2068,31 +1435,12 @@ export const CloseWithBgIcon = ({
    </svg>
 );
 
-export const InfoWithBgIcon = ({
-   height,
-   isSelected,
-}: {
-   height: string;
-   isSelected?: boolean;
-}) =>
+export const InfoWithBgIcon = ({ height, isSelected }: { height: string; isSelected?: boolean }) =>
    isSelected ? (
-      <svg
-         xmlns="http://www.w3.org/2000/svg"
-         viewBox="0 0 60 60"
-         height={height}
-         fill="none"
-      >
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60" height={height} fill="none">
          <circle cx={30.127} cy={29.713} r={29.713} fill="#FF8E8E" />
-         <path
-            stroke="#fff"
-            strokeLinecap="round"
-            strokeWidth={1.625}
-            d="M31 35.416v-6.5"
-         />
-         <path
-            fill="#fff"
-            d="M31.001 24.583a1.083 1.083 0 1 1 0 2.167 1.083 1.083 0 0 1 0-2.167Z"
-         />
+         <path stroke="#fff" strokeLinecap="round" strokeWidth={1.625} d="M31 35.416v-6.5" />
+         <path fill="#fff" d="M31.001 24.583a1.083 1.083 0 1 1 0 2.167 1.083 1.083 0 0 1 0-2.167Z" />
          <path
             stroke="#fff"
             strokeLinecap="round"
@@ -2101,23 +1449,10 @@ export const InfoWithBgIcon = ({
          />
       </svg>
    ) : (
-      <svg
-         xmlns="http://www.w3.org/2000/svg"
-         viewBox="0 0 60 60"
-         height={height}
-         fill="none"
-      >
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60" height={height} fill="none">
          <circle cx={30.127} cy={29.713} r={29.713} fill="#E7E7E7" />
-         <path
-            stroke="#4A4A4A"
-            strokeLinecap="round"
-            strokeWidth={1.625}
-            d="M31 35.416v-6.5"
-         />
-         <path
-            fill="#4A4A4A"
-            d="M31.001 24.583a1.083 1.083 0 1 1 0 2.167 1.083 1.083 0 0 1 0-2.167Z"
-         />
+         <path stroke="#4A4A4A" strokeLinecap="round" strokeWidth={1.625} d="M31 35.416v-6.5" />
+         <path fill="#4A4A4A" d="M31.001 24.583a1.083 1.083 0 1 1 0 2.167 1.083 1.083 0 0 1 0-2.167Z" />
          <path
             stroke="#4A4A4A"
             strokeLinecap="round"
@@ -2127,19 +1462,9 @@ export const InfoWithBgIcon = ({
       </svg>
    );
 
-export const ProductionLineSubStepWithBgIcon = ({
-   isSelected,
-}: {
-   isSelected?: boolean;
-}) =>
+export const ProductionLineSubStepWithBgIcon = ({ isSelected }: { isSelected?: boolean }) =>
    isSelected ? (
-      <svg
-         width="32"
-         height="33"
-         viewBox="0 0 32 33"
-         fill="none"
-         xmlns="http://www.w3.org/2000/svg"
-      >
+      <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
          <path
             d="M0 16.5C0 7.66344 7.16344 0.5 16 0.5C24.8366 0.5 32 7.66344 32 16.5C32 25.3366 24.8366 32.5 16 32.5C7.16344 32.5 0 25.3366 0 16.5Z"
             fill="#F7F7F7"
@@ -2152,13 +1477,7 @@ export const ProductionLineSubStepWithBgIcon = ({
          />
       </svg>
    ) : (
-      <svg
-         width="32"
-         height="33"
-         viewBox="0 0 32 33"
-         fill="none"
-         xmlns="http://www.w3.org/2000/svg"
-      >
+      <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
          <path
             d="M0 16.5C0 7.66344 7.16344 0.5 16 0.5C24.8366 0.5 32 7.66344 32 16.5C32 25.3366 24.8366 32.5 16 32.5C7.16344 32.5 0 25.3366 0 16.5Z"
             fill="#F7F7F7"
@@ -2172,19 +1491,9 @@ export const ProductionLineSubStepWithBgIcon = ({
       </svg>
    );
 
-export const ProductionLineWithBgIcon = ({
-   isSelected,
-}: {
-   isSelected?: boolean;
-}) =>
+export const ProductionLineWithBgIcon = ({ isSelected }: { isSelected?: boolean }) =>
    isSelected ? (
-      <svg
-         width="56"
-         height="56"
-         viewBox="0 0 56 56"
-         fill="none"
-         xmlns="http://www.w3.org/2000/svg"
-      >
+      <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
          <path
             d="M0 28C0 12.536 12.536 0 28 0C43.464 0 56 12.536 56 28C56 43.464 43.464 56 28 56C12.536 56 0 43.464 0 28Z"
             fill="#FF8E8E"
@@ -2197,13 +1506,7 @@ export const ProductionLineWithBgIcon = ({
          />
       </svg>
    ) : (
-      <svg
-         width="56"
-         height="56"
-         viewBox="0 0 56 56"
-         fill="none"
-         xmlns="http://www.w3.org/2000/svg"
-      >
+      <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
          <path
             d="M0 28C0 12.536 12.536 0 28 0C43.464 0 56 12.536 56 28C56 43.464 43.464 56 28 56C12.536 56 0 43.464 0 28Z"
             fill="#F7F7F7"
@@ -2217,20 +1520,9 @@ export const ProductionLineWithBgIcon = ({
       </svg>
    );
 
-export const UnitWithBgIcon = ({
-   isSelected,
-   height,
-}: {
-   isSelected?: boolean;
-   height?: string;
-}) =>
+export const UnitWithBgIcon = ({ isSelected, height }: { isSelected?: boolean; height?: string }) =>
    isSelected ? (
-      <svg
-         height={height ?? "33"}
-         viewBox="0 0 56 56"
-         fill="none"
-         xmlns="http://www.w3.org/2000/svg"
-      >
+      <svg height={height ?? '33'} viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
          <path
             d="M0 28C0 12.536 12.536 0 28 0C43.464 0 56 12.536 56 28C56 43.464 43.464 56 28 56C12.536 56 0 43.464 0 28Z"
             fill="#FF8E8E"
@@ -2255,13 +1547,7 @@ export const UnitWithBgIcon = ({
          />
       </svg>
    ) : (
-      <svg
-         width="56"
-         height="56"
-         viewBox="0 0 56 56"
-         fill="none"
-         xmlns="http://www.w3.org/2000/svg"
-      >
+      <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
          <path
             d="M0 28C0 12.536 12.536 0 28 0C43.464 0 56 12.536 56 28C56 43.464 43.464 56 28 56C12.536 56 0 43.464 0 28Z"
             fill="#F7F7F7"
@@ -2298,8 +1584,8 @@ export const ConfigurationLineWithBgIcon = ({
 }) =>
    isSelected ? (
       <svg
-         width={width ?? "32"}
-         height={height ?? "33"}
+         width={width ?? '32'}
+         height={height ?? '33'}
          viewBox="0 0 32 33"
          fill="none"
          xmlns="http://www.w3.org/2000/svg"
@@ -2324,19 +1610,14 @@ export const ConfigurationLineWithBgIcon = ({
          </g>
          <defs>
             <clipPath id="clip0_4145_56331">
-               <rect
-                  width="16"
-                  height="16"
-                  fill="white"
-                  transform="translate(8 8.5)"
-               />
+               <rect width="16" height="16" fill="white" transform="translate(8 8.5)" />
             </clipPath>
          </defs>
       </svg>
    ) : (
       <svg
-         width={width ?? "32"}
-         height={height ?? "33"}
+         width={width ?? '32'}
+         height={height ?? '33'}
          viewBox="0 0 32 33"
          fill="none"
          xmlns="http://www.w3.org/2000/svg"
@@ -2361,30 +1642,15 @@ export const ConfigurationLineWithBgIcon = ({
          </g>
          <defs>
             <clipPath id="clip0_4145_56331">
-               <rect
-                  width="16"
-                  height="16"
-                  fill="white"
-                  transform="translate(8 8.5)"
-               />
+               <rect width="16" height="16" fill="white" transform="translate(8 8.5)" />
             </clipPath>
          </defs>
       </svg>
    );
 
-export const BasicDataWithBgIcon = ({
-   isSelected,
-}: {
-   isSelected?: boolean;
-}) =>
+export const BasicDataWithBgIcon = ({ isSelected }: { isSelected?: boolean }) =>
    isSelected ? (
-      <svg
-         width="56"
-         height="56"
-         viewBox="0 0 56 56"
-         fill="none"
-         xmlns="http://www.w3.org/2000/svg"
-      >
+      <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
          <path
             d="M0 28C0 12.536 12.536 0 28 0C43.464 0 56 12.536 56 28C56 43.464 43.464 56 28 56C12.536 56 0 43.464 0 28Z"
             fill="#FF8E8E"
@@ -2417,23 +1683,12 @@ export const BasicDataWithBgIcon = ({
          </g>
          <defs>
             <clipPath id="clip0_7497_7037">
-               <rect
-                  width="24"
-                  height="24"
-                  fill="white"
-                  transform="translate(16 16)"
-               />
+               <rect width="24" height="24" fill="white" transform="translate(16 16)" />
             </clipPath>
          </defs>
       </svg>
    ) : (
-      <svg
-         width="56"
-         height="56"
-         viewBox="0 0 56 56"
-         fill="none"
-         xmlns="http://www.w3.org/2000/svg"
-      >
+      <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
          <path
             d="M0 28C0 12.536 12.536 0 28 0C43.464 0 56 12.536 56 28C56 43.464 43.464 56 28 56C12.536 56 0 43.464 0 28Z"
             fill="#F7F7F7"
@@ -2466,30 +1721,15 @@ export const BasicDataWithBgIcon = ({
          </g>
          <defs>
             <clipPath id="clip0_7497_6488">
-               <rect
-                  width="24"
-                  height="24"
-                  fill="white"
-                  transform="translate(16 16)"
-               />
+               <rect width="24" height="24" fill="white" transform="translate(16 16)" />
             </clipPath>
          </defs>
       </svg>
    );
 
-export const CollaboratorWithBgIcon = ({
-   isSelected,
-}: {
-   isSelected?: boolean;
-}) =>
+export const CollaboratorWithBgIcon = ({ isSelected }: { isSelected?: boolean }) =>
    isSelected ? (
-      <svg
-         width="56"
-         height="56"
-         viewBox="0 0 56 56"
-         fill="none"
-         xmlns="http://www.w3.org/2000/svg"
-      >
+      <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
          <path
             d="M0 28C0 12.536 12.536 0 28 0C43.464 0 56 12.536 56 28C56 43.464 43.464 56 28 56C12.536 56 0 43.464 0 28Z"
             fill="#FF8E8E"
@@ -2520,13 +1760,7 @@ export const CollaboratorWithBgIcon = ({
          />
       </svg>
    ) : (
-      <svg
-         width="56"
-         height="56"
-         viewBox="0 0 56 56"
-         fill="none"
-         xmlns="http://www.w3.org/2000/svg"
-      >
+      <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
          <path
             d="M0 28C0 12.536 12.536 0 28 0C43.464 0 56 12.536 56 28C56 43.464 43.464 56 28 56C12.536 56 0 43.464 0 28Z"
             fill="#F7F7F7"
@@ -2559,12 +1793,7 @@ export const CollaboratorWithBgIcon = ({
    );
 
 export const CollaboratorWithOutBgIcon = ({ height }: { height: string }) => (
-   <svg
-      height={height}
-      viewBox="0 0 14 16"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-   >
+   <svg height={height} viewBox="0 0 14 16" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
@@ -2582,13 +1811,7 @@ export const CollaboratorWithOutBgIcon = ({ height }: { height: string }) => (
 
 export const ExclamationIcon = () => {
    return (
-      <svg
-         width="92"
-         height="93"
-         viewBox="0 0 92 93"
-         fill="none"
-         xmlns="http://www.w3.org/2000/svg"
-      >
+      <svg width="92" height="93" viewBox="0 0 92 93" fill="none" xmlns="http://www.w3.org/2000/svg">
          <path
             d="M0 46.5C0 21.0949 20.5949 0.5 46 0.5C71.4051 0.5 92 21.0949 92 46.5C92 71.9051 71.4051 92.5 46 92.5C20.5949 92.5 0 71.9051 0 46.5Z"
             fill="#F9F9F9"
@@ -2619,12 +1842,7 @@ export const ExclamationIcon = () => {
          </g>
          <defs>
             <clipPath id="clip0_4829_2196">
-               <rect
-                  width="28"
-                  height="28"
-                  fill="white"
-                  transform="translate(32 32.5)"
-               />
+               <rect width="28" height="28" fill="white" transform="translate(32 32.5)" />
             </clipPath>
          </defs>
       </svg>
@@ -2633,13 +1851,7 @@ export const ExclamationIcon = () => {
 
 export const DepositWithBgIcon = ({ isSelected }: { isSelected?: boolean }) =>
    isSelected ? (
-      <svg
-         width="56"
-         height="56"
-         viewBox="0 0 56 56"
-         fill="none"
-         xmlns="http://www.w3.org/2000/svg"
-      >
+      <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
          <path
             d="M0 28C0 12.536 12.536 0 28 0C43.464 0 56 12.536 56 28C56 43.464 43.464 56 28 56C12.536 56 0 43.464 0 28Z"
             fill="#FF8E8E"
@@ -2684,23 +1896,12 @@ export const DepositWithBgIcon = ({ isSelected }: { isSelected?: boolean }) =>
          </g>
          <defs>
             <clipPath id="clip0_7497_1477">
-               <rect
-                  width="24"
-                  height="24"
-                  fill="white"
-                  transform="translate(16 16)"
-               />
+               <rect width="24" height="24" fill="white" transform="translate(16 16)" />
             </clipPath>
          </defs>
       </svg>
    ) : (
-      <svg
-         width="56"
-         height="56"
-         viewBox="0 0 56 56"
-         fill="none"
-         xmlns="http://www.w3.org/2000/svg"
-      >
+      <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
          <path
             d="M0 28C0 12.536 12.536 0 28 0C43.464 0 56 12.536 56 28C56 43.464 43.464 56 28 56C12.536 56 0 43.464 0 28Z"
             fill="#F7F7F7"
@@ -2745,56 +1946,20 @@ export const DepositWithBgIcon = ({ isSelected }: { isSelected?: boolean }) =>
          </g>
          <defs>
             <clipPath id="clip0_7497_7805">
-               <rect
-                  width="24"
-                  height="24"
-                  fill="white"
-                  transform="translate(16 16)"
-               />
+               <rect width="24" height="24" fill="white" transform="translate(16 16)" />
             </clipPath>
          </defs>
       </svg>
    );
 
-export const DetonationWithBgIcon = ({
-   height,
-   isSelected,
-}: {
-   height: string;
-   isSelected?: boolean;
-}) =>
+export const DetonationWithBgIcon = ({ height, isSelected }: { height: string; isSelected?: boolean }) =>
    isSelected ? (
-      <svg
-         xmlns="http://www.w3.org/2000/svg"
-         viewBox="0 0 60 60"
-         height={height}
-         fill="none"
-      >
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60" height={height} fill="none">
          <circle cx="29.7127" cy="29.7127" r="29.7127" fill="#FF8E8E" />
-         <path
-            d="M39.6693 18.7012L36.8359 21.5345"
-            stroke="#fff"
-            stroke-width="2.125"
-            stroke-linecap="round"
-         />
-         <path
-            d="M43.2109 19.4097L44.6276 20.118"
-            stroke="#fff"
-            stroke-width="2.125"
-            stroke-linecap="round"
-         />
-         <path
-            d="M38.2539 13.7432L38.9622 15.1598"
-            stroke="#fff"
-            stroke-width="2.125"
-            stroke-linecap="round"
-         />
-         <path
-            d="M42.5039 15.8678L43.9206 14.4512"
-            stroke="#fff"
-            stroke-width="2.125"
-            stroke-linecap="round"
-         />
+         <path d="M39.6693 18.7012L36.8359 21.5345" stroke="#fff" stroke-width="2.125" stroke-linecap="round" />
+         <path d="M43.2109 19.4097L44.6276 20.118" stroke="#fff" stroke-width="2.125" stroke-linecap="round" />
+         <path d="M38.2539 13.7432L38.9622 15.1598" stroke="#fff" stroke-width="2.125" stroke-linecap="round" />
+         <path d="M42.5039 15.8678L43.9206 14.4512" stroke="#fff" stroke-width="2.125" stroke-linecap="round" />
          <path
             d="M23.7305 20.1226C25.2933 19.2186 27.1077 18.7012 29.043 18.7012C34.9109 18.7012 39.668 23.4582 39.668 29.3262C39.668 35.1941 34.9109 39.9512 29.043 39.9512C23.1749 39.9512 18.418 35.1941 18.418 29.3262C18.418 27.3909 18.9354 25.5765 19.8394 24.0137"
             stroke="#fff"
@@ -2803,37 +1968,12 @@ export const DetonationWithBgIcon = ({
          />
       </svg>
    ) : (
-      <svg
-         xmlns="http://www.w3.org/2000/svg"
-         viewBox="0 0 60 60"
-         height={height}
-         fill="none"
-      >
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60" height={height} fill="none">
          <circle cx="29.7127" cy="29.7127" r="29.7127" fill="#F2F2F2" />
-         <path
-            d="M39.6693 18.7012L36.8359 21.5345"
-            stroke="#4A4A4A"
-            stroke-width="2.125"
-            stroke-linecap="round"
-         />
-         <path
-            d="M43.2109 19.4097L44.6276 20.118"
-            stroke="#4A4A4A"
-            stroke-width="2.125"
-            stroke-linecap="round"
-         />
-         <path
-            d="M38.2539 13.7432L38.9622 15.1598"
-            stroke="#4A4A4A"
-            stroke-width="2.125"
-            stroke-linecap="round"
-         />
-         <path
-            d="M42.5039 15.8678L43.9206 14.4512"
-            stroke="#4A4A4A"
-            stroke-width="2.125"
-            stroke-linecap="round"
-         />
+         <path d="M39.6693 18.7012L36.8359 21.5345" stroke="#4A4A4A" stroke-width="2.125" stroke-linecap="round" />
+         <path d="M43.2109 19.4097L44.6276 20.118" stroke="#4A4A4A" stroke-width="2.125" stroke-linecap="round" />
+         <path d="M38.2539 13.7432L38.9622 15.1598" stroke="#4A4A4A" stroke-width="2.125" stroke-linecap="round" />
+         <path d="M42.5039 15.8678L43.9206 14.4512" stroke="#4A4A4A" stroke-width="2.125" stroke-linecap="round" />
          <path
             d="M23.7305 20.1226C25.2933 19.2186 27.1077 18.7012 29.043 18.7012C34.9109 18.7012 39.668 23.4582 39.668 29.3262C39.668 35.1941 34.9109 39.9512 29.043 39.9512C23.1749 39.9512 18.418 35.1941 18.418 29.3262C18.418 27.3909 18.9354 25.5765 19.8394 24.0137"
             stroke="#4A4A4A"
@@ -2843,20 +1983,9 @@ export const DetonationWithBgIcon = ({
       </svg>
    );
 
-export const TagCustomizaitionWithBgIcon = ({
-   height,
-   isSelected,
-}: {
-   height: string;
-   isSelected?: boolean;
-}) =>
+export const TagCustomizaitionWithBgIcon = ({ height, isSelected }: { height: string; isSelected?: boolean }) =>
    isSelected ? (
-      <svg
-         xmlns="http://www.w3.org/2000/svg"
-         viewBox="0 0 60 60"
-         height={height}
-         fill="none"
-      >
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60" height={height} fill="none">
          <path
             d="M59.4254 29.7127C59.4254 46.1226 46.1226 59.4254 29.7127 59.4254C13.3028 59.4254 0 46.1226 0 29.7127C0 13.3028 13.3028 0 29.7127 0C46.1226 0 59.4254 13.3028 59.4254 29.7127Z"
             fill="#FF8E8E"
@@ -2872,20 +2001,10 @@ export const TagCustomizaitionWithBgIcon = ({
             stroke="#fff"
             stroke-width="1.625"
          />
-         <path
-            d="M29.5039 37.0418L37.0646 29.481"
-            stroke="#fff"
-            stroke-width="1.625"
-            stroke-linecap="round"
-         />
+         <path d="M29.5039 37.0418L37.0646 29.481" stroke="#fff" stroke-width="1.625" stroke-linecap="round" />
       </svg>
    ) : (
-      <svg
-         xmlns="http://www.w3.org/2000/svg"
-         viewBox="0 0 60 60"
-         height={height}
-         fill="none"
-      >
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60" height={height} fill="none">
          <path
             d="M59.4254 29.7127C59.4254 46.1226 46.1226 59.4254 29.7127 59.4254C13.3028 59.4254 0 46.1226 0 29.7127C0 13.3028 13.3028 0 29.7127 0C46.1226 0 59.4254 13.3028 59.4254 29.7127Z"
             fill="#F7F7F7"
@@ -2901,48 +2020,28 @@ export const TagCustomizaitionWithBgIcon = ({
             stroke="#4A4A4A"
             stroke-width="1.625"
          />
-         <path
-            d="M29.5039 37.0418L37.0646 29.481"
-            stroke="#4A4A4A"
-            stroke-width="1.625"
-            stroke-linecap="round"
-         />
+         <path d="M29.5039 37.0418L37.0646 29.481" stroke="#4A4A4A" stroke-width="1.625" stroke-linecap="round" />
       </svg>
    );
 
 export const TagCustomizaitionWithoutBgIcon = (props: any) => (
-   <svg
-      xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 19 19"
-      fill="none"
-      {...props}
-   >
+   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19 19" fill="none" {...props}>
       <path
-         stroke={props.color ?? "#D0D5DD"}
+         stroke={props.color ?? '#D0D5DD'}
          strokeWidth={1.125}
          d="M3.75 12.603c-1.16-1.16-1.74-1.739-1.955-2.491-.216-.752-.031-1.55.337-3.148l.213-.921c.31-1.344.465-2.016.925-2.476.46-.46 1.132-.615 2.476-.925l.921-.213c1.598-.368 2.396-.553 3.148-.337.752.216 1.332.795 2.49 1.954l1.373 1.373c2.017 2.016 3.025 3.025 3.025 4.278 0 1.253-1.008 2.261-3.025 4.278C11.661 15.992 10.653 17 9.4 17c-1.253 0-2.262-1.008-4.278-3.025l-1.373-1.372Z"
       />
       <path
-         stroke={props.color ?? "#D0D5DD"}
+         stroke={props.color ?? '#D0D5DD'}
          strokeWidth={1.125}
          d="M7.721 8.219A1.5 1.5 0 1 0 5.6 6.098a1.5 1.5 0 0 0 2.121 2.12Z"
       />
-      <path
-         stroke={props.color ?? "#D0D5DD"}
-         strokeLinecap="round"
-         strokeWidth={1.125}
-         d="m8.86 14.375 5.234-5.234"
-      />
+      <path stroke={props.color ?? '#D0D5DD'} strokeLinecap="round" strokeWidth={1.125} d="m8.86 14.375 5.234-5.234" />
    </svg>
 );
 
 export const ModalStatusIcon = ({ height }: { height: string }) => (
-   <svg
-      xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 98 98"
-      height={height}
-      fill="none"
-   >
+   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 98 98" height={height} fill="none">
       <path
          stroke="red"
          strokeLinecap="round"
@@ -2958,13 +2057,7 @@ export const ModalStatusIcon = ({ height }: { height: string }) => (
 );
 
 export const ModalCancelIcon = ({ height }: { height: string }) => (
-   <svg
-      width="100%"
-      height={height}
-      viewBox="0 0 80 80"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-   >
+   <svg width="100%" height={height} viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path
          d="M0.5 40C0.5 18.1848 18.1848 0.5 40 0.5C61.8152 0.5 79.5 18.1848 79.5 40C79.5 61.8152 61.8152 79.5 40 79.5C18.1848 79.5 0.5 61.8152 0.5 40Z"
          stroke="#FF0000"
@@ -2991,24 +2084,14 @@ export const ModalCancelIcon = ({ height }: { height: string }) => (
       </g>
       <defs>
          <clipPath id="clip0_5003_819">
-            <rect
-               width="32"
-               height="32"
-               fill="white"
-               transform="translate(24 24)"
-            />
+            <rect width="32" height="32" fill="white" transform="translate(24 24)" />
          </clipPath>
       </defs>
    </svg>
 );
 
 export const ModalDeleteIcon = ({ height }: { height: string }) => (
-   <svg
-      xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 98 98"
-      height={height}
-      fill="none"
-   >
+   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 98 98" height={height} fill="none">
       <path
          stroke="red"
          strokeLinecap="round"
@@ -3027,12 +2110,7 @@ export const ModalDeleteIcon = ({ height }: { height: string }) => (
 );
 
 export const UnitIcon = (props: any) => (
-   <svg
-      height={props.height ?? "17"}
-      viewBox="0 0 16 17"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-   >
+   <svg height={props.height ?? '17'} viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
@@ -3055,12 +2133,7 @@ export const UnitIcon = (props: any) => (
 );
 
 export const CollectorIcon = ({ height }: { height: string }) => (
-   <svg
-      xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 17 21"
-      height={height}
-      fill="none"
-   >
+   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 21" height={height} fill="none">
       <path
          fill="#D0D5DD"
          fillRule="evenodd"
@@ -3070,31 +2143,17 @@ export const CollectorIcon = ({ height }: { height: string }) => (
    </svg>
 );
 
-export const BlastingServiceIcon = ({
-   height,
-   color,
-   onClick,
-}: {
-   height: string;
-   onClick?: any;
-   color?: string;
-}) => (
-   <svg
-      viewBox="0 0 18 18"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-      height={height}
-      onClick={onClick}
-   >
+export const BlastingServiceIcon = ({ height, color, onClick }: { height: string; onClick?: any; color?: string }) => (
+   <svg viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" height={height} onClick={onClick}>
       <path
          d="M11.8622 2.10558L13.4622 2.94522C15.1835 3.84853 16.0442 4.30018 16.5221 5.11179C17 5.9234 17 6.93334 17 8.9532V9.0468C17 11.0666 17 12.0766 16.5221 12.8882C16.0442 13.6998 15.1835 14.1514 13.4622 15.0548L11.8622 15.8944C10.4577 16.6314 9.75544 17 9 17C8.24456 17 7.54232 16.6314 6.13783 15.8944L4.53783 15.0548C2.8165 14.1514 1.95583 13.6998 1.47792 12.8882C1 12.0766 1 11.0666 1 9.0468V8.9532C1 6.93334 1 5.9234 1.47792 5.11179C1.95583 4.30018 2.8165 3.84853 4.53783 2.94522L6.13783 2.10558C7.54232 1.36853 8.24456 1 9 1C9.75544 1 10.4577 1.36853 11.8622 2.10558Z"
-         stroke={color ?? "#D0D5DD"}
+         stroke={color ?? '#D0D5DD'}
          stroke-width="1.35729"
          stroke-linecap="round"
       />
       <path
          d="M16.1998 5L8.99981 8.6M8.99981 8.6L1.7998 5M8.99981 8.6V16.2"
-         stroke={color ?? "#D0D5DD"}
+         stroke={color ?? '#D0D5DD'}
          stroke-width="1.35729"
          stroke-linecap="round"
       />
@@ -3102,12 +2161,7 @@ export const BlastingServiceIcon = ({
 );
 
 export const NewBlastingServiceIcon = (props: any) => (
-   <svg
-      height={props.height}
-      viewBox="0 0 16 16"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-   >
+   <svg height={props.height} viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
@@ -3118,12 +2172,7 @@ export const NewBlastingServiceIcon = (props: any) => (
 );
 
 export const AttentionalertsIcon = ({ height }: { height: string }) => (
-   <svg
-      xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 98 98"
-      height={height}
-      fill="none"
-   >
+   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 98 98" height={height} fill="none">
       <path
          stroke="red"
          strokeLinecap="round"
@@ -3142,19 +2191,9 @@ export const AttentionalertsIcon = ({ height }: { height: string }) => (
    </svg>
 );
 
-export const CollectorWithBgIcon = ({
-   isSelected,
-}: {
-   isSelected?: boolean;
-}) =>
+export const CollectorWithBgIcon = ({ isSelected }: { isSelected?: boolean }) =>
    isSelected ? (
-      <svg
-         width="56"
-         height="56"
-         viewBox="0 0 56 56"
-         fill="none"
-         xmlns="http://www.w3.org/2000/svg"
-      >
+      <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
          <path
             d="M0 28C0 12.536 12.536 0 28 0C43.464 0 56 12.536 56 28C56 43.464 43.464 56 28 56C12.536 56 0 43.464 0 28Z"
             fill="#FF8E8E"
@@ -3167,13 +2206,7 @@ export const CollectorWithBgIcon = ({
          />
       </svg>
    ) : (
-      <svg
-         width="56"
-         height="56"
-         viewBox="0 0 56 56"
-         fill="none"
-         xmlns="http://www.w3.org/2000/svg"
-      >
+      <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
          <path
             d="M0 28C0 12.536 12.536 0 28 0C43.464 0 56 12.536 56 28C56 43.464 43.464 56 28 56C12.536 56 0 43.464 0 28Z"
             fill="#F7F7F7"
@@ -3187,19 +2220,9 @@ export const CollectorWithBgIcon = ({
       </svg>
    );
 
-export const BlastingServiceWithBgIcon = ({
-   isSelected,
-}: {
-   isSelected?: boolean;
-}) =>
+export const BlastingServiceWithBgIcon = ({ isSelected }: { isSelected?: boolean }) =>
    isSelected ? (
-      <svg
-         width="56"
-         height="56"
-         viewBox="0 0 56 56"
-         fill="none"
-         xmlns="http://www.w3.org/2000/svg"
-      >
+      <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
          <path
             d="M0 28C0 12.536 12.536 0 28 0C43.464 0 56 12.536 56 28C56 43.464 43.464 56 28 56C12.536 56 0 43.464 0 28Z"
             fill="#FF8E8E"
@@ -3214,23 +2237,12 @@ export const BlastingServiceWithBgIcon = ({
          </g>
          <defs>
             <clipPath id="clip0_8497_65903">
-               <rect
-                  width="24"
-                  height="24"
-                  fill="white"
-                  transform="translate(16 16)"
-               />
+               <rect width="24" height="24" fill="white" transform="translate(16 16)" />
             </clipPath>
          </defs>
       </svg>
    ) : (
-      <svg
-         width="56"
-         height="56"
-         viewBox="0 0 56 56"
-         fill="none"
-         xmlns="http://www.w3.org/2000/svg"
-      >
+      <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
          <path
             d="M0 28C0 12.536 12.536 0 28 0C43.464 0 56 12.536 56 28C56 43.464 43.464 56 28 56C12.536 56 0 43.464 0 28Z"
             fill="#F7F7F7"
@@ -3245,30 +2257,15 @@ export const BlastingServiceWithBgIcon = ({
          </g>
          <defs>
             <clipPath id="clip0_8497_64636">
-               <rect
-                  width="24"
-                  height="24"
-                  fill="white"
-                  transform="translate(16 16)"
-               />
+               <rect width="24" height="24" fill="white" transform="translate(16 16)" />
             </clipPath>
          </defs>
       </svg>
    );
 
-export const SpecialProductWithBgIcon = ({
-   isSelected,
-}: {
-   isSelected?: boolean;
-}) =>
+export const SpecialProductWithBgIcon = ({ isSelected }: { isSelected?: boolean }) =>
    isSelected ? (
-      <svg
-         width="56"
-         height="56"
-         viewBox="0 0 56 56"
-         fill="none"
-         xmlns="http://www.w3.org/2000/svg"
-      >
+      <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
          <path
             d="M0 28C0 12.536 12.536 0 28 0C43.464 0 56 12.536 56 28C56 43.464 43.464 56 28 56C12.536 56 0 43.464 0 28Z"
             fill="#FF8E8E"
@@ -3313,23 +2310,12 @@ export const SpecialProductWithBgIcon = ({
          </g>
          <defs>
             <clipPath id="clip0_8497_69476">
-               <rect
-                  width="24"
-                  height="24"
-                  fill="white"
-                  transform="translate(16 16)"
-               />
+               <rect width="24" height="24" fill="white" transform="translate(16 16)" />
             </clipPath>
          </defs>
       </svg>
    ) : (
-      <svg
-         width="56"
-         height="56"
-         viewBox="0 0 56 56"
-         fill="none"
-         xmlns="http://www.w3.org/2000/svg"
-      >
+      <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
          <path
             d="M0 28C0 12.536 12.536 0 28 0C43.464 0 56 12.536 56 28C56 43.464 43.464 56 28 56C12.536 56 0 43.464 0 28Z"
             fill="#F7F7F7"
@@ -3374,30 +2360,15 @@ export const SpecialProductWithBgIcon = ({
          </g>
          <defs>
             <clipPath id="clip0_8497_67012">
-               <rect
-                  width="24"
-                  height="24"
-                  fill="white"
-                  transform="translate(16 16)"
-               />
+               <rect width="24" height="24" fill="white" transform="translate(16 16)" />
             </clipPath>
          </defs>
       </svg>
    );
 
-export const ProductivePlanWithBgIcon = ({
-   isSelected,
-}: {
-   isSelected?: boolean;
-}) =>
+export const ProductivePlanWithBgIcon = ({ isSelected }: { isSelected?: boolean }) =>
    isSelected ? (
-      <svg
-         width="56"
-         height="56"
-         viewBox="0 0 56 56"
-         fill="none"
-         xmlns="http://www.w3.org/2000/svg"
-      >
+      <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
          <path
             d="M0 28C0 12.536 12.536 0 28 0C43.464 0 56 12.536 56 28C56 43.464 43.464 56 28 56C12.536 56 0 43.464 0 28Z"
             fill="#FF8E8E"
@@ -3420,13 +2391,7 @@ export const ProductivePlanWithBgIcon = ({
          />
       </svg>
    ) : (
-      <svg
-         width="56"
-         height="56"
-         viewBox="0 0 56 56"
-         fill="none"
-         xmlns="http://www.w3.org/2000/svg"
-      >
+      <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
          <path
             d="M0 28C0 12.536 12.536 0 28 0C43.464 0 56 12.536 56 28C56 43.464 43.464 56 28 56C12.536 56 0 43.464 0 28Z"
             fill="#F7F7F7"
@@ -3490,16 +2455,16 @@ export const ConfigurationIcon = (props: any) => (
          fill-rule="evenodd"
          clip-rule="evenodd"
          d="M9.40579 6.78223C11.1163 6.78223 12.5029 8.16886 12.5029 9.87937C12.5029 11.5899 11.1163 12.9765 9.40579 12.9765C7.69526 12.9765 6.30865 11.5899 6.30865 9.87937C6.30865 8.16886 7.69526 6.78223 9.40579 6.78223ZM11.2641 9.87937C11.2641 8.8531 10.4321 8.02108 9.40579 8.02108C8.37952 8.02108 7.5475 8.8531 7.5475 9.87937C7.5475 10.9056 8.37952 11.7377 9.40579 11.7377C10.4321 11.7377 11.2641 10.9056 11.2641 9.87937Z"
-         fill={props.color ?? "#FF0000"}
-         stroke={props.color ?? "#FF0000"}
+         fill={props.color ?? '#FF0000'}
+         stroke={props.color ?? '#FF0000'}
          stroke-width="0.2"
       />
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
          d="M9.42715 1C9.79419 0.999992 10.1007 0.999992 10.3523 1.01715C10.6141 1.03503 10.8615 1.07355 11.1013 1.17289C11.6578 1.40341 12.1 1.84555 12.3305 2.40207C12.4505 2.6918 12.483 2.99714 12.4954 3.32902C12.5054 3.59581 12.6401 3.81841 12.8388 3.93313C13.0375 4.04784 13.2975 4.05315 13.5336 3.92839C13.8272 3.7732 14.1079 3.64867 14.4188 3.60774C15.016 3.52911 15.62 3.69095 16.0979 4.05766C16.3039 4.21568 16.4609 4.41066 16.6073 4.62853C16.748 4.83782 16.9012 5.10322 17.0847 5.42113L17.1056 5.45725C17.2891 5.77515 17.4424 6.04053 17.5533 6.26698C17.6688 6.50273 17.7591 6.73623 17.793 6.9936C17.8716 7.59082 17.7098 8.1948 17.3431 8.67274C17.1522 8.92142 16.904 9.10229 16.6229 9.27895C16.3968 9.42101 16.2713 9.64896 16.2713 9.87847C16.2713 10.1079 16.3968 10.3359 16.6229 10.4779C16.9041 10.6546 17.1522 10.8355 17.3431 11.0842C17.7098 11.5621 17.8717 12.1661 17.7931 12.7633C17.7592 13.0206 17.6688 13.2542 17.5534 13.4899C17.4425 13.7164 17.2892 13.9817 17.1057 14.2996L17.0848 14.3358C16.9013 14.6537 16.7481 14.9191 16.6074 15.1283C16.461 15.3462 16.3039 15.5412 16.098 15.6992C15.6201 16.0659 15.0161 16.2278 14.4189 16.1492C14.108 16.1082 13.8273 15.9837 13.5337 15.8285C13.2976 15.7037 13.0375 15.709 12.8388 15.8238C12.6401 15.9386 12.5054 16.1611 12.4954 16.428C12.483 16.7598 12.4505 17.0652 12.3305 17.3549C12.1 17.9114 11.6578 18.3536 11.1013 18.5841C10.8615 18.6834 10.6141 18.7219 10.3523 18.7398C10.1007 18.757 9.79419 18.7569 9.42715 18.7569H9.38545C9.01833 18.7569 8.71192 18.757 8.46027 18.7398C8.19837 18.7219 7.95102 18.6834 7.71117 18.5841C7.15468 18.3536 6.71249 17.9114 6.48198 17.3549C6.36197 17.0652 6.32952 16.7598 6.31713 16.4279C6.30713 16.1611 6.17251 15.9385 5.9738 15.8237C5.77509 15.709 5.51493 15.7037 5.27888 15.8285C4.98527 15.9836 4.70463 16.1082 4.39368 16.1491C3.79647 16.2277 3.19248 16.0659 2.71461 15.6992C2.50863 15.5411 2.35163 15.3462 2.2052 15.1283C2.06454 14.9191 1.91134 14.6537 1.72782 14.3358L1.70693 14.2996C1.52341 13.9817 1.37012 13.7163 1.2592 13.4898C1.14374 13.2541 1.05347 13.0206 1.01953 12.7633C0.940901 12.166 1.10278 11.562 1.46948 11.0841C1.66035 10.8354 1.90853 10.6546 2.18967 10.4779C2.4158 10.3359 2.54126 10.1079 2.54126 9.87839C2.54126 9.64896 2.4158 9.42109 2.18975 9.27903C1.90845 9.10237 1.66026 8.92158 1.4694 8.67274C1.1027 8.19486 0.940819 7.59088 1.01945 6.99366C1.05339 6.73629 1.14366 6.50279 1.25912 6.26704C1.37004 6.0406 1.52325 5.77524 1.70685 5.45737L1.72766 5.42122C1.91126 5.1033 2.06446 4.83788 2.20511 4.62859C2.35155 4.41071 2.50855 4.21574 2.71453 4.05771C3.1924 3.69101 3.79638 3.52917 4.39368 3.60779C4.70455 3.64873 4.98519 3.77324 5.2788 3.92843C5.51484 4.0532 5.77501 4.04789 5.97372 3.93315C6.17243 3.81842 6.30713 3.59579 6.31713 3.32898C6.32952 2.9971 6.36197 2.69178 6.48198 2.40207C6.71249 1.84555 7.15468 1.40341 7.71117 1.17289C7.95102 1.07355 8.19837 1.03503 8.46027 1.01715C8.71192 0.999992 9.01833 0.999992 9.38545 1H9.42715ZM10.6273 2.31744C10.5635 2.29105 10.4667 2.26671 10.2679 2.25314C10.0635 2.2392 9.79955 2.23886 9.40626 2.23886C9.01296 2.23886 8.749 2.2392 8.54468 2.25314C8.3458 2.26671 8.249 2.29105 8.18532 2.31744C7.93235 2.42222 7.73132 2.6232 7.6266 2.87617C7.59348 2.95596 7.56614 3.08035 7.55508 3.37528C7.53063 4.02971 7.19283 4.65982 6.59315 5.00603C5.99354 5.35225 5.27888 5.32972 4.69992 5.02371C4.43902 4.8858 4.31753 4.84733 4.23197 4.83605C3.96049 4.80032 3.68596 4.87388 3.46875 5.04056C3.41399 5.08255 3.34453 5.15421 3.23337 5.31961C3.11906 5.48964 2.98683 5.71806 2.79018 6.05867C2.59354 6.39928 2.4618 6.62803 2.3717 6.812C2.28407 6.99096 2.25673 7.08698 2.24773 7.15536C2.21197 7.42682 2.28556 7.70136 2.45222 7.91859C2.50483 7.98711 2.59882 8.07304 2.84882 8.23005C3.40325 8.5785 3.78003 9.18604 3.78011 9.87839C3.78011 10.5708 3.40334 11.1784 2.84882 11.5269C2.59891 11.6839 2.50492 11.7698 2.45231 11.8383C2.28564 12.0556 2.21205 12.3301 2.24781 12.6016C2.25681 12.6699 2.28415 12.7659 2.37178 12.9449C2.46189 13.1288 2.59362 13.3576 2.79027 13.6982C2.98692 14.0388 3.11914 14.2672 3.23345 14.4373C3.34461 14.6026 3.41407 14.6743 3.46883 14.7163C3.68604 14.883 3.96057 14.9565 4.23205 14.9209C4.31761 14.9096 4.4391 14.8711 4.70001 14.7332C5.27897 14.4271 5.99362 14.4047 6.59331 14.7509C7.19283 15.0971 7.53063 15.7272 7.55508 16.3816C7.56614 16.6766 7.59348 16.801 7.6266 16.8808C7.73132 17.1337 7.93235 17.3347 8.18532 17.4395C8.249 17.4659 8.3458 17.4903 8.54468 17.5038C8.749 17.5178 9.01296 17.5181 9.40626 17.5181C9.79955 17.5181 10.0635 17.5178 10.2679 17.5038C10.4667 17.4903 10.5635 17.4659 10.6273 17.4395C10.8802 17.3347 11.0812 17.1337 11.186 16.8808C11.219 16.801 11.2464 16.6766 11.2574 16.3816C11.2819 15.7273 11.6197 15.0971 12.2194 14.7509C12.819 14.4047 13.5336 14.4272 14.1126 14.7332C14.3735 14.8712 14.495 14.9096 14.5806 14.9209C14.8521 14.9566 15.1266 14.883 15.3438 14.7164C15.3985 14.6744 15.468 14.6027 15.5792 14.4373C15.6934 14.2673 15.8257 14.0389 16.0224 13.6983C16.219 13.3577 16.3507 13.1289 16.4408 12.945C16.5285 12.766 16.5558 12.6699 16.5648 12.6016C16.6005 12.3301 16.527 12.0556 16.3603 11.8383C16.3077 11.7699 16.2137 11.6839 15.9638 11.5269C15.4093 11.1785 15.0325 10.5709 15.0324 9.87856C15.0324 9.18604 15.4092 8.57842 15.9638 8.22997C16.2136 8.07296 16.3076 7.98705 16.3602 7.91853C16.5269 7.70131 16.6005 7.42677 16.5647 7.1553C16.5557 7.08693 16.5284 6.99091 16.4407 6.81195C16.3506 6.62797 16.2189 6.39922 16.0223 6.05861C15.8256 5.71801 15.6934 5.48958 15.5791 5.31956C15.4679 5.15416 15.3985 5.08249 15.3437 5.04051C15.1265 4.87382 14.852 4.80026 14.5805 4.836C14.4949 4.84727 14.3734 4.88574 14.1125 5.02368C13.5335 5.32968 12.819 5.3522 12.2193 5.00601C11.6197 4.65982 11.2819 4.02972 11.2574 3.37532C11.2464 3.08036 11.219 2.95597 11.186 2.87617C11.0812 2.6232 10.8802 2.42222 10.6273 2.31744Z"
-         fill={props.color ?? "#FF0000"}
-         stroke={props.color ?? "#FF0000"}
+         fill={props.color ?? '#FF0000'}
+         stroke={props.color ?? '#FF0000'}
          stroke-width="0.2"
       />
    </svg>
@@ -3540,12 +2505,7 @@ export const Check1Icon = () => (
 );
 
 export const ExclamationWithBgIcon = (props: any) => (
-   <svg
-      viewBox="0 0 30 30"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-      {...props}
-   >
+   <svg viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
       <path
          d="M9.99976 0C8.02195 0 6.08855 0.58649 4.44406 1.6853C2.79957 2.78412 1.51784 4.3459 0.760965 6.17316C0.00408874 8.00042 -0.193945 10.0111 0.191908 11.9509C0.57776 13.8907 1.53017 15.6725 2.92869 17.0711C4.32722 18.4696 6.10905 19.422 8.04885 19.8078C9.98866 20.1937 11.9993 19.9957 13.8266 19.2388C15.6539 18.4819 17.2156 17.2002 18.3145 15.5557C19.4133 13.9112 19.9998 11.9778 19.9998 10C19.9933 7.34982 18.9376 4.81004 17.0637 2.93607C15.1897 1.06211 12.6499 0.0064635 9.99976 0ZM9.16633 5.33395C9.16633 5.09081 9.26292 4.85763 9.43484 4.6857C9.60677 4.51377 9.83996 4.41718 10.0831 4.41718C10.3262 4.41718 10.5594 4.51377 10.7314 4.6857C10.9033 4.85763 10.9999 5.09081 10.9999 5.33395V11.3335C10.9622 11.5699 10.84 11.7846 10.6562 11.9378C10.4723 12.091 10.2391 12.1724 9.99976 12.1669C9.75785 12.1418 9.53533 12.0232 9.37963 11.8364C9.22394 11.6495 9.1474 11.4093 9.16633 11.1668V5.33395ZM10.0825 15.7512C9.83548 15.751 9.59405 15.6776 9.38874 15.5402C9.18343 15.4028 9.02345 15.2076 8.92902 14.9793C8.83458 14.7511 8.80994 14.4999 8.85819 14.2576C8.90644 14.0153 9.02543 13.7928 9.20011 13.6181C9.37479 13.4434 9.59734 13.3244 9.83962 13.2762C10.0819 13.2279 10.3331 13.2526 10.5613 13.347C10.7896 13.4415 10.9848 13.6014 11.1222 13.8067C11.2596 14.0121 11.333 14.2535 11.3332 14.5005C11.3362 14.6654 11.306 14.8293 11.2442 14.9822C11.1825 15.1352 11.0906 15.2741 10.9739 15.3908C10.8573 15.5074 10.7184 15.5994 10.5654 15.6611C10.4124 15.7228 10.2486 15.7531 10.0837 15.7501L10.0825 15.7512Z"
          fill="#FFD144"
@@ -3554,12 +2514,7 @@ export const ExclamationWithBgIcon = (props: any) => (
 );
 
 export const DeleteWithBgIcon = (props: any) => (
-   <svg
-      viewBox="0 0 30 30"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-      {...props}
-   >
+   <svg viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
@@ -3570,12 +2525,7 @@ export const DeleteWithBgIcon = (props: any) => (
 );
 
 export const CheckWithBgIcon = (props: any) => (
-   <svg
-      viewBox="0 0 30 30"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-      {...props}
-   >
+   <svg viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
@@ -3586,545 +2536,465 @@ export const CheckWithBgIcon = (props: any) => (
 );
 
 export const SideBarDashBoardIcon = (props: any) => (
-   <svg
-      viewBox="0 0 16 16"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-      {...props}
-   >
+   <svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
          d="M0.740005 15.4419C0.740005 15.1336 0.990037 14.8837 1.29847 14.8837H14.7015C15.01 14.8837 15.26 15.1336 15.26 15.4419C15.26 15.7501 15.01 16 14.7015 16H1.29847C0.990037 16 0.740005 15.7501 0.740005 15.4419Z"
-         fill={props.color ?? "#7A7A7A"}
+         fill={props.color ?? '#7A7A7A'}
       />
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
          d="M0.740005 6.05014C0.740005 5.33259 1.32511 4.74782 2.04308 4.74782H3.23445C3.95242 4.74782 4.53753 5.33259 4.53753 6.05014V12.465C4.53753 13.1826 3.95242 13.7674 3.23445 13.7674H2.04308C1.32511 13.7674 0.740005 13.1826 0.740005 12.465V6.05014ZM2.04308 5.8641C1.94197 5.8641 1.85693 5.94909 1.85693 6.05014V12.465C1.85693 12.5661 1.94197 12.6511 2.04308 12.6511H3.23445C3.33556 12.6511 3.42061 12.5661 3.42061 12.465V6.05014C3.42061 5.94909 3.33556 5.8641 3.23445 5.8641H2.04308Z"
-         fill={props.color ?? "#7A7A7A"}
+         fill={props.color ?? '#7A7A7A'}
       />
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
          d="M6.10124 3.67623C6.10124 2.95868 6.68634 2.37391 7.40431 2.37391H8.59562C9.31359 2.37391 9.8987 2.95868 9.8987 3.67623V12.465C9.8987 13.1826 9.31359 13.7674 8.59562 13.7674H7.40431C6.68634 13.7674 6.10124 13.1826 6.10124 12.465V3.67623ZM7.40431 3.49019C7.3032 3.49019 7.21816 3.57518 7.21816 3.67623V12.465C7.21816 12.5661 7.3032 12.6511 7.40431 12.6511H8.59562C8.69673 12.6511 8.78178 12.5661 8.78178 12.465V3.67623C8.78178 3.57518 8.69673 3.49019 8.59562 3.49019H7.40431Z"
-         fill={props.color ?? "#7A7A7A"}
+         fill={props.color ?? '#7A7A7A'}
       />
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
          d="M11.4624 1.30233C11.4624 0.584771 12.0475 0 12.7655 0H13.9569C14.6748 0 15.2599 0.584771 15.2599 1.30233V12.4651C15.2599 13.1827 14.6748 13.7674 13.9569 13.7674H12.7655C12.0475 13.7674 11.4624 13.1827 11.4624 12.4651V1.30233ZM12.7655 1.11628C12.6644 1.11628 12.5793 1.20128 12.5793 1.30233V12.4651C12.5793 12.5662 12.6644 12.6512 12.7655 12.6512H13.9569C14.058 12.6512 14.143 12.5662 14.143 12.4651V1.30233C14.143 1.20128 14.058 1.11628 13.9569 1.11628H12.7655Z"
-         fill={props.color ?? "#7A7A7A"}
+         fill={props.color ?? '#7A7A7A'}
       />
    </svg>
 );
 
 export const SideBarTimeLineIcon = (props: any) => (
-   <svg
-      width="16"
-      height="17"
-      viewBox="0 0 16 17"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-   >
+   <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
          d="M8 1.34284C4.20035 1.34284 1.11628 4.42691 1.11628 8.22656C1.11628 12.0262 4.20035 15.1103 8 15.1103C11.7997 15.1103 14.8837 12.0262 14.8837 8.22656C14.8837 4.42691 11.7997 1.34284 8 1.34284ZM0 8.22656C0 3.8104 3.58384 0.226562 8 0.226562C12.4162 0.226562 16 3.8104 16 8.22656C16 12.6427 12.4162 16.2266 8 16.2266C3.58384 16.2266 0 12.6427 0 8.22656Z"
-         fill={props.color ?? "#A3A3A3"}
+         fill={props.color ?? '#A3A3A3'}
       />
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
          d="M7.72465 4.32703C8.0329 4.32703 8.28279 4.57692 8.28279 4.88517V7.93633C8.28279 8.0506 8.32642 8.21622 8.42344 8.38635C8.52049 8.55651 8.64075 8.67824 8.73849 8.73617L8.73998 8.73705L11.047 10.1138C11.3117 10.2718 11.3982 10.6144 11.2402 10.8791C11.0822 11.1438 10.7396 11.2303 10.4749 11.0724L8.16941 9.69649C8.16914 9.69633 8.16886 9.69617 8.16859 9.696C7.86486 9.51577 7.62076 9.23216 7.45376 8.93934C7.2866 8.64621 7.16651 8.2909 7.16651 7.93633V4.88517C7.16651 4.57692 7.4164 4.32703 7.72465 4.32703Z"
-         fill={props.color ?? "#A3A3A3"}
+         fill={props.color ?? '#A3A3A3'}
       />
    </svg>
 );
 
 export const SideBarAnalyticsIcon = (props: any) => (
-   <svg
-      width="16"
-      height="17"
-      viewBox="0 0 16 17"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-   >
+   <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
          d="M2.04651 1.34284C1.53616 1.34284 1.11628 1.76272 1.11628 2.27307V3.76145C1.11628 4.2718 1.53616 4.69168 2.04651 4.69168H4.27907C4.78942 4.69168 5.2093 4.2718 5.2093 3.76145V2.27307C5.2093 1.76272 4.78942 1.34284 4.27907 1.34284H2.04651ZM0 2.27307C0 1.14622 0.919655 0.226562 2.04651 0.226562H4.27907C5.40593 0.226562 6.32558 1.14622 6.32558 2.27307V3.76145C6.32558 4.8883 5.40593 5.80796 4.27907 5.80796H2.04651C0.919655 5.80796 0 4.8883 0 3.76145V2.27307Z"
-         fill={props.color ?? "#A3A3A3"}
+         fill={props.color ?? '#A3A3A3'}
       />
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
          d="M11.8698 2.08703C11.6869 2.08703 11.5349 2.239 11.5349 2.42192V3.6126C11.5349 3.79552 11.6869 3.94749 11.8698 3.94749H14.5488C14.7317 3.94749 14.8837 3.79552 14.8837 3.6126V2.42192C14.8837 2.239 14.7317 2.08703 14.5488 2.08703H11.8698ZM10.4186 2.42192C10.4186 1.62251 11.0703 0.970749 11.8698 0.970749H14.5488C15.3483 0.970749 16 1.62251 16 2.42192V3.6126C16 4.41201 15.3483 5.06377 14.5488 5.06377H11.8698C11.0703 5.06377 10.4186 4.41201 10.4186 3.6126V2.42192Z"
-         fill={props.color ?? "#A3A3A3"}
+         fill={props.color ?? '#A3A3A3'}
       />
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
          d="M11.8698 7.66842C11.6869 7.66842 11.5349 7.8204 11.5349 8.00331V9.19401C11.5349 9.37691 11.6869 9.52889 11.8698 9.52889H14.5488C14.7317 9.52889 14.8837 9.37691 14.8837 9.19401V8.00331C14.8837 7.8204 14.7317 7.66842 14.5488 7.66842H11.8698ZM10.4186 8.00331C10.4186 7.20389 11.0704 6.55214 11.8698 6.55214H14.5488C15.3483 6.55214 16 7.20389 16 8.00331V9.19401C16 9.99342 15.3483 10.6452 14.5488 10.6452H11.8698C11.0704 10.6452 10.4186 9.99342 10.4186 9.19401V8.00331Z"
-         fill={props.color ?? "#A3A3A3"}
+         fill={props.color ?? '#A3A3A3'}
       />
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
          d="M5.2093 3.01726C5.2093 2.70901 5.45919 2.45912 5.76744 2.45912H10.9767C11.285 2.45912 11.5349 2.70901 11.5349 3.01726C11.5349 3.32551 11.285 3.5754 10.9767 3.5754H5.76744C5.45919 3.5754 5.2093 3.32551 5.2093 3.01726Z"
-         fill={props.color ?? "#A3A3A3"}
+         fill={props.color ?? '#A3A3A3'}
       />
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
          d="M8.37209 2.45912C8.68034 2.45912 8.93023 2.70901 8.93023 3.01726V12.6917C8.93023 13.202 9.35011 13.6219 9.86047 13.6219H10.9767C11.285 13.6219 11.5349 13.8718 11.5349 14.1801C11.5349 14.4883 11.285 14.7382 10.9767 14.7382H9.86047C8.73361 14.7382 7.81395 13.8185 7.81395 12.6917V3.01726C7.81395 2.70901 8.06384 2.45912 8.37209 2.45912Z"
-         fill={props.color ?? "#A3A3A3"}
+         fill={props.color ?? '#A3A3A3'}
       />
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
          d="M7.81395 8.59866C7.81395 8.2904 8.06384 8.04052 8.37209 8.04052H10.9767C11.285 8.04052 11.5349 8.2904 11.5349 8.59866C11.5349 8.90691 11.285 9.15679 10.9767 9.15679H8.37209C8.06384 9.15679 7.81395 8.90691 7.81395 8.59866Z"
-         fill={props.color ?? "#A3A3A3"}
+         fill={props.color ?? '#A3A3A3'}
       />
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
          d="M11.8698 13.2498C11.6869 13.2498 11.5349 13.4018 11.5349 13.5847V14.7754C11.5349 14.9583 11.6869 15.1103 11.8698 15.1103H14.5488C14.7317 15.1103 14.8837 14.9583 14.8837 14.7754V13.5847C14.8837 13.4018 14.7317 13.2498 14.5488 13.2498H11.8698ZM10.4186 13.5847C10.4186 12.7853 11.0704 12.1335 11.8698 12.1335H14.5488C15.3483 12.1335 16 12.7853 16 13.5847V14.7754C16 15.5748 15.3483 16.2266 14.5488 16.2266H11.8698C11.0704 16.2266 10.4186 15.5748 10.4186 14.7754V13.5847Z"
-         fill={props.color ?? "#A3A3A3"}
+         fill={props.color ?? '#A3A3A3'}
       />
    </svg>
 );
 
 export const SideBarClientIcon = (props: any) => (
-   <svg
-      viewBox="0 0 14 16"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-      {...props}
-   >
+   <svg viewBox="0 0 14 16" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
          d="M7.01769 0.116699C5.09392 0.116699 3.53438 1.67624 3.53438 3.60003C3.53438 5.52382 5.09392 7.08337 7.01769 7.08337C8.94152 7.08337 10.501 5.52382 10.501 3.60003C10.501 1.67624 8.94152 0.116699 7.01769 0.116699ZM4.63438 3.60003C4.63438 2.28375 5.70143 1.2167 7.01769 1.2167C8.33403 1.2167 9.40103 2.28375 9.40103 3.60003C9.40103 4.91631 8.33403 5.98337 7.01769 5.98337C5.70143 5.98337 4.63438 4.91631 4.63438 3.60003Z"
-         fill={props.color ?? "#7A7A7A"}
+         fill={props.color ?? '#7A7A7A'}
       />
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
          d="M7.01675 8.1833C5.32016 8.1833 3.75705 8.56896 2.59876 9.22045C1.45773 9.86234 0.6001 10.8351 0.6001 12.0333L0.600056 12.1081C0.599227 12.9601 0.598186 14.0294 1.53614 14.7932C1.99775 15.1691 2.64352 15.4364 3.51599 15.6131C4.3909 15.7901 5.5312 15.8833 7.01675 15.8833C8.50233 15.8833 9.64266 15.7901 10.5175 15.6131C11.3901 15.4364 12.0358 15.1691 12.4974 14.7932C13.4353 14.0294 13.4343 12.9601 13.4335 12.1081L13.4334 12.0333C13.4334 10.8351 12.5759 9.86234 11.4348 9.22045C10.2765 8.56896 8.71339 8.1833 7.01675 8.1833ZM1.7001 12.0333C1.7001 11.409 2.15578 10.7317 3.13806 10.1792C4.10309 9.6364 5.47331 9.2833 7.01675 9.2833C8.56026 9.2833 9.93043 9.6364 10.8955 10.1792C11.8778 10.7317 12.3334 11.409 12.3334 12.0333C12.3334 12.9924 12.3039 13.5322 11.8028 13.9403C11.5311 14.1616 11.0768 14.3775 10.2993 14.5349C9.52423 14.6918 8.46457 14.7833 7.01675 14.7833C5.569 14.7833 4.50931 14.6918 3.73422 14.5349C2.95669 14.3775 2.50245 14.1616 2.23073 13.9403C1.72967 13.5322 1.7001 12.9924 1.7001 12.0333Z"
-         fill={props.color ?? "#7A7A7A"}
+         fill={props.color ?? '#7A7A7A'}
       />
    </svg>
 );
 
 export const SideBarServiceUnitIcon = (props: any) => (
-   <svg
-      viewBox="0 0 16 16"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-      {...props}
-   >
+   <svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
          d="M0 15.242C0 14.9339 0.249888 14.6841 0.55814 14.6841H15.4419C15.7501 14.6841 16 14.9339 16 15.242C16 15.5502 15.7501 15.8 15.4419 15.8H0.55814C0.249888 15.8 0 15.5502 0 15.242Z"
-         fill={props.color ?? "#7A7A7A"}
+         fill={props.color ?? '#7A7A7A'}
       />
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
          d="M7.42747 1.51063C7.42742 1.51067 7.42737 1.51071 7.42732 1.51075L2.22016 5.56343C1.99275 5.74417 1.86043 6.01612 1.86043 6.29263L1.86042 6.29495L1.82321 15.2443L0.706944 15.2397L0.744149 6.29263C0.744149 6.29222 0.744149 6.2918 0.744149 6.29139C0.744542 5.66143 1.04316 5.07165 1.52887 4.68726C1.53005 4.68633 1.53124 4.6854 1.53243 4.68447L6.74199 0.629927C7.48073 0.0555557 8.51281 0.0584548 9.25507 0.627651C9.25599 0.628362 9.25692 0.629075 9.25784 0.629791L14.4667 4.67637C14.9697 5.06631 15.2558 5.66152 15.2558 6.29263V15.242H14.1395V6.29263C14.1395 6.00128 14.0089 5.73361 13.7826 5.55816L13.7822 5.55782L8.57563 1.51303C8.57522 1.51271 8.57481 1.5124 8.5744 1.51209C8.23033 1.2491 7.76001 1.25224 7.42753 1.51058L7.42747 1.51063Z"
-         fill={props.color ?? "#7A7A7A"}
+         fill={props.color ?? '#7A7A7A'}
       />
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
          d="M3.72093 8.17476C3.72093 7.24917 4.46942 6.50094 5.39535 6.50094H10.6047C11.5306 6.50094 12.2791 7.24917 12.2791 8.17476V15.242C12.2791 15.5502 12.0292 15.8 11.7209 15.8H4.27907C3.97082 15.8 3.72093 15.5502 3.72093 15.242V8.17476ZM5.39535 7.61682C5.08593 7.61682 4.83721 7.86545 4.83721 8.17476V14.6841H11.1628V8.17476C11.1628 7.86545 10.9141 7.61682 10.6047 7.61682H5.39535Z"
-         fill={props.color ?? "#7A7A7A"}
+         fill={props.color ?? '#7A7A7A'}
       />
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
          d="M6.51163 10.4065C6.81988 10.4065 7.06977 10.6563 7.06977 10.9645V12.0803C7.06977 12.3885 6.81988 12.6383 6.51163 12.6383C6.20338 12.6383 5.95349 12.3885 5.95349 12.0803V10.9645C5.95349 10.6563 6.20338 10.4065 6.51163 10.4065Z"
-         fill={props.color ?? "#7A7A7A"}
+         fill={props.color ?? '#7A7A7A'}
       />
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
          d="M6.32558 4.45516C6.32558 4.14701 6.57547 3.89722 6.88372 3.89722H9.11628C9.42453 3.89722 9.67442 4.14701 9.67442 4.45516C9.67442 4.7633 9.42453 5.0131 9.11628 5.0131H6.88372C6.57547 5.0131 6.32558 4.7633 6.32558 4.45516Z"
-         fill={props.color ?? "#7A7A7A"}
+         fill={props.color ?? '#7A7A7A'}
       />
    </svg>
 );
 
 export const SideBarFactoryIcon = (props: any) => (
-   <svg
-      viewBox="0 0 16 16"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-      {...props}
-   >
+   <svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
          d="M0.240005 15.4582C0.240005 15.159 0.482396 14.9165 0.781401 14.9165H15.2186C15.5176 14.9165 15.76 15.159 15.76 15.4582C15.76 15.7574 15.5176 16 15.2186 16H0.781401C0.482396 16 0.240005 15.7574 0.240005 15.4582Z"
-         fill={props.color ?? "#7A7A7A"}
+         fill={props.color ?? '#7A7A7A'}
       />
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
          d="M7.44465 2.12507C7.4446 2.1251 7.44455 2.12514 7.4445 2.12518L2.39356 6.06033C2.17298 6.23583 2.04462 6.49989 2.04462 6.76839L2.04462 6.77064L2.00852 15.4605L0.925741 15.456L0.96183 6.76839C0.96183 6.76799 0.96183 6.76758 0.96183 6.76718C0.962211 6.15549 1.25187 5.58282 1.72301 5.20957C1.72416 5.20867 1.72531 5.20776 1.72646 5.20686L6.77973 1.2699C7.49631 0.712184 8.49736 0.714999 9.21735 1.26769C9.21825 1.26838 9.21914 1.26907 9.22003 1.26976L14.2727 5.199C14.2727 5.19903 14.2728 5.19905 14.2728 5.19908C14.7606 5.57771 15.0381 6.15562 15.0381 6.76839V15.4582H13.9554V6.76839C13.9554 6.48549 13.8287 6.22557 13.6091 6.05522L13.6087 6.05488L8.5583 2.12739C8.55791 2.12709 8.55752 2.12679 8.55713 2.12649C8.22337 1.87111 7.76722 1.87416 7.44471 2.12502L7.44465 2.12507Z"
-         fill={props.color ?? "#7A7A7A"}
+         fill={props.color ?? '#7A7A7A'}
       />
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
          d="M5.65396 12.93C5.65396 12.0313 6.38 11.3047 7.27814 11.3047H8.72187C9.62001 11.3047 10.3461 12.0313 10.3461 12.93V15.4582C10.3461 15.7574 10.1037 16 9.80466 16H6.19535C5.89635 16 5.65396 15.7574 5.65396 15.4582V12.93ZM7.27814 12.3883C6.978 12.3883 6.73675 12.6297 6.73675 12.93V14.9165H9.26326V12.93C9.26326 12.6297 9.02201 12.3883 8.72187 12.3883H7.27814Z"
-         fill={props.color ?? "#7A7A7A"}
+         fill={props.color ?? '#7A7A7A'}
       />
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
          d="M4.75163 7.51241C4.65361 7.51241 4.57117 7.59492 4.57117 7.693V8.77652C4.57117 8.87461 4.65361 8.95711 4.75163 8.95711H6.19535C6.29337 8.95711 6.37582 8.87461 6.37582 8.77652V7.693C6.37582 7.59492 6.29337 7.51241 6.19535 7.51241H4.75163ZM3.48838 7.693C3.48838 6.9965 4.05561 6.42889 4.75163 6.42889H6.19535C6.89138 6.42889 7.45861 6.9965 7.45861 7.693V8.77652C7.45861 9.47302 6.89138 10.0406 6.19535 10.0406H4.75163C4.05561 10.0406 3.48838 9.47302 3.48838 8.77652V7.693Z"
-         fill={props.color ?? "#7A7A7A"}
+         fill={props.color ?? '#7A7A7A'}
       />
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
          d="M9.80466 7.51241C9.70664 7.51241 9.62419 7.59492 9.62419 7.693V8.77652C9.62419 8.87461 9.70664 8.95711 9.80466 8.95711H11.2484C11.3464 8.95711 11.4288 8.87461 11.4288 8.77652V7.693C11.4288 7.59492 11.3464 7.51241 11.2484 7.51241H9.80466ZM8.5414 7.693C8.5414 6.9965 9.10863 6.42889 9.80466 6.42889H11.2484C11.9444 6.42889 12.5116 6.9965 12.5116 7.693V8.77652C12.5116 9.47302 11.9444 10.0406 11.2484 10.0406H9.80466C9.10863 10.0406 8.5414 9.47302 8.5414 8.77652V7.693Z"
-         fill={props.color ?? "#7A7A7A"}
+         fill={props.color ?? '#7A7A7A'}
       />
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
          d="M11.5732 4.28352C11.2742 4.28352 11.0318 4.04097 11.0318 3.74176V0.563431C11.0318 0.266338 11.2709 0.0246682 11.5678 0.0216975L13.7334 2.8012e-05C14.0324 -0.00296385 14.2772 0.237153 14.2802 0.536345C14.2832 0.835536 14.0432 1.0805 13.7442 1.0835L12.1146 1.0998V3.74176C12.1146 4.04097 11.8722 4.28352 11.5732 4.28352Z"
-         fill={props.color ?? "#7A7A7A"}
+         fill={props.color ?? '#7A7A7A'}
       />
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
          d="M13.7388 0C14.0378 1.30787e-08 14.2802 0.242555 14.2802 0.541761V5.45372L13.1974 4.91735V0.541761C13.1974 0.242554 13.4398 -1.30787e-08 13.7388 0Z"
-         fill={props.color ?? "#7A7A7A"}
+         fill={props.color ?? '#7A7A7A'}
       />
    </svg>
 );
 
 export const SideBarDistribuctionCenterIcon = (props: any) => (
-   <svg
-      viewBox="0 0 16 16"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-      {...props}
-   >
+   <svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
          d="M0.059967 15.4278C0.059967 15.1117 0.309855 14.8555 0.618107 14.8555H15.5018C15.8101 14.8555 16.06 15.1117 16.06 15.4278C16.06 15.7438 15.8101 16 15.5018 16H0.618107C0.309855 16 0.059967 15.7438 0.059967 15.4278Z"
-         fill={props.color ?? "#7A7A7A"}
+         fill={props.color ?? '#7A7A7A'}
       />
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
          d="M7.48743 1.34429C7.48738 1.34433 7.48733 1.34437 7.48728 1.34441L2.28013 5.501C2.05272 5.68638 1.9204 5.9653 1.9204 6.24891L1.92039 6.25128L1.88318 15.4301L0.766911 15.4254L0.804116 6.24891C0.804116 6.24848 0.804116 6.24805 0.804116 6.24763C0.804509 5.60152 1.10312 4.99662 1.58884 4.60237C1.59002 4.60141 1.59121 4.60046 1.5924 4.59951L6.80195 0.441001C7.54069 -0.148098 8.57278 -0.145124 9.31503 0.438667C9.31596 0.439395 9.31688 0.440127 9.31781 0.440862L14.5267 4.5912C15.0297 4.99114 15.3158 5.60161 15.3158 6.24891V15.4278H14.1995V6.24891C14.1995 5.95009 14.0689 5.67554 13.8426 5.4956L13.8421 5.49525L8.6356 1.34674C8.63519 1.34642 8.63478 1.3461 8.63437 1.34578C8.29029 1.07605 7.81998 1.07927 7.4875 1.34424L7.48743 1.34429Z"
-         fill={props.color ?? "#7A7A7A"}
+         fill={props.color ?? '#7A7A7A'}
       />
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
          d="M3.7809 8.17929C3.7809 7.22996 4.52939 6.46255 5.45532 6.46255H10.6646C11.5905 6.46255 12.339 7.22996 12.339 8.17929V15.4278C12.339 15.7438 12.0892 16 11.7809 16H4.33904C4.03078 16 3.7809 15.7438 3.7809 15.4278V8.17929ZM5.45532 7.60705C5.14589 7.60705 4.89718 7.86205 4.89718 8.17929V14.8555H11.2228V8.17929C11.2228 7.86205 10.974 7.60705 10.6646 7.60705H5.45532Z"
-         fill={props.color ?? "#7A7A7A"}
+         fill={props.color ?? '#7A7A7A'}
       />
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
          d="M10.2702 10.247C10.2702 10.5631 10.0203 10.8193 9.71206 10.8193H6.36322C6.05497 10.8193 5.80508 10.5631 5.80508 10.247C5.80508 9.93097 6.05497 9.67476 6.36322 9.67476H9.71206C10.0203 9.67476 10.2702 9.93097 10.2702 10.247Z"
-         fill={props.color ?? "#7A7A7A"}
+         fill={props.color ?? '#7A7A7A'}
       />
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
          d="M10.2702 12.536C10.2702 12.852 10.0203 13.1082 9.71206 13.1082H6.36322C6.05497 13.1082 5.80508 12.852 5.80508 12.536C5.80508 12.22 6.05497 11.9638 6.36322 11.9638H9.71206C10.0203 11.9638 10.2702 12.22 10.2702 12.536Z"
-         fill={props.color ?? "#7A7A7A"}
+         fill={props.color ?? '#7A7A7A'}
       />
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
          d="M6.38555 4.36431C6.38555 4.04827 6.63544 3.79207 6.94369 3.79207H9.17625C9.4845 3.79207 9.73439 4.04827 9.73439 4.36431C9.73439 4.68036 9.4845 4.93656 9.17625 4.93656H6.94369C6.63544 4.93656 6.38555 4.68036 6.38555 4.36431Z"
-         fill={props.color ?? "#7A7A7A"}
+         fill={props.color ?? '#7A7A7A'}
       />
    </svg>
 );
 export const SideBarTransporterIcon = (props: any) => (
-   <svg
-      viewBox="0 0 16 16"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-      {...props}
-   >
+   <svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
          d="M1.17842 2.38441C1.11711 2.93424 1.11628 3.6812 1.11628 4.74047V8.93023H8.74419C9.25454 8.93023 9.67442 8.51035 9.67442 8V1.11628H4.75536C3.69246 1.11628 2.94245 1.1171 2.39026 1.17824C1.83377 1.23985 1.60071 1.35278 1.47675 1.4763C1.35319 1.59942 1.24017 1.83065 1.17842 2.38441ZM4.71948 2.17915e-07L10.2326 4.73411e-07C10.5408 4.73411e-07 10.7907 0.249888 10.7907 0.55814V8C10.7907 9.12686 9.87104 10.0465 8.74419 10.0465H0.55814C0.249888 10.0465 4.80433e-07 9.79663 4.80433e-07 9.48837L2.24937e-07 4.70437C-9.35616e-06 3.68939 -1.70224e-05 2.87983 0.0690198 2.26071C0.138435 1.63819 0.287738 1.08523 0.68883 0.685566C1.08952 0.286294 1.64344 0.137824 2.26742 0.0687391C2.88842 -1.66019e-05 3.70059 -9.15027e-06 4.71948 2.17915e-07Z"
-         fill={props.color ?? "#7A7A7A"}
+         fill={props.color ?? '#7A7A7A'}
       />
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
          d="M9.67442 2.7907C9.67442 2.48245 9.92431 2.23256 10.2326 2.23256H11.6019C12.3415 2.23256 13.0141 2.63292 13.3794 3.26207C13.38 3.26313 13.3806 3.26418 13.3812 3.26524L14.6538 5.49035C14.7526 5.66309 14.7519 5.87537 14.6521 6.0475C14.5522 6.21963 14.3683 6.32558 14.1693 6.32558H13.2093C13.1083 6.32558 13.0233 6.41058 13.0233 6.51163V8.74419C13.0233 8.84524 13.1083 8.93023 13.2093 8.93023H15.4419C15.7501 8.93023 16 9.18012 16 9.48837V11.7209C16 13.2645 14.7529 14.5116 13.2093 14.5116H12.4651C12.1569 14.5116 11.907 14.2617 11.907 13.9535C11.907 13.4431 11.4871 13.0233 10.9767 13.0233C10.4664 13.0233 10.0465 13.4431 10.0465 13.9535C10.0465 14.2617 9.79662 14.5116 9.48837 14.5116H6.51163C6.20338 14.5116 5.95349 14.2617 5.95349 13.9535C5.95349 13.4431 5.53361 13.0233 5.02326 13.0233C4.5129 13.0233 4.09302 13.4431 4.09302 13.9535C4.09302 14.2617 3.84314 14.5116 3.53488 14.5116H2.7907C1.2471 14.5116 5.10993e-07 13.2645 5.10993e-07 11.7209L4.80433e-07 9.48837C4.80433e-07 9.18012 0.249888 8.93023 0.55814 8.93023L8.74419 8.93023C9.25454 8.93023 9.67442 8.51035 9.67442 8V2.7907ZM10.7907 3.34884V8C10.7907 9.12686 9.87104 10.0465 8.74419 10.0465H1.11628V11.7209C1.11628 12.648 1.8636 13.3953 2.7907 13.3953H3.05437C3.29843 12.5381 4.08975 11.907 5.02326 11.907C5.95677 11.907 6.74808 12.5381 6.99214 13.3953H9.00786C9.25192 12.5381 10.0432 11.907 10.9767 11.907C11.9103 11.907 12.7016 12.5381 12.9456 13.3953H13.2093C14.1364 13.3953 14.8837 12.648 14.8837 11.7209V10.0465H13.2093C12.4917 10.0465 11.907 9.46174 11.907 8.74419V6.51163C11.907 5.7948 12.4906 5.21048 13.2071 5.2093L12.4141 3.82259C12.4138 3.8221 12.4135 3.8216 12.4132 3.82111C12.2425 3.52834 11.9333 3.34884 11.6019 3.34884H10.7907Z"
-         fill={props.color ?? "#7A7A7A"}
+         fill={props.color ?? '#7A7A7A'}
       />
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
          d="M2.97674 13.9535C2.97674 12.8232 3.893 11.907 5.02326 11.907C6.15351 11.907 7.06977 12.8232 7.06977 13.9535C7.06977 15.0838 6.15351 16 5.02326 16C3.893 16 2.97674 15.0838 2.97674 13.9535ZM5.02326 13.0233C4.5095 13.0233 4.09302 13.4397 4.09302 13.9535C4.09302 14.4673 4.5095 14.8837 5.02326 14.8837C5.53701 14.8837 5.95349 14.4673 5.95349 13.9535C5.95349 13.4397 5.53702 13.0233 5.02326 13.0233Z"
-         fill={props.color ?? "#7A7A7A"}
+         fill={props.color ?? '#7A7A7A'}
       />
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
          d="M8.93023 13.9535C8.93023 12.8232 9.84647 11.907 10.9767 11.907C12.107 11.907 13.0233 12.8232 13.0233 13.9535C13.0233 15.0838 12.107 16 10.9767 16C9.84646 16 8.93023 15.0838 8.93023 13.9535ZM10.9767 13.0233C10.463 13.0233 10.0465 13.4397 10.0465 13.9535C10.0465 14.4673 10.463 14.8837 10.9767 14.8837C11.4905 14.8837 11.907 14.4673 11.907 13.9535C11.907 13.4397 11.4905 13.0233 10.9767 13.0233Z"
-         fill={props.color ?? "#7A7A7A"}
+         fill={props.color ?? '#7A7A7A'}
       />
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
          d="M13.2093 6.32558C13.1083 6.32558 13.0233 6.41058 13.0233 6.51163V8.74419C13.0233 8.84524 13.1083 8.93023 13.2093 8.93023H14.8837V8.1479L13.845 6.32558H13.2093ZM11.907 6.51163C11.907 5.79407 12.4917 5.2093 13.2093 5.2093H14.1693C14.3698 5.2093 14.5549 5.31685 14.6542 5.49105L15.9268 7.72361C15.9748 7.80782 16 7.90307 16 8L16 9.48837C16 9.79662 15.7501 10.0465 15.4419 10.0465H13.2093C12.4917 10.0465 11.907 9.46174 11.907 8.74419V6.51163Z"
-         fill={props.color ?? "#7A7A7A"}
+         fill={props.color ?? '#7A7A7A'}
       />
    </svg>
 );
 
 export const SideBarMarketIcon = (props: any) => (
-   <svg
-      viewBox="0 0 16 17"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-      {...props}
-   >
+   <svg viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
          d="M1.7763 1.52127C1.40343 1.7483 1.09626 2.24385 1.09626 3.08451V14.1279C1.09626 14.6577 1.54287 15.1102 2.10835 15.1102H7.81626V4.81097C7.81626 4.54634 7.71373 4.21854 7.51896 3.90953C7.32442 3.60088 7.07048 3.36284 6.82665 3.24347L3.52247 1.62119C2.74849 1.24238 2.15186 1.29259 1.7763 1.52127ZM1.19575 0.567856C1.99037 0.0840176 3.0088 0.126901 4.01328 0.618622L7.31749 2.24092C7.78798 2.47133 8.18535 2.87333 8.46332 3.31434C8.74111 3.75508 8.93253 4.28679 8.93253 4.81097V15.6684C8.93253 15.9766 8.68265 16.2265 8.3744 16.2265H2.10835C0.947313 16.2265 -0.0200195 15.2949 -0.0200195 14.1279V3.08451C-0.0200195 1.97546 0.398389 1.05336 1.19575 0.567856Z"
-         fill={props.color ?? "#7A7A7A"}
+         fill={props.color ?? '#7A7A7A'}
       />
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
          d="M8.02319 6.61721C8.15408 6.51124 8.32582 6.47004 8.49055 6.50508L8.84031 6.5795C8.84234 6.57993 8.84437 6.58037 8.84639 6.58083L12.1938 7.33212L12.1952 7.33244L13.7034 7.66676C14.2441 7.78559 14.8103 7.99901 15.247 8.43935C15.6908 8.88688 15.9403 9.50633 15.9712 10.3146C15.9802 10.3894 15.98 10.4563 15.98 10.4948C15.98 10.4981 15.98 10.5011 15.98 10.5039V13.3169C15.98 14.1958 15.7773 14.9563 15.2435 15.4901C14.7096 16.0239 13.9491 16.2266 13.0702 16.2266L8.3744 16.2265C8.06615 16.2265 7.81626 15.9767 7.81626 15.6684V7.05099C7.81626 6.88258 7.8923 6.72318 8.02319 6.61721ZM8.93253 7.74418L11.9508 8.42159L11.9522 8.42191L13.4629 8.75679L13.4639 8.75701C13.9055 8.85401 14.2325 9.00163 14.4543 9.22532C14.6636 9.43636 14.8376 9.77439 14.8565 10.38C14.8572 10.4032 14.8594 10.4264 14.863 10.4494L14.8632 10.4527C14.8634 10.4568 14.8635 10.4627 14.8636 10.4714C14.8637 10.4805 14.8637 10.4904 14.8637 10.5039V13.3169C14.8637 14.0454 14.6943 14.4606 14.4541 14.7008C14.214 14.9409 13.7987 15.1103 13.0702 15.1103H8.93253V7.74418Z"
-         fill={props.color ?? "#7A7A7A"}
+         fill={props.color ?? '#7A7A7A'}
       />
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
          d="M2.60697 5.99412C2.60697 5.68588 2.85686 5.436 3.16511 5.436H5.74743C6.05568 5.436 6.30557 5.68588 6.30557 5.99412C6.30557 6.30237 6.05568 6.55225 5.74743 6.55225H3.16511C2.85686 6.55225 2.60697 6.30237 2.60697 5.99412Z"
-         fill={props.color ?? "#7A7A7A"}
+         fill={props.color ?? '#7A7A7A'}
       />
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
          d="M2.60697 8.97079C2.60697 8.66255 2.85686 8.41266 3.16511 8.41266H5.74743C6.05568 8.41266 6.30557 8.66255 6.30557 8.97079C6.30557 9.27903 6.05568 9.52891 5.74743 9.52891H3.16511C2.85686 9.52891 2.60697 9.27903 2.60697 8.97079Z"
-         fill={props.color ?? "#7A7A7A"}
+         fill={props.color ?? '#7A7A7A'}
       />
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
          d="M8.37538 6.68953C8.50771 6.58361 8.68101 6.54371 8.84639 6.58083L12.1952 7.33244C12.45 7.38963 12.6311 7.61571 12.6311 7.87686V10.2731C12.6311 11.5041 11.6296 12.5056 10.3986 12.5056C9.16754 12.5056 8.16603 11.5041 8.16603 10.2731V7.12526C8.16603 6.95576 8.24305 6.79544 8.37538 6.68953ZM9.2823 7.82253V10.2731C9.2823 10.8876 9.78404 11.3893 10.3986 11.3893C11.0131 11.3893 11.5149 10.8876 11.5149 10.2731V8.32361L9.2823 7.82253Z"
-         fill={props.color ?? "#7A7A7A"}
+         fill={props.color ?? '#7A7A7A'}
       />
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
          d="M11.7236 7.44159C11.8556 7.33566 12.0285 7.29549 12.1938 7.33212L13.7034 7.66676C14.2441 7.78559 14.8103 7.99901 15.247 8.43935C15.6963 8.89248 15.9465 9.52172 15.9722 10.3449C15.9727 10.3602 15.9726 10.3755 15.9718 10.3907C15.9122 11.5624 14.9409 12.5056 13.7474 12.5056C12.5164 12.5056 11.5149 11.5041 11.5149 10.2731V7.87686C11.5149 7.70762 11.5916 7.54753 11.7236 7.44159ZM12.6311 8.57226V10.2731C12.6311 10.8876 13.1329 11.3893 13.7474 11.3893C14.3327 11.3893 14.8153 10.93 14.8557 10.3555C14.8329 9.76515 14.6608 9.43352 14.4543 9.22532C14.2325 9.00163 13.9055 8.85401 13.4639 8.75701L12.6311 8.57226Z"
-         fill={props.color ?? "#7A7A7A"}
+         fill={props.color ?? '#7A7A7A'}
       />
    </svg>
 );
 
 export const SideBarProductFamilyIcon = (props: any) => (
-   <svg
-      viewBox="0 0 16 17"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-      {...props}
-   >
+   <svg viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
          d="M11.907 8.22656C11.907 7.09628 12.8232 6.18005 13.9535 6.18005C15.0838 6.18005 16 7.09628 16 8.22656C16 9.35684 15.0838 10.2731 13.9535 10.2731C12.8232 10.2731 11.907 9.35684 11.907 8.22656ZM13.9535 7.29633C13.4397 7.29633 13.0233 7.71279 13.0233 8.22656C13.0233 8.74034 13.4397 9.1568 13.9535 9.1568C14.4673 9.1568 14.8837 8.74034 14.8837 8.22656C14.8837 7.71279 14.4673 7.29633 13.9535 7.29633Z"
-         fill={props.color ?? "#7A7A7A"}
+         fill={props.color ?? '#7A7A7A'}
       />
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
          d="M11.907 2.27307C11.907 1.14282 12.8232 0.226562 13.9535 0.226562C15.0838 0.226562 16 1.14282 16 2.27307C16 3.40333 15.0838 4.31959 13.9535 4.31959C12.8232 4.31959 11.907 3.40333 11.907 2.27307ZM13.9535 1.34284C13.4397 1.34284 13.0233 1.75932 13.0233 2.27307C13.0233 2.78683 13.4397 3.20331 13.9535 3.20331C14.4673 3.20331 14.8837 2.78683 14.8837 2.27307C14.8837 1.75932 14.4673 1.34284 13.9535 1.34284Z"
-         fill={props.color ?? "#7A7A7A"}
+         fill={props.color ?? '#7A7A7A'}
       />
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
          d="M11.907 14.1801C11.907 13.0498 12.8232 12.1335 13.9535 12.1335C15.0838 12.1335 16 13.0498 16 14.1801C16 15.3103 15.0838 16.2266 13.9535 16.2266C12.8232 16.2266 11.907 15.3103 11.907 14.1801ZM13.9535 13.2498C13.4397 13.2498 13.0233 13.6663 13.0233 14.1801C13.0233 14.6938 13.4397 15.1103 13.9535 15.1103C14.4673 15.1103 14.8837 14.6938 14.8837 14.1801C14.8837 13.6663 14.4673 13.2498 13.9535 13.2498Z"
-         fill={props.color ?? "#7A7A7A"}
+         fill={props.color ?? '#7A7A7A'}
       />
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
          d="M0 8.22656C0 7.09628 0.916259 6.18005 2.04651 6.18005C3.17676 6.18005 4.09302 7.09628 4.09302 8.22656C4.09302 9.35685 3.17676 10.2731 2.04651 10.2731C0.916259 10.2731 0 9.35685 0 8.22656ZM2.04651 7.29633C1.53275 7.29633 1.11628 7.71279 1.11628 8.22656C1.11628 8.74033 1.53275 9.1568 2.04651 9.1568C2.56027 9.1568 2.97674 8.74033 2.97674 8.22656C2.97674 7.71279 2.56027 7.29633 2.04651 7.29633Z"
-         fill={props.color ?? "#7A7A7A"}
+         fill={props.color ?? '#7A7A7A'}
       />
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
          d="M2.97674 8.22656C2.97674 7.91831 3.22663 7.66842 3.53488 7.66842H12.4651C12.7734 7.66842 13.0233 7.91831 13.0233 8.22656C13.0233 8.53481 12.7734 8.7847 12.4651 8.7847H3.53488C3.22663 8.7847 2.97674 8.53481 2.97674 8.22656Z"
-         fill={props.color ?? "#7A7A7A"}
+         fill={props.color ?? '#7A7A7A'}
       />
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
          d="M7.41929 2.43655C7.93297 1.92287 8.65815 1.71493 9.48837 1.71493H12.4651C12.7734 1.71493 13.0233 1.96482 13.0233 2.27307C13.0233 2.58133 12.7734 2.83121 12.4651 2.83121H9.48837C8.83022 2.83121 8.43912 2.99537 8.20862 3.22588C7.97811 3.45638 7.81395 3.84748 7.81395 4.50563V11.9475C7.81395 12.6056 7.97811 12.9967 8.20862 13.2272C8.43912 13.4578 8.83022 13.6219 9.48837 13.6219H12.4651C12.7734 13.6219 13.0233 13.8718 13.0233 14.1801C13.0233 14.4883 12.7734 14.7382 12.4651 14.7382H9.48837C8.65815 14.7382 7.93297 14.5303 7.41929 14.0166C6.90561 13.5029 6.69767 12.7777 6.69767 11.9475V4.50563C6.69767 3.67541 6.90561 2.95023 7.41929 2.43655Z"
-         fill={props.color ?? "#7A7A7A"}
+         fill={props.color ?? '#7A7A7A'}
       />
    </svg>
 );
 
 export const SideBarCompositionKitIcon = (props: any) => (
-   <svg
-      viewBox="0 0 16 17"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-      {...props}
-   >
+   <svg viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
          d="M7.83285 1.41927C7.53679 1.41927 7.27372 1.47099 7.1058 1.54611L7.10412 1.54685L2.40832 3.63012L2.407 3.6307C1.79046 3.90245 1.74822 4.14831 1.74822 4.17443C1.74822 4.20054 1.79046 4.4464 2.407 4.71815L2.40833 4.71874L7.10412 6.80202L7.1058 6.80277C7.27372 6.87789 7.53679 6.92961 7.83285 6.92961C8.12891 6.92961 8.39198 6.87789 8.5599 6.80277L8.56158 6.80202L13.2574 4.71874L13.2587 4.71815C13.8752 4.4464 13.9175 4.20054 13.9175 4.17443C13.9175 4.14831 13.8752 3.90245 13.2587 3.6307L13.2574 3.63012L8.56158 1.54685L8.5599 1.54611C8.39198 1.47099 8.12891 1.41927 7.83285 1.41927ZM9.04687 0.45713C8.68172 0.294004 8.24082 0.226562 7.83285 0.226562C7.42489 0.226562 6.98398 0.294004 6.61883 0.45713C6.61852 0.457267 6.61822 0.457403 6.61791 0.45754L1.92512 2.53947C1.92488 2.53958 1.92464 2.53968 1.92439 2.53979C1.18822 2.86444 0.55437 3.40963 0.55437 4.17443C0.55437 4.93924 1.18825 5.48444 1.92444 5.80908C1.92467 5.80918 1.92489 5.80928 1.92512 5.80938L6.61791 7.89134C6.61826 7.89149 6.6186 7.89164 6.61895 7.8918C6.98407 8.05488 7.42493 8.12231 7.83285 8.12231C8.24077 8.12231 8.68163 8.05488 9.04676 7.8918C9.0471 7.89164 9.04744 7.89149 9.04779 7.89134L13.7406 5.80938C13.7408 5.80928 13.741 5.80919 13.7412 5.80909C14.4774 5.48445 15.1113 4.93924 15.1113 4.17443C15.1113 3.40967 14.4775 2.86449 13.7414 2.53984C13.7411 2.53972 13.7409 2.53959 13.7406 2.53947L9.04779 0.45754C9.04748 0.457403 9.04718 0.457267 9.04687 0.45713Z"
-         fill={props.color ?? "#7A7A7A"}
+         fill={props.color ?? '#7A7A7A'}
       />
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
          d="M0.836913 6.83013C1.16658 6.83013 1.43384 7.09713 1.43384 7.42649C1.43384 7.62002 1.51047 7.8685 1.66457 8.10512C1.81866 8.34172 2.0149 8.51224 2.19229 8.5905L2.19375 8.59115L7.59677 10.992C7.5969 10.992 7.59702 10.9921 7.59715 10.9921C7.85865 11.1076 8.151 11.1056 8.39927 10.9937C8.40021 10.9933 8.40114 10.9929 8.40208 10.9925L13.8062 8.59115L13.8077 8.5905C13.9851 8.51224 14.1813 8.34172 14.3354 8.10512C14.4895 7.8685 14.5661 7.62002 14.5661 7.42649C14.5661 7.09713 14.8334 6.83013 15.1631 6.83013C15.4927 6.83013 15.76 7.09713 15.76 7.42649C15.76 7.90087 15.5859 8.37199 15.3361 8.75558C15.0864 9.13894 14.7258 9.48903 14.2908 9.6812C14.2905 9.68133 14.2902 9.68145 14.2899 9.68157L8.89007 12.081C8.88958 12.0812 8.88909 12.0814 8.8886 12.0816C8.32552 12.3348 7.6795 12.3327 7.11385 12.0827L1.71005 9.68157C1.70979 9.68146 1.70952 9.68134 1.70926 9.68122C1.27416 9.48905 0.913561 9.13895 0.663886 8.75558C0.414066 8.37199 0.23999 7.90087 0.23999 7.42649C0.23999 7.09713 0.507242 6.83013 0.836913 6.83013Z"
-         fill={props.color ?? "#7A7A7A"}
+         fill={props.color ?? '#7A7A7A'}
       />
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
          d="M0.836913 10.8058C1.16658 10.8058 1.43384 11.0728 1.43384 11.4022C1.43384 11.9037 1.73065 12.3598 2.1943 12.5671C2.19447 12.5672 2.19463 12.5672 2.19479 12.5673L7.59677 14.9677C7.5969 14.9677 7.59702 14.9678 7.59715 14.9678C7.85865 15.0833 8.151 15.0813 8.39927 14.9694C8.40021 14.969 8.40114 14.9686 8.40208 14.9682L13.8052 12.5673C13.8053 12.5672 13.8055 12.5672 13.8056 12.5671C14.2693 12.3598 14.5661 11.9038 14.5661 11.4022C14.5661 11.0728 14.8334 10.8058 15.1631 10.8058C15.4927 10.8058 15.76 11.0728 15.76 11.4022C15.76 12.3794 15.1815 13.2591 14.2924 13.6562L14.2914 13.6566L8.89007 16.0567C8.88958 16.0569 8.88909 16.0571 8.8886 16.0573C8.32552 16.3105 7.6795 16.3084 7.11385 16.0584L1.70755 13.6562C0.818458 13.2591 0.23999 12.3794 0.23999 11.4022C0.23999 11.0728 0.507242 10.8058 0.836913 10.8058Z"
-         fill={props.color ?? "#7A7A7A"}
+         fill={props.color ?? '#7A7A7A'}
       />
    </svg>
 );
 
 export const SideBarProductIcon = (props: any) => (
-   <svg
-      viewBox="0 0 16 17"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-      {...props}
-   >
+   <svg viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
          d="M7.07552 1.44022C6.68333 1.60241 6.21237 1.84903 5.54579 2.19883L4.04499 2.98641C3.22852 3.41488 2.65036 3.71901 2.21751 4.00807C1.96843 4.17441 1.77937 4.32828 1.63057 4.48696L8.0008 7.67208L14.3699 4.48751C14.2211 4.32862 14.0319 4.1746 13.7825 4.00807C13.3496 3.71901 12.7715 3.41488 11.955 2.98642L10.4542 2.19884C9.78763 1.84903 9.31667 1.60241 8.92449 1.44022C8.54144 1.2818 8.26661 1.21861 8 1.21861C7.73339 1.21861 7.45856 1.2818 7.07552 1.44022ZM14.8449 5.35916L8.49682 8.53321V15.1631C8.62553 15.1279 8.76571 15.0786 8.92448 15.0129C9.31667 14.8507 9.78763 14.6041 10.4542 14.2543L11.955 13.4667C12.7715 13.0382 13.3496 12.7341 13.7825 12.4451C14.2049 12.163 14.4547 11.9167 14.6283 11.622C14.8026 11.3259 14.9022 10.977 14.9543 10.4485C15.0074 9.90953 15.0079 9.22747 15.0079 8.27046V8.18266C15.0079 7.22564 15.0074 6.5436 14.9543 6.00468C14.9296 5.75345 14.8941 5.54282 14.8449 5.35916ZM7.50477 15.1635V8.53321L1.15527 5.35846C1.10602 5.54229 1.07048 5.75313 1.0457 6.00468C0.992607 6.5436 0.992051 7.22564 0.992051 8.18266V8.27046C0.992051 9.22747 0.992607 9.90953 1.0457 10.4485C1.09777 10.977 1.19736 11.3259 1.37174 11.622C1.54528 11.9167 1.79508 12.163 2.21751 12.4451C2.65036 12.7341 3.22853 13.0382 4.045 13.4667L5.54578 14.2543C6.21236 14.6041 6.68333 14.8507 7.07552 15.0129C7.23495 15.0788 7.37563 15.1283 7.50477 15.1635ZM6.69638 0.523472C7.14919 0.336211 7.55801 0.226562 8 0.226562C8.44199 0.226562 8.85082 0.33621 9.30362 0.523472C9.74253 0.704991 10.2533 0.973044 10.8943 1.30946L12.4401 2.12064C13.2269 2.53351 13.8518 2.86145 14.3334 3.18307C14.8304 3.51495 15.2084 3.86118 15.4831 4.32774C15.757 4.79289 15.8816 5.29835 15.9416 5.90742C16 6.50058 16 7.23137 16 8.15664V8.29649C16 9.22174 16 9.95254 15.9416 10.5457C15.8816 11.1548 15.757 11.6603 15.4831 12.1254C15.2084 12.592 14.8304 12.9382 14.3334 13.2701C13.852 13.5916 13.2273 13.9194 12.4408 14.3321L10.8941 15.1438C10.2532 15.4801 9.74247 15.7481 9.30362 15.9296C8.85082 16.1169 8.442 16.2266 8 16.2266C7.558 16.2266 7.14918 16.1169 6.69638 15.9296C6.25755 15.7481 5.74688 15.4802 5.10601 15.1438L3.55898 14.332C2.77264 13.9194 2.14799 13.5916 1.66657 13.2701C1.16962 12.9382 0.791625 12.592 0.516889 12.1254C0.242979 11.6603 0.118426 11.1548 0.0584255 10.5457C-9.04799e-06 9.95254 -4.99949e-06 9.22174 9.48567e-08 8.29648V8.15664C-4.99949e-06 7.23138 -9.0003e-06 6.50059 0.0584256 5.90742C0.118427 5.29835 0.242981 4.79289 0.516886 4.32775C0.791621 3.86118 1.16961 3.51494 1.66656 3.18307C2.14812 2.86148 2.77298 2.53358 3.55963 2.12077L5.10569 1.30944C5.74671 0.973034 6.25748 0.704987 6.69638 0.523472Z"
-         fill={props.color ?? "#7A7A7A"}
+         fill={props.color ?? '#7A7A7A'}
       />
    </svg>
 );
 
 export const SideBarUserIcon = (props: any) => (
-   <svg
-      viewBox="0 0 14 17"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-      {...props}
-   >
+   <svg viewBox="0 0 14 17" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
          d="M7.01766 0.343262C5.09389 0.343262 3.53435 1.9028 3.53435 3.8266C3.53435 5.75038 5.09389 7.30993 7.01766 7.30993C8.94149 7.30993 10.501 5.75038 10.501 3.8266C10.501 1.9028 8.94149 0.343262 7.01766 0.343262ZM4.63435 3.8266C4.63435 2.51031 5.7014 1.44326 7.01766 1.44326C8.334 1.44326 9.401 2.51031 9.401 3.8266C9.401 5.14288 8.334 6.20993 7.01766 6.20993C5.7014 6.20993 4.63435 5.14288 4.63435 3.8266Z"
-         fill={props.color ?? "#7A7A7A"}
+         fill={props.color ?? '#7A7A7A'}
       />
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
          d="M7.01671 8.40986C5.32013 8.40986 3.75702 8.79552 2.59873 9.44702C1.4577 10.0889 0.600069 11.0617 0.600069 12.2599L0.600025 12.3347C0.599197 13.1867 0.598155 14.256 1.53611 15.0198C1.99772 15.3957 2.64349 15.663 3.51596 15.8396C4.39087 16.0167 5.53117 16.1099 7.01671 16.1099C8.5023 16.1099 9.64263 16.0167 10.5175 15.8396C11.39 15.663 12.0358 15.3957 12.4974 15.0198C13.4353 14.256 13.4343 13.1867 13.4335 12.3347L13.4334 12.2599C13.4334 11.0617 12.5758 10.0889 11.4348 9.44702C10.2765 8.79552 8.71336 8.40986 7.01671 8.40986ZM1.70007 12.2599C1.70007 11.6356 2.15575 10.9583 3.13803 10.4058C4.10306 9.86296 5.47328 9.50986 7.01671 9.50986C8.56023 9.50986 9.9304 9.86296 10.8955 10.4058C11.8778 10.9583 12.3334 11.6356 12.3334 12.2599C12.3334 13.2189 12.3038 13.7588 11.8027 14.1668C11.531 14.3881 11.0768 14.6041 10.2993 14.7615C9.5242 14.9183 8.46453 15.0099 7.01671 15.0099C5.56897 15.0099 4.50928 14.9183 3.73419 14.7615C2.95666 14.6041 2.50242 14.3881 2.2307 14.1668C1.72964 13.7588 1.70007 13.2189 1.70007 12.2599Z"
-         fill={props.color ?? "#7A7A7A"}
+         fill={props.color ?? '#7A7A7A'}
       />
    </svg>
 );
 
 export const SidebarRegistersIcon = (props: any) => (
-   <svg
-      width="17"
-      height="19"
-      viewBox="0 0 14 17"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-   >
+   <svg width="17" height="19" viewBox="0 0 14 17" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
          d="M2.22817 1.99472C1.67099 2.5519 1.3729 3.46667 1.3729 4.94312V11.51C1.3729 12.9865 1.67099 13.9012 2.22817 14.4584C2.78535 15.0156 3.70012 15.3137 5.17657 15.3137H8.82809C10.3045 15.3137 11.2193 15.0156 11.7765 14.4584C12.3337 13.9012 12.6318 12.9865 12.6318 11.51V5.55171C12.6318 5.29962 12.8361 5.09527 13.0882 5.09527C13.3403 5.09527 13.5446 5.29962 13.5446 5.55171V11.51C13.5446 13.0765 13.2341 14.2918 12.422 15.1039C11.6099 15.9161 10.3946 16.2266 8.82809 16.2266H5.17657C3.61008 16.2266 2.3948 15.9161 1.58266 15.1039C0.770524 14.2918 0.460022 13.0765 0.460022 11.51V4.94312C0.460022 3.37664 0.770524 2.16136 1.58266 1.34922C2.3948 0.537077 3.61008 0.226576 5.17657 0.226576H8.2195C8.47159 0.226576 8.67594 0.430931 8.67594 0.683016C8.67594 0.9351 8.47159 1.13946 8.2195 1.13946H5.17657C3.70012 1.13946 2.78535 1.43754 2.22817 1.99472Z"
-         fill={props.color ?? "#7A7A7A"}
+         fill={props.color ?? '#7A7A7A'}
       />
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
          d="M8.04483 0.26132C8.21539 0.190672 8.41171 0.229723 8.54225 0.360264L13.4109 5.22895C13.5415 5.3595 13.5805 5.55582 13.5099 5.72638C13.4392 5.89694 13.2728 6.00815 13.0882 6.00815H10.6538C9.71568 6.00815 8.94499 5.85767 8.42926 5.34194C7.91354 4.82622 7.76306 4.05553 7.76306 3.11736V0.683016C7.76306 0.498403 7.87427 0.331968 8.04483 0.26132ZM8.67594 1.78496V3.11736C8.67594 4.00495 8.82976 4.45144 9.07477 4.69644C9.31977 4.94145 9.76626 5.09527 10.6538 5.09527H11.9863L8.67594 1.78496Z"
-         fill={props.color ?? "#7A7A7A"}
+         fill={props.color ?? '#7A7A7A'}
       />
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
          d="M3.50296 7.37747C3.50296 7.12538 3.70731 6.92103 3.9594 6.92103H7.61092C7.863 6.92103 8.06736 7.12538 8.06736 7.37747C8.06736 7.62955 7.863 7.83391 7.61092 7.83391H3.9594C3.70731 7.83391 3.50296 7.62955 3.50296 7.37747Z"
-         fill={props.color ?? "#7A7A7A"}
+         fill={props.color ?? '#7A7A7A'}
       />
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
          d="M3.50296 9.81181C3.50296 9.55973 3.70731 9.35537 3.9594 9.35537H6.39374C6.64583 9.35537 6.85018 9.55973 6.85018 9.81181C6.85018 10.0639 6.64583 10.2683 6.39374 10.2683H3.9594C3.70731 10.2683 3.50296 10.0639 3.50296 9.81181Z"
-         fill={props.color ?? "#7A7A7A"}
+         fill={props.color ?? '#7A7A7A'}
       />
    </svg>
 );
 
 export const SideBarOrderIcon = (props: any) => (
-   <svg
-      viewBox="0 0 16 17"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-      {...props}
-   >
+   <svg viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
          d="M4.46307 7.57551C4.46307 7.26726 4.7131 7.01737 5.02153 7.01737H10.2338C10.5423 7.01737 10.7923 7.26726 10.7923 7.57551C10.7923 7.88375 10.5423 8.13364 10.2338 8.13364H5.02153C4.7131 8.13364 4.46307 7.88375 4.46307 7.57551Z"
-         fill={props.color ?? "#7A7A7A"}
+         fill={props.color ?? '#7A7A7A'}
       />
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
          d="M4.46307 10.5522C4.46307 10.244 4.7131 9.99408 5.02153 9.99408H8.28294C8.59137 9.99408 8.84141 10.244 8.84141 10.5522C8.84141 10.8605 8.59137 11.1103 8.28294 11.1103H5.02153C4.7131 11.1103 4.46307 10.8605 4.46307 10.5522Z"
-         fill={props.color ?? "#7A7A7A"}
+         fill={props.color ?? '#7A7A7A'}
       />
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
          d="M6.45776 0.226676C6.47605 0.226728 6.49373 0.226778 6.51076 0.226778H9.48922C9.50625 0.226778 9.52393 0.226728 9.54222 0.226676C9.87207 0.225739 10.3991 0.224243 10.8228 0.50656C11.3324 0.846058 11.5369 1.45538 11.5369 2.27326C11.5369 2.29028 11.537 2.30795 11.537 2.32623C11.538 2.65589 11.5394 3.18262 11.257 3.6061C10.9173 4.11535 10.3076 4.31975 9.48922 4.31975H6.51076C6.49373 4.31975 6.47605 4.3198 6.45776 4.31985C6.12791 4.32078 5.60086 4.32228 5.17713 4.03996C4.66759 3.70047 4.46307 3.09115 4.46307 2.27326C4.46307 1.45538 4.66759 0.846058 5.17713 0.50656C5.60086 0.224243 6.12791 0.225739 6.45776 0.226676ZM5.79669 1.43535C5.74778 1.46794 5.57999 1.6028 5.57999 2.27326C5.57999 2.94373 5.74778 3.07859 5.79669 3.11118C5.90793 3.18529 6.09023 3.20348 6.51076 3.20348H9.48922C10.1601 3.20348 10.295 3.03579 10.3276 2.98691C10.4018 2.87573 10.42 2.69355 10.42 2.27326C10.42 1.6028 10.2522 1.46794 10.2033 1.43535C10.092 1.36123 9.90975 1.34304 9.48922 1.34304H6.51076C6.09023 1.34304 5.90793 1.36123 5.79669 1.43535Z"
-         fill={props.color ?? "#7A7A7A"}
+         fill={props.color ?? '#7A7A7A'}
       />
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
          d="M5.57918 2.25803C5.59582 2.56583 5.35965 2.82884 5.05167 2.84548C3.85572 2.91009 3.11035 3.16123 2.64036 3.66967C2.16414 4.18485 1.85691 5.08684 1.85691 6.73832V11.2034C1.85691 12.6819 2.0515 13.6079 2.55643 14.1846C3.04522 14.7429 3.95276 15.1103 5.76614 15.1103H10.2338C12.0472 15.1103 12.9548 14.7429 13.4436 14.1846C13.9485 13.6079 14.1431 12.6819 14.1431 11.2034V6.73832C14.1431 5.08275 13.8357 4.18119 13.3599 3.66716C12.8902 3.15976 12.1452 2.91014 10.9483 2.84548C10.6403 2.82884 10.4042 2.56583 10.4208 2.25803C10.4375 1.95024 10.7006 1.7142 11.0086 1.73084C12.2913 1.80014 13.4078 2.07515 14.1798 2.90913C14.9456 3.73648 15.26 4.99302 15.26 6.73832V11.2034C15.26 12.7016 15.0823 14.0081 14.2841 14.9197C13.4698 15.8498 12.1435 16.2266 10.2338 16.2266H5.76614C3.85645 16.2266 2.53014 15.8498 1.71586 14.9197C0.917715 14.0081 0.73999 12.7016 0.73999 11.2034V6.73832C0.73999 4.99637 1.05452 3.74025 1.81995 2.9122C2.5916 2.07741 3.70777 1.80019 4.99139 1.73084C5.29937 1.7142 5.56253 1.95024 5.57918 2.25803Z"
-         fill={props.color ?? "#7A7A7A"}
+         fill={props.color ?? '#7A7A7A'}
       />
    </svg>
 );
 
 export const ReprocessOrderIcon = (props: any) => {
-   const heightInRem = props.height
-      ? parseFloat(props.height.replace("rem", ""))
-      : 0;
+   const heightInRem = props.height ? parseFloat(props.height.replace('rem', '')) : 0;
    const newHeight = `${heightInRem + 0.2}rem`;
    return props.disable ? (
       <svg
@@ -4149,12 +3019,7 @@ export const ReprocessOrderIcon = (props: any) => {
          </g>
          <defs>
             <clipPath id="clip0_7129_7516">
-               <rect
-                  width="16"
-                  height="16"
-                  fill="white"
-                  transform="translate(4 4)"
-               />
+               <rect width="16" height="16" fill="white" transform="translate(4 4)" />
             </clipPath>
          </defs>
       </svg>
@@ -4241,13 +3106,7 @@ export const ToggleSidebarIcon = (props: any) => {
 };
 
 export const RightArrowIcon = () => (
-   <svg
-      width="7"
-      height="11"
-      viewBox="0 0 4 9"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-   >
+   <svg width="7" height="11" viewBox="0 0 4 9" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
@@ -4257,19 +3116,8 @@ export const RightArrowIcon = () => (
    </svg>
 );
 
-export const UploadIcon = ({
-   color,
-   height,
-}: {
-   color?: string;
-   height?: string;
-}) => (
-   <svg
-      height={height ?? "32"}
-      viewBox="0 0 32 32"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-   >
+export const UploadIcon = ({ color, height }: { color?: string; height?: string }) => (
+   <svg height={height ?? '32'} viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
@@ -4286,19 +3134,13 @@ export const UploadIcon = ({
          fill-rule="evenodd"
          clip-rule="evenodd"
          d="M1.37143 14.6446C2.12885 14.6446 2.74286 15.2581 2.74286 16.0148C2.74286 19.7427 4.00663 23.0457 6.25147 25.4067C8.48599 27.7568 11.7731 29.2596 16 29.2596C20.2269 29.2596 23.514 27.7568 25.7485 25.4067C27.9934 23.0457 29.2571 19.7427 29.2571 16.0148C29.2571 15.2581 29.8712 14.6446 30.6286 14.6446C31.386 14.6446 32 15.2581 32 16.0148C32 20.3616 30.5209 24.3662 27.7372 27.294C24.9431 30.2326 20.916 31.9999 16 31.9999C11.084 31.9999 7.05687 30.2326 4.26282 27.294C1.47909 24.3662 0 20.3616 0 16.0148C0 15.2581 0.61401 14.6446 1.37143 14.6446Z"
-         fill={color ?? "#7A7A7A"}
+         fill={color ?? '#7A7A7A'}
       />
    </svg>
 );
 
 export const FinishInventoryIcon = () => (
-   <svg
-      width="16"
-      height="17"
-      viewBox="0 0 16 17"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-   >
+   <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
@@ -4321,12 +3163,7 @@ export const FinishInventoryIcon = () => (
 );
 
 export const LogoTrackStartIcon = ({ height }: { height: string }) => (
-   <svg
-      height={height}
-      viewBox="0 0 18 10"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-   >
+   <svg height={height} viewBox="0 0 18 10" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path
          d="M9.31199 0.203528C9.12773 0.0962222 8.97419 0.097848 8.78832 0.203528C6.73403 1.3839 4.6765 2.55776 2.61898 3.73325C1.90459 4.14134 1.19019 4.5478 0.451553 4.9689C0.525902 5.02418 0.580856 5.07295 0.642274 5.10872C1.34859 5.51681 2.0549 5.9249 2.76283 6.33136C4.81066 7.50848 6.85686 8.68559 8.90792 9.8562C8.97095 9.89197 9.08086 9.87409 9.16006 9.8497C9.23926 9.82531 9.30552 9.75703 9.37987 9.71476C11.8722 8.27425 14.3661 6.83537 16.86 5.39487C17.0814 5.26805 17.298 5.13311 17.5485 4.98353C17.4095 4.90386 17.3093 4.84858 17.2107 4.79005C14.5778 3.26175 11.9449 1.73508 9.31522 0.201902L9.31199 0.203528Z"
          fill="#E30613"
@@ -4335,12 +3172,7 @@ export const LogoTrackStartIcon = ({ height }: { height: string }) => (
 );
 
 export const LogoEnaexStartIcon = ({ height }: { height: string }) => (
-   <svg
-      height={height}
-      viewBox="0 0 21 14"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-   >
+   <svg height={height} viewBox="0 0 21 14" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path
          d="M20.7497 7.13602C20.5769 7.24066 20.4525 7.31739 20.3282 7.38714C19.2606 7.96612 18.1999 8.55556 17.1254 9.12058C16.8835 9.24963 16.7972 9.39611 16.8006 9.67165C16.8144 11.0842 16.8075 12.4968 16.8075 13.9895C16.6348 13.9023 16.5069 13.8465 16.386 13.7768C15.2528 13.142 14.1161 12.5177 12.9967 11.862C12.7237 11.705 12.5268 11.6946 12.2504 11.8655C11.2035 12.5072 10.1394 13.1211 9.08215 13.7454C8.95431 13.8221 8.82302 13.8919 8.62954 14V13.421C8.62954 12.1724 8.63645 10.9238 8.62263 9.67862C8.62263 9.3996 8.71246 9.26009 8.9474 9.12755C10.0288 8.52068 11.0999 7.88939 12.1744 7.26856C12.3057 7.19183 12.43 7.11161 12.6339 6.98954C11.8323 6.45939 11.0964 5.97459 10.3605 5.49327C9.86643 5.16542 9.362 4.84803 8.87485 4.50623C8.76774 4.43298 8.63991 4.2865 8.63991 4.1714C8.62263 2.8007 8.62954 1.43348 8.62954 0C8.80575 0.104634 8.93013 0.177877 9.05105 0.258097C10.2223 1.03936 11.4004 1.81365 12.5579 2.61584C12.8412 2.81116 13.0105 2.78675 13.2661 2.57399C14.1783 1.81365 15.1111 1.07773 16.0405 0.334828C16.1545 0.240658 16.2754 0.149975 16.4482 0.0139512C16.4586 0.202292 16.4758 0.33134 16.4758 0.460389C16.4758 1.84853 16.4827 3.23318 16.4689 4.62133C16.4655 4.89686 16.5518 5.03986 16.7972 5.16193C18.0962 5.8002 19.3884 6.45242 20.7497 7.13602Z"
          fill="#E30613"
@@ -4353,12 +3185,7 @@ export const LogoEnaexStartIcon = ({ height }: { height: string }) => (
 );
 
 export const LogoCompleteIcon = ({ height }: { height: string }) => (
-   <svg
-      height={height}
-      viewBox="0 0 66 14"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-   >
+   <svg height={height} viewBox="0 0 66 14" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path
          d="M20.7497 7.13602C20.5769 7.24066 20.4525 7.31739 20.3282 7.38714C19.2606 7.96612 18.1999 8.55556 17.1254 9.12058C16.8835 9.24963 16.7972 9.39611 16.8006 9.67165C16.8144 11.0842 16.8075 12.4968 16.8075 13.9895C16.6348 13.9023 16.5069 13.8465 16.386 13.7768C15.2528 13.142 14.1161 12.5177 12.9967 11.862C12.7237 11.705 12.5268 11.6946 12.2504 11.8655C11.2035 12.5072 10.1394 13.1211 9.08215 13.7454C8.95431 13.8221 8.82302 13.8919 8.62954 14V13.421C8.62954 12.1724 8.63645 10.9238 8.62263 9.67862C8.62263 9.3996 8.71246 9.26009 8.9474 9.12755C10.0288 8.52068 11.0999 7.88939 12.1744 7.26856C12.3057 7.19183 12.43 7.11161 12.6339 6.98954C11.8323 6.45939 11.0964 5.97459 10.3605 5.49327C9.86643 5.16542 9.362 4.84803 8.87485 4.50623C8.76774 4.43298 8.63991 4.2865 8.63991 4.1714C8.62263 2.8007 8.62954 1.43348 8.62954 0C8.80575 0.104634 8.93013 0.177877 9.05105 0.258097C10.2223 1.03936 11.4004 1.81365 12.5579 2.61584C12.8412 2.81116 13.0105 2.78675 13.2661 2.57399C14.1783 1.81365 15.1111 1.07773 16.0405 0.334828C16.1545 0.240658 16.2754 0.149975 16.4482 0.0139512C16.4586 0.202292 16.4758 0.33134 16.4758 0.460389C16.4758 1.84853 16.4827 3.23318 16.4689 4.62133C16.4655 4.89686 16.5518 5.03986 16.7972 5.16193C18.0962 5.8002 19.3884 6.45242 20.7497 7.13602Z"
          fill="#E30613"
@@ -4391,12 +3218,7 @@ export const LogoCompleteIcon = ({ height }: { height: string }) => (
 );
 
 export const ImportationIcon = ({ width }: { width: string }) => (
-   <svg
-      width={width}
-      viewBox="0 0 56 56"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-   >
+   <svg width={width} viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path
          d="M6.10352e-05 28C6.10352e-05 12.536 12.5361 0 28.0001 0C43.464 0 56.0001 12.536 56.0001 28C56.0001 43.464 43.464 56 28.0001 56C12.5361 56 6.10352e-05 43.464 6.10352e-05 28Z"
          fill="#F6F6F6"
@@ -4417,12 +3239,7 @@ export const ImportationIcon = ({ width }: { width: string }) => (
 );
 
 export const GenerateCodeBarIcon = ({ width }: { width: string }) => (
-   <svg
-      width={width}
-      viewBox="0 0 56 56"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-   >
+   <svg width={width} viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path
          d="M0 28C0 12.536 12.536 0 28 0C43.464 0 56 12.536 56 28C56 43.464 43.464 56 28 56C12.536 56 0 43.464 0 28Z"
          fill="#F6F6F6"
@@ -4479,12 +3296,7 @@ export const GenerateCodeBarIcon = ({ width }: { width: string }) => (
 );
 
 export const TransferDepositIcon = ({ width }: { width: string }) => (
-   <svg
-      width={width}
-      viewBox="0 0 56 56"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-   >
+   <svg width={width} viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path
          d="M6.10352e-05 28C6.10352e-05 12.536 12.5361 0 28.0001 0C43.464 0 56.0001 12.536 56.0001 28C56.0001 43.464 43.464 56 28.0001 56C12.5361 56 6.10352e-05 43.464 6.10352e-05 28Z"
          fill="#F6F6F6"
@@ -4529,24 +3341,14 @@ export const TransferDepositIcon = ({ width }: { width: string }) => (
       </g>
       <defs>
          <clipPath id="clip0_15040_7">
-            <rect
-               width="24"
-               height="24"
-               fill="white"
-               transform="translate(16.0001 16)"
-            />
+            <rect width="24" height="24" fill="white" transform="translate(16.0001 16)" />
          </clipPath>
       </defs>
    </svg>
 );
 
 export const SequentialProductIcon = ({ width }: { width: string }) => (
-   <svg
-      width={width}
-      viewBox="0 0 56 56"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-   >
+   <svg width={width} viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path
          d="M0 28C0 12.536 12.536 0 28 0C43.464 0 56 12.536 56 28C56 43.464 43.464 56 28 56C12.536 56 0 43.464 0 28Z"
          fill="#F6F6F6"
@@ -4561,24 +3363,14 @@ export const SequentialProductIcon = ({ width }: { width: string }) => (
       </g>
       <defs>
          <clipPath id="clip0_15052_771">
-            <rect
-               width="24"
-               height="24"
-               fill="white"
-               transform="translate(16 16)"
-            />
+            <rect width="24" height="24" fill="white" transform="translate(16 16)" />
          </clipPath>
       </defs>
    </svg>
 );
 
 export const ImporterProductUnitIcon = ({ width }: { width: string }) => (
-   <svg
-      width={width}
-      viewBox="0 0 56 56"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-   >
+   <svg width={width} viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path
          d="M0.000244141 28C0.000244141 12.536 12.5363 0 28.0002 0C43.4642 0 56.0002 12.536 56.0002 28C56.0002 43.464 43.4642 56 28.0002 56C12.5363 56 0.000244141 43.464 0.000244141 28Z"
          fill="#F6F6F6"
@@ -4617,108 +3409,77 @@ export const ImporterProductUnitIcon = ({ width }: { width: string }) => (
       </g>
       <defs>
          <clipPath id="clip0_16721_12239">
-            <rect
-               width="24"
-               height="24"
-               fill="white"
-               transform="translate(16.0002 16)"
-            />
+            <rect width="24" height="24" fill="white" transform="translate(16.0002 16)" />
          </clipPath>
       </defs>
    </svg>
 );
 
 export const DeploymentSidebarIcon = (props: any) => (
-   <svg
-      height={props.height}
-      viewBox="0 0 16 16"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-   >
+   <svg height={props.height} viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
          d="M5.20688 8.00004C5.20688 6.45934 6.4557 5.21042 7.99628 5.21042C9.53686 5.21042 10.7857 6.45934 10.7857 8.00004C10.7857 9.54074 9.53686 10.7897 7.99628 10.7897C6.4557 10.7897 5.20688 9.54074 5.20688 8.00004ZM7.99628 6.32627C7.07192 6.32627 6.32264 7.07561 6.32264 8.00004C6.32264 8.92448 7.07192 9.67382 7.99628 9.67382C8.92064 9.67382 9.66992 8.92448 9.66992 8.00004C9.66992 7.07561 8.92064 6.32627 7.99628 6.32627Z"
-         fill={props.color ?? "#A3A3A3"}
+         fill={props.color ?? '#A3A3A3'}
       />
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
          d="M6.21366 1.87786C6.01456 1.5461 5.59524 1.4429 5.28384 1.62817C5.28114 1.62978 5.27842 1.63137 5.27569 1.63293L3.98855 2.36956C3.58149 2.60219 3.44129 3.12936 3.67396 3.53245C4.07178 4.21906 4.17867 4.97156 3.82321 5.58845C3.46773 6.20536 2.76321 6.48988 1.97118 6.48988C1.50014 6.48988 1.11576 6.87792 1.11576 7.34534V8.6546C1.11576 9.12203 1.50016 9.51008 1.97118 9.51008C2.76321 9.51008 3.46773 9.79461 3.82321 10.4115C4.17862 11.0283 4.07181 11.7807 3.67412 12.4672M6.21366 1.87786L6.29239 2.01384C6.2926 2.01421 6.29281 2.01458 6.29302 2.01495C6.68726 2.70211 7.28508 3.17024 7.99721 3.17024C8.70885 3.17024 9.30842 2.70263 9.70628 2.01615L9.78634 1.87786C9.98544 1.5461 10.4048 1.4429 10.7162 1.62817C10.7189 1.62978 10.7216 1.63137 10.7243 1.63293L12.0115 2.36956C12.4186 2.60222 12.5587 3.12951 12.3259 3.53262C11.9282 4.21919 11.8214 4.97162 12.1768 5.58845C12.5323 6.20536 13.2368 6.48988 14.0288 6.48988C14.4962 6.48988 14.8842 6.8743 14.8842 7.34534V8.6546C14.8842 9.12203 14.4998 9.51008 14.0288 9.51008C13.2368 9.51008 12.5323 9.79461 12.1768 10.4115C11.8216 11.028 11.9281 11.7799 12.3253 12.4662C12.5599 12.8783 12.4175 13.3983 12.0115 13.6304L12.0112 13.6306L10.7243 14.367C10.7216 14.3686 10.7189 14.3702 10.7162 14.3718C10.4048 14.5571 9.98545 14.4539 9.78635 14.1221L9.70761 13.9861C9.70739 13.9857 9.70717 13.9854 9.70695 13.985C9.31272 13.2978 8.7149 12.8297 8.00279 12.8297C7.29115 12.8297 6.69158 13.2973 6.29372 13.9838L6.29358 13.9841L6.21364 14.1221C6.01454 14.4539 5.59523 14.5571 5.28384 14.3718C5.28114 14.3702 5.27842 14.3686 5.27569 14.367L3.98885 13.6306L3.98855 13.6304C3.5814 13.3977 3.44123 12.8704 3.67411 12.4673M4.71779 0.666582C5.58022 0.156739 6.67416 0.46953 7.17401 1.30977C7.17514 1.31167 7.17626 1.31358 7.17737 1.31549L7.25919 1.45683L7.26038 1.4589C7.5356 1.93905 7.82269 2.05439 7.99721 2.05439C8.17257 2.05439 8.46182 1.93807 8.74081 1.45683C8.74086 1.45675 8.74091 1.45667 8.74095 1.45659L8.82264 1.31549C8.82374 1.31358 8.82486 1.31167 8.82599 1.30977C9.32584 0.469533 10.4198 0.156741 11.2822 0.666576L12.565 1.40074C13.5117 1.94171 13.8327 3.15507 13.292 4.09097L13.2916 4.09163C13.0127 4.57283 13.0565 4.88023 13.1435 5.0313C13.2306 5.18247 13.4745 5.37404 14.0288 5.37404C15.1086 5.37404 16 6.25419 16 7.34534V8.6546C16 9.73448 15.1199 10.6259 14.0288 10.6259C13.4745 10.6259 13.2306 10.8175 13.1435 10.9687C13.0565 11.1197 13.0127 11.4271 13.2916 11.9083C13.2922 11.9093 13.2927 11.9103 13.2933 11.9113C13.8313 12.8529 13.5123 14.0579 12.565 14.5992L11.2822 15.3334C10.4198 15.8432 9.32584 15.5304 8.82599 14.6902C8.82486 14.6883 8.82374 14.6864 8.82264 14.6845L8.74081 14.5431L8.73962 14.5411C8.46439 14.0609 8.17731 13.9456 8.00279 13.9456C7.82743 13.9456 7.53818 14.0619 7.25919 14.5431C7.25915 14.5432 7.25911 14.5433 7.25908 14.5433L7.25905 14.5434L7.17736 14.6845C7.17626 14.6864 7.17514 14.6883 7.17401 14.6902C6.67416 15.5304 5.58023 15.8432 4.7178 15.3334L3.43498 14.5992C2.48834 14.0583 2.16733 12.8449 2.70802 11.909L2.70841 11.9083C2.9873 11.4271 2.94353 11.1197 2.85648 10.9687C2.76937 10.8175 2.52549 10.6259 1.97118 10.6259C0.880128 10.6259 0 9.73448 0 8.6546V7.34534C0 6.26545 0.880144 5.37404 1.97118 5.37404C2.52549 5.37404 2.76937 5.18247 2.85648 5.0313C2.94353 4.88023 2.9873 4.57283 2.70841 4.09163L2.70802 4.09097C2.16733 3.15507 2.48834 1.94171 3.43498 1.40074L4.71779 0.666582Z"
-         fill={props.color ?? "#A3A3A3"}
+         fill={props.color ?? '#A3A3A3'}
       />
    </svg>
 );
 
-export const FireWithBgIcon = ({
-   height,
-   color,
-}: {
-   height: string;
-   color?: string;
-}) => (
-   <svg
-      height={height}
-      viewBox="0 0 65 64"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-   >
+export const FireWithBgIcon = ({ height, color }: { height: string; color?: string }) => (
+   <svg height={height} viewBox="0 0 65 64" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path
          d="M0.666748 32C0.666748 14.3269 14.9936 0 32.6667 0C50.3399 0 64.6667 14.3269 64.6667 32C64.6667 49.6731 50.3399 64 32.6667 64C14.9936 64 0.666748 49.6731 0.666748 32Z"
-         fill={color ?? "#F6F6F6"}
+         fill={color ?? '#F6F6F6'}
       />
       <g clip-path="url(#clip0_16344_3871)">
          <path
             fill-rule="evenodd"
             clip-rule="evenodd"
             d="M17.0511 38.9831C17.051 37.7367 17.6784 36.6048 18.6855 35.5977L31.3237 22.9595C32.3308 21.9524 33.4627 21.325 34.7091 21.3251C35.9555 21.3252 37.0876 21.9529 38.0949 22.9602L41.7066 26.5719C42.7139 27.5792 43.3415 28.7113 43.3417 29.9577C43.3418 31.2041 42.7144 32.336 41.7073 33.3431L29.0691 45.9813C28.062 46.9884 26.9301 47.6158 25.6837 47.6157C24.4373 47.6155 23.3052 46.9879 22.2979 45.9806L18.6862 42.3689C17.6789 41.3616 17.0513 40.2295 17.0511 38.9831ZM18.9663 38.9833C18.9664 39.5426 19.2418 40.2162 20.0403 41.0148L23.652 44.6265C24.4505 45.425 25.1242 45.7004 25.6835 45.7005C26.2428 45.7005 26.9164 45.4253 27.7147 44.6269L40.3529 31.9887C41.1513 31.1903 41.4265 30.5168 41.4265 29.9575C41.4264 29.3982 41.151 28.7245 40.3525 27.926L36.7408 24.3143C35.9422 23.5158 35.2686 23.2404 34.7093 23.2403C34.15 23.2402 33.4764 23.5155 32.6781 24.3138L20.0399 36.9521C19.2415 37.7504 18.9662 38.424 18.9663 38.9833Z"
-            fill={color ?? "#404040"}
+            fill={color ?? '#404040'}
          />
          <path
             fill-rule="evenodd"
             clip-rule="evenodd"
             d="M43.53 20.9701C43.9344 21.3746 43.9344 22.0304 43.53 22.4348L40.7681 25.1967C40.3637 25.6011 39.7079 25.6011 39.3034 25.1967C38.899 24.7922 38.899 24.1364 39.3034 23.732L42.0653 20.9701C42.4697 20.5657 43.1255 20.5657 43.53 20.9701Z"
-            fill={color ?? "#404040"}
+            fill={color ?? '#404040'}
          />
          <path
             fill-rule="evenodd"
             clip-rule="evenodd"
             d="M45.3236 21.9298C45.5794 21.4182 46.2015 21.2108 46.7131 21.4666L48.094 22.1571C48.6056 22.4129 48.813 23.035 48.5572 23.5466C48.3014 24.0582 47.6793 24.2656 47.1677 24.0098L45.7867 23.3193C45.2751 23.0635 45.0678 22.4414 45.3236 21.9298Z"
-            fill={color ?? "#404040"}
+            fill={color ?? '#404040'}
          />
          <path
             fill-rule="evenodd"
             clip-rule="evenodd"
             d="M40.9535 15.9429C41.4651 15.6871 42.0873 15.8945 42.3431 16.4061L43.0335 17.787C43.2893 18.2986 43.0819 18.9207 42.5703 19.1765C42.0587 19.4323 41.4366 19.225 41.1808 18.7134L40.4904 17.3324C40.2346 16.8208 40.4419 16.1987 40.9535 15.9429Z"
-            fill={color ?? "#404040"}
+            fill={color ?? '#404040'}
          />
          <path
             fill-rule="evenodd"
             clip-rule="evenodd"
             d="M47.6727 16.8274C48.0772 17.2318 48.0772 17.8876 47.6727 18.2921L46.2918 19.673C45.8873 20.0774 45.2316 20.0774 44.8271 19.673C44.4227 19.2685 44.4227 18.6128 44.8271 18.2083L46.208 16.8274C46.6125 16.4229 47.2683 16.4229 47.6727 16.8274Z"
-            fill={color ?? "#404040"}
+            fill={color ?? '#404040'}
          />
       </g>
       <defs>
          <clipPath id="clip0_16344_3871">
-            <rect
-               width="32"
-               height="32"
-               fill="white"
-               transform="translate(16.6667 16)"
-            />
+            <rect width="32" height="32" fill="white" transform="translate(16.6667 16)" />
          </clipPath>
       </defs>
    </svg>
 );
 
 export const SaleWithBgIcon = ({ height }: { height: string }) => (
-   <svg
-      height={height}
-      viewBox="0 0 65 64"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-   >
+   <svg height={height} viewBox="0 0 65 64" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path
          d="M0.333374 32C0.333374 14.3269 14.6603 0 32.3334 0C50.0065 0 64.3334 14.3269 64.3334 32C64.3334 49.6731 50.0065 64 32.3334 64C14.6603 64 0.333374 49.6731 0.333374 32Z"
          fill="#F6F6F6"
@@ -4757,24 +3518,14 @@ export const SaleWithBgIcon = ({ height }: { height: string }) => (
       </g>
       <defs>
          <clipPath id="clip0_16344_3547">
-            <rect
-               width="32"
-               height="32"
-               fill="white"
-               transform="translate(16.3334 16)"
-            />
+            <rect width="32" height="32" fill="white" transform="translate(16.3334 16)" />
          </clipPath>
       </defs>
    </svg>
 );
 
 export const TransferWithBgIcon = ({ height }: { height: string }) => (
-   <svg
-      height={height}
-      viewBox="0 0 64 64"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-   >
+   <svg height={height} viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path
          d="M0 32C0 14.3269 14.3269 0 32 0C49.6731 0 64 14.3269 64 32C64 49.6731 49.6731 64 32 64C14.3269 64 0 49.6731 0 32Z"
          fill="#F6F6F6"
@@ -4788,19 +3539,8 @@ export const TransferWithBgIcon = ({ height }: { height: string }) => (
    </svg>
 );
 
-export const ProductionWithBgIcon = ({
-   height,
-   color,
-}: {
-   height: string;
-   color?: string;
-}) => (
-   <svg
-      height={height}
-      viewBox="0 0 65 64"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-   >
+export const ProductionWithBgIcon = ({ height, color }: { height: string; color?: string }) => (
+   <svg height={height} viewBox="0 0 65 64" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path
          d="M0.666748 32C0.666748 14.3269 14.9936 0 32.6667 0C50.3399 0 64.6667 14.3269 64.6667 32C64.6667 49.6731 50.3399 64 32.6667 64C14.9936 64 0.666748 49.6731 0.666748 32Z"
          fill="#F6F6F6"
@@ -4808,81 +3548,60 @@ export const ProductionWithBgIcon = ({
       <g clip-path="url(#clip0_16344_6786)">
          <path
             d="M35.6867 38.8097H32.4463C32.1754 38.8097 31.9557 39.0293 31.9557 39.3002V40.5406C31.9557 40.8115 32.1754 41.0311 32.4463 41.0311H35.6867C35.9576 41.0311 36.1772 40.8115 36.1772 40.5406V39.3002C36.1772 39.0293 35.9576 38.8097 35.6867 38.8097Z"
-            fill={color ?? "#404040"}
+            fill={color ?? '#404040'}
          />
          <path
             d="M42.1338 38.8096H38.8933C38.6224 38.8096 38.4028 39.0292 38.4028 39.3001V40.5405C38.4028 40.8114 38.6224 41.031 38.8933 41.031H42.1338C42.4047 41.031 42.6243 40.8114 42.6243 40.5405V39.3001C42.6243 39.0292 42.4047 38.8096 42.1338 38.8096Z"
-            fill={color ?? "#404040"}
+            fill={color ?? '#404040'}
          />
          <path
             fill-rule="evenodd"
             clip-rule="evenodd"
             d="M39.0227 30.0581V25.8792C39.0227 25.5225 38.6539 25.285 38.3291 25.4327L29.7655 30.5047C29.4407 30.6523 29.0719 30.4148 29.0719 30.0581V21.3422C29.0719 21.0713 28.8523 20.8517 28.5814 20.8517H24.419C24.4583 19.4531 25.3867 18.2215 27.0141 18.2215C27.8989 18.2215 28.2903 18.557 28.8827 19.0649C29.5991 19.6789 30.4905 20.443 32.1973 20.443C33.9041 20.443 34.7957 19.6789 35.512 19.0649C36.1045 18.557 36.4958 18.2215 37.3809 18.2215C38.2659 18.2215 38.6574 18.557 39.2498 19.0649C39.3804 19.1768 39.6204 19.4102 39.6204 19.4102C40.7288 20.5185 42.3067 18.9672 40.8537 17.5142C40.792 17.4611 40.6956 17.3781 40.6956 17.3781C39.9793 16.7641 39.0877 16 37.3809 16C35.6742 16 34.7826 16.7641 34.0663 17.3782C33.4737 17.886 33.0823 18.2215 32.1974 18.2215C31.3124 18.2215 30.921 17.886 30.3286 17.3782C29.6122 16.7642 28.7207 16.0001 27.0142 16C24.7125 16 22.2044 18.2215 22.2044 20.8517H18.4083C18.1374 20.8517 17.9178 21.0713 17.9178 21.3422V47.5095C17.9178 47.7804 18.1374 48 18.4083 48H46.924C47.1949 48 47.4145 47.7804 47.4145 47.5095V25.8792C47.4145 25.5326 47.0664 25.2986 46.7488 25.421C46.7301 25.4282 46.7128 25.4386 46.6966 25.4503L39.7406 30.487C39.7244 30.4987 39.7071 30.5091 39.6884 30.5163C39.3707 30.6387 39.0227 30.4047 39.0227 30.0581ZM20.6299 45.7786H26.36C26.6309 45.7786 26.8505 45.5589 26.8505 45.288L26.8504 23.5638C26.8504 23.2928 26.6308 23.0732 26.3599 23.0732H20.6299C20.3589 23.0732 20.1393 23.2928 20.1393 23.5638V45.288C20.1393 45.5589 20.3589 45.7786 20.6299 45.7786ZM29.5625 45.7786H44.7025C44.9734 45.7786 45.193 45.5589 45.193 45.288V30.5047C45.193 30.1582 44.8452 29.9242 44.5277 30.0463C44.5087 30.0536 44.4913 30.0641 44.4749 30.076L37.5194 35.1372C37.503 35.1492 37.4855 35.1597 37.4666 35.167C37.149 35.289 36.8012 35.0551 36.8012 34.7086V30.0581C36.8012 29.7013 36.4325 29.4639 36.1077 29.6115L29.3595 33.8259C29.1844 33.9055 29.0719 34.0801 29.0719 34.2725V45.288C29.0719 45.5589 29.2916 45.7786 29.5625 45.7786Z"
-            fill={color ?? "#404040"}
+            fill={color ?? '#404040'}
          />
          <path
             fill-rule="evenodd"
             clip-rule="evenodd"
             d="M32.4463 38.8097H35.6867C35.9576 38.8097 36.1772 39.0293 36.1772 39.3002V40.5406C36.1772 40.8115 35.9576 41.0311 35.6867 41.0311H32.4463C32.1754 41.0311 31.9557 40.8115 31.9557 40.5406V39.3002C31.9557 39.0293 32.1754 38.8097 32.4463 38.8097ZM38.8933 38.8096H42.1338C42.4047 38.8096 42.6243 39.0292 42.6243 39.3001V40.5405C42.6243 40.8114 42.4047 41.031 42.1338 41.031H38.8933C38.6224 41.031 38.4028 40.8114 38.4028 40.5405V39.3001C38.4028 39.0292 38.6224 38.8096 38.8933 38.8096Z"
-            fill={color ?? "#404040"}
+            fill={color ?? '#404040'}
          />
       </g>
       <defs>
          <clipPath id="clip0_16344_6786">
-            <rect
-               width="32"
-               height="32"
-               fill="white"
-               transform="translate(16.6667 16)"
-            />
+            <rect width="32" height="32" fill="white" transform="translate(16.6667 16)" />
          </clipPath>
       </defs>
    </svg>
 );
 
-export const ProductionIcon = ({
-   height,
-   color,
-}: {
-   height: string;
-   color?: string;
-}) => (
-   <svg
-      height={height}
-      viewBox="0 0 31 32"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-   >
+export const ProductionIcon = ({ height, color }: { height: string; color?: string }) => (
+   <svg height={height} viewBox="0 0 31 32" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path
          d="M18.6867 22.8097H15.4463C15.1754 22.8097 14.9557 23.0293 14.9557 23.3002V24.5406C14.9557 24.8115 15.1754 25.0311 15.4463 25.0311H18.6867C18.9576 25.0311 19.1772 24.8115 19.1772 24.5406V23.3002C19.1772 23.0293 18.9576 22.8097 18.6867 22.8097Z"
-         fill={color ?? "#404040"}
+         fill={color ?? '#404040'}
       />
       <path
          d="M25.1338 22.8096H21.8933C21.6224 22.8096 21.4028 23.0292 21.4028 23.3001V24.5405C21.4028 24.8114 21.6224 25.031 21.8933 25.031H25.1338C25.4047 25.031 25.6243 24.8114 25.6243 24.5405V23.3001C25.6243 23.0292 25.4047 22.8096 25.1338 22.8096Z"
-         fill={color ?? "#404040"}
+         fill={color ?? '#404040'}
       />
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
          d="M22.0227 14.0581V9.87923C22.0227 9.52247 21.6539 9.28504 21.3291 9.43266L12.7655 14.5047C12.4407 14.6523 12.0719 14.4148 12.0719 14.0581V5.34225C12.0719 5.07133 11.8523 4.85171 11.5814 4.85171H7.419C7.45827 3.45312 8.38675 2.22151 10.0141 2.22151C10.8989 2.22151 11.2903 2.55703 11.8827 3.06486C12.5991 3.67886 13.4905 4.44301 15.1973 4.44301C16.9041 4.44301 17.7957 3.67891 18.512 3.06486C19.1045 2.55703 19.4958 2.22151 20.3809 2.22151C21.2659 2.22151 21.6574 2.55703 22.2498 3.06486C22.3804 3.17682 22.6204 3.41016 22.6204 3.41016C23.7288 4.51854 25.3067 2.96724 23.8537 1.51425C23.792 1.46108 23.6956 1.3781 23.6956 1.3781C22.9793 0.764101 22.0877 0 20.3809 0C18.6742 0 17.7826 0.764101 17.0663 1.37815C16.4737 1.88599 16.0823 2.22151 15.1974 2.22151C14.3124 2.22151 13.921 1.88599 13.3286 1.37815C12.6122 0.764208 11.7207 5.35122e-05 10.0142 0C7.71251 0 5.20439 2.22151 5.20439 4.85171H1.40835C1.13744 4.85171 0.917816 5.07133 0.917816 5.34225V31.5095C0.917816 31.7804 1.13744 32 1.40835 32H29.924C30.1949 32 30.4145 31.7804 30.4145 31.5095V9.87923C30.4145 9.53261 30.0664 9.29863 29.7488 9.421C29.7301 9.4282 29.7128 9.43858 29.6966 9.45032L22.7406 14.487C22.7244 14.4987 22.7071 14.5091 22.6884 14.5163C22.3707 14.6387 22.0227 14.4047 22.0227 14.0581ZM3.62986 29.7786H9.35995C9.63087 29.7786 9.85049 29.5589 9.85048 29.288L9.85043 7.56375C9.85043 7.29284 9.63082 7.07322 9.3599 7.07322H3.62986C3.35894 7.07322 3.13932 7.29284 3.13932 7.56375V29.288C3.13932 29.5589 3.35894 29.7786 3.62986 29.7786ZM12.5625 29.7786H27.7025C27.9734 29.7786 28.193 29.5589 28.193 29.288V14.5047C28.193 14.1582 27.8452 13.9242 27.5277 14.0463C27.5087 14.0536 27.4913 14.0641 27.4749 14.076L20.5194 19.1372C20.503 19.1492 20.4855 19.1597 20.4666 19.167C20.149 19.289 19.8012 19.0551 19.8012 18.7086V14.0581C19.8012 13.7013 19.4325 13.4639 19.1077 13.6115L12.3595 17.8259C12.1844 17.9055 12.0719 18.0801 12.0719 18.2725V29.288C12.0719 29.5589 12.2916 29.7786 12.5625 29.7786Z"
-         fill={color ?? "#404040"}
+         fill={color ?? '#404040'}
       />
       <path
          fill-rule="evenodd"
          clip-rule="evenodd"
          d="M15.4463 22.8097H18.6867C18.9576 22.8097 19.1772 23.0293 19.1772 23.3002V24.5406C19.1772 24.8115 18.9576 25.0311 18.6867 25.0311H15.4463C15.1754 25.0311 14.9557 24.8115 14.9557 24.5406V23.3002C14.9557 23.0293 15.1754 22.8097 15.4463 22.8097ZM21.8933 22.8096H25.1338C25.4047 22.8096 25.6243 23.0292 25.6243 23.3001V24.5405C25.6243 24.8114 25.4047 25.031 25.1338 25.031H21.8933C21.6224 25.031 21.4028 24.8114 21.4028 24.5405V23.3001C21.4028 23.0292 21.6224 22.8096 21.8933 22.8096Z"
-         fill={color ?? "#404040"}
+         fill={color ?? '#404040'}
       />
    </svg>
 );
 
 export const ReceiveWithBgIcon = ({ height }: { height: string }) => (
-   <svg
-      height={height}
-      viewBox="0 0 64 64"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-   >
+   <svg height={height} viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path
          d="M0 32C0 14.3269 14.3269 0 32 0C49.6731 0 64 14.3269 64 32C64 49.6731 49.6731 64 32 64C14.3269 64 0 49.6731 0 32Z"
          fill="#F6F6F6"
@@ -4915,24 +3634,14 @@ export const ReceiveWithBgIcon = ({ height }: { height: string }) => (
       </g>
       <defs>
          <clipPath id="clip0_16344_29">
-            <rect
-               width="32"
-               height="32"
-               fill="white"
-               transform="translate(16 16)"
-            />
+            <rect width="32" height="32" fill="white" transform="translate(16 16)" />
          </clipPath>
       </defs>
    </svg>
 );
 
 export const LogsWithBgIcon = ({ height }: { height: string }) => (
-   <svg
-      height={height}
-      viewBox="0 0 65 64"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-   >
+   <svg height={height} viewBox="0 0 65 64" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path
          d="M0.333374 32C0.333374 14.3269 14.6603 0 32.3334 0C50.0065 0 64.3334 14.3269 64.3334 32C64.3334 49.6731 50.0065 64 32.3334 64C14.6603 64 0.333374 49.6731 0.333374 32Z"
          fill="#F6F6F6"
@@ -4965,12 +3674,7 @@ export const LogsWithBgIcon = ({ height }: { height: string }) => (
 );
 
 export const DevolutionIcon = (props: any) => (
-   <svg
-      {...props}
-      viewBox="0 0 24 24"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-   >
+   <svg {...props} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
       <g clip-path="url(#clip0_15887_7181)">
          <path
             fill-rule="evenodd"
@@ -4999,26 +3703,14 @@ export const DevolutionIcon = (props: any) => (
       </g>
       <defs>
          <clipPath id="clip0_15887_7181">
-            <rect
-               width="16"
-               height="16"
-               fill="white"
-               transform="translate(4 4)"
-            />
+            <rect width="16" height="16" fill="white" transform="translate(4 4)" />
          </clipPath>
       </defs>
    </svg>
 );
 
 export const BgWithNotLogo = (props: any) => (
-   <svg
-      width="256"
-      height="212"
-      viewBox="0 0 256 212"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-      {...props}
-   >
+   <svg width="256" height="212" viewBox="0 0 256 212" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
       <g opacity="0.5">
          <path
             fill-rule="evenodd"
@@ -5067,14 +3759,7 @@ export const BgWithNotLogo = (props: any) => (
 );
 
 export const BgWithNotLogo2 = (props: any) => (
-   <svg
-      width="329"
-      height="274"
-      viewBox="0 0 329 274"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-      {...props}
-   >
+   <svg width="329" height="274" viewBox="0 0 329 274" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
       <g opacity="0.5">
          <path
             fill-rule="evenodd"
@@ -5167,46 +3852,144 @@ export const BgWithNotLogo2 = (props: any) => (
 export const BgWithNotLogo3 = (props: any) => (
    <svg {...props} width="199" height="96" viewBox="0 0 199 96" fill="none" xmlns="http://www.w3.org/2000/svg">
       <g opacity="0.5">
-         <path fill-rule="evenodd" clip-rule="evenodd" d="M86.7381 5.46048C85.4834 5.41306 84.2214 5.73463 82.8777 6.48726C72.9306 12.0735 62.8579 17.4445 53.0033 23.1928C52.5876 23.4353 52.3947 23.7853 52.437 24.2705C52.4786 24.7411 52.7091 25.0534 53.1301 25.2553C58.3347 27.7508 63.0221 30.6626 68.0248 33.5557C71.0364 35.2973 74.0858 36.9751 77.1203 38.6764C80.0917 40.3422 83.3273 41.8149 86.1819 43.6503C86.9983 44.1752 87.3852 45.0199 87.3404 45.9823C87.2935 47.0455 86.8451 47.7604 86.2356 48.2906C85.7962 48.6729 85.247 48.9742 84.7602 49.2413C74.5848 54.824 64.2851 60.6214 54.3769 66.6507C53.5969 67.1253 52.8984 67.6863 52.3584 68.4912C53.3384 69.4128 54.4523 70.1061 55.6294 70.7326C61.2998 73.7509 66.9074 76.8777 72.5339 79.983C76.1754 81.9927 79.8196 84.004 83.4592 86.0581C84.7122 86.7654 85.815 87.0709 86.8976 87.032C87.9841 86.9929 89.1107 86.6046 90.4065 85.8199C112.035 72.7156 134.384 60.7601 156.299 48.1448C157.135 47.6632 157.709 47.2385 158.062 46.8582C158.412 46.4815 158.497 46.203 158.483 45.9902C158.468 45.765 158.333 45.4627 157.922 45.0646C157.514 44.6695 156.889 44.2346 156.022 43.7453C134.238 31.4307 112.433 19.1505 90.7002 6.73201C89.294 5.92921 87.9976 5.50808 86.7381 5.46048ZM72.4833 37.4451C72.4767 37.4416 72.4701 37.438 72.4636 37.4342C70.7947 36.4698 69.1263 35.505 67.4582 34.5403C62.4799 31.6613 57.8172 28.7626 52.639 26.2796C51.8609 25.9065 51.3817 25.235 51.3054 24.3698C51.2253 23.4526 51.6406 22.6726 52.431 22.2116C62.2911 16.4601 72.3693 11.0858 82.322 5.49649C83.818 4.65851 85.2857 4.26882 86.781 4.32533C88.2716 4.38166 89.7462 4.87935 91.2634 5.74549C112.993 18.1623 134.795 30.4404 156.581 42.7562C157.481 43.264 158.202 43.7547 158.712 44.2485C159.219 44.7395 159.575 45.2898 159.616 45.9156C159.658 46.5539 159.365 47.1249 158.894 47.6312C158.428 48.134 157.74 48.6258 156.866 49.1292C134.955 61.742 112.618 73.691 90.9951 86.7915C89.5947 87.6395 88.2791 88.1189 86.9384 88.1672C85.5938 88.2156 84.2842 87.8282 82.9008 87.0474C79.2923 85.0108 75.6484 82.9996 72.0017 80.9868C66.3748 77.881 60.7666 74.7539 55.0957 71.7354C53.7461 71.017 52.4025 70.1758 51.2317 68.9768C51.0557 68.7966 51.0194 68.5221 51.1425 68.3024C51.8341 67.0677 52.7935 66.2845 53.7864 65.6802C63.7353 59.6262 74.0785 53.8208 84.289 48.2027C84.7518 47.948 85.1515 47.7281 85.49 47.4336C85.8966 47.0799 86.1744 46.6444 86.2056 45.9311C86.2318 45.3684 86.0462 44.9135 85.5676 44.6058C82.7507 42.7947 79.5115 41.3192 76.5724 39.6715C75.6099 39.1319 74.654 38.596 73.7085 38.0634C49.2538 51.671 0.838852 79.174 0.838852 79.174C0.838852 79.174 0.225418 79.2787 0.0508843 79.0181C-0.123649 78.7574 0.206807 78.2301 0.206807 78.2301C0.206807 78.2301 48.2269 50.9376 72.4833 37.4451Z" fill="#C5C5C5" />
-         <path fill-rule="evenodd" clip-rule="evenodd" d="M139.37 59.0849C139.521 58.8101 139.866 58.7101 140.141 58.8615C150.54 64.5917 171.538 76.1497 171.538 76.1497L171.502 66.5857C171.562 65.9597 171.649 65.4179 171.794 64.9852C171.939 64.5548 172.166 64.1571 172.558 63.92C172.958 63.6774 173.415 63.6719 173.865 63.7752C174.309 63.8773 174.811 64.1001 175.374 64.406C182.624 68.3532 189.857 72.33 197.066 76.3535C197.614 76.6598 198.066 76.9376 198.385 77.2062C198.687 77.4599 198.998 77.8114 199 78.282C199.002 78.7535 198.692 79.1071 198.39 79.3628C198.072 79.6334 197.619 79.9135 197.067 80.2229C191.45 83.3781 185.81 86.4972 180.218 89.5897C178.069 90.7781 175.928 91.9626 173.797 93.1436C173.633 93.2343 173.436 93.2386 173.268 93.1552C172.432 92.7386 171.891 91.5173 171.891 91.5173C171.891 91.5173 171.632 81.8398 171.538 77.3628C171.538 77.3628 181.57 82.8127 169.781 76.3655C157.992 69.9183 151.382 66.3036 139.593 59.8564C139.593 59.8564 139.218 59.3596 139.37 59.0849ZM172.973 89.9302C172.975 90.3758 172.9 90.827 172.999 91.2676C173.055 91.5136 173.176 91.7625 173.525 91.9954C175.566 90.8644 177.616 89.7307 179.672 88.5937C185.262 85.5019 190.897 82.3856 196.511 79.2323C197.057 78.9258 197.427 78.6906 197.655 78.4967C197.785 78.3866 197.836 78.3179 197.855 78.286C197.836 78.2542 197.785 78.1853 197.654 78.0751C197.425 77.8822 197.056 77.6491 196.512 77.3453C189.308 73.3242 182.079 69.3497 174.832 65.4041C174.299 65.1145 173.904 64.9498 173.61 64.8823C173.322 64.8159 173.201 64.8585 173.146 64.8918C173.082 64.9305 172.975 65.0363 172.871 65.347C172.767 65.6551 172.633 66.692 172.633 66.692C172.633 66.692 172.946 82.1988 172.973 89.9302Z" fill="#C5C5C5" />
-         <path fill-rule="evenodd" clip-rule="evenodd" d="M130.214 2.31035C130.245 1.99818 130.523 1.77008 130.835 1.80088C131.67 1.88323 132.755 1.96706 133.849 2.05155L133.855 2.05201C134.946 2.13632 136.046 2.22131 136.894 2.30527C137.075 2.32326 137.237 2.42749 137.329 2.58539C137.42 2.74329 137.431 2.93562 137.356 3.10229L134.848 8.71348C134.72 8.99985 134.384 9.12821 134.097 9.00019C133.811 8.87217 133.682 8.53623 133.811 8.24986L135.622 4.19821C131.349 6.57909 127.112 8.93948 122.893 11.2898C118.871 13.5304 114.865 15.7618 110.861 17.9931C110.587 18.1458 110.241 18.0475 110.089 17.7734C109.936 17.4994 110.034 17.1535 110.308 17.0008C114.313 14.7692 118.319 12.5378 122.341 10.2972C126.518 7.97019 130.713 5.63335 134.943 3.27629C134.56 3.24584 134.164 3.21526 133.767 3.18459L133.751 3.18336C132.665 3.09945 131.57 3.01489 130.724 2.93135C130.411 2.90056 130.183 2.62253 130.214 2.31035Z" fill="#C5C5C5" />
+         <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M86.7381 5.46048C85.4834 5.41306 84.2214 5.73463 82.8777 6.48726C72.9306 12.0735 62.8579 17.4445 53.0033 23.1928C52.5876 23.4353 52.3947 23.7853 52.437 24.2705C52.4786 24.7411 52.7091 25.0534 53.1301 25.2553C58.3347 27.7508 63.0221 30.6626 68.0248 33.5557C71.0364 35.2973 74.0858 36.9751 77.1203 38.6764C80.0917 40.3422 83.3273 41.8149 86.1819 43.6503C86.9983 44.1752 87.3852 45.0199 87.3404 45.9823C87.2935 47.0455 86.8451 47.7604 86.2356 48.2906C85.7962 48.6729 85.247 48.9742 84.7602 49.2413C74.5848 54.824 64.2851 60.6214 54.3769 66.6507C53.5969 67.1253 52.8984 67.6863 52.3584 68.4912C53.3384 69.4128 54.4523 70.1061 55.6294 70.7326C61.2998 73.7509 66.9074 76.8777 72.5339 79.983C76.1754 81.9927 79.8196 84.004 83.4592 86.0581C84.7122 86.7654 85.815 87.0709 86.8976 87.032C87.9841 86.9929 89.1107 86.6046 90.4065 85.8199C112.035 72.7156 134.384 60.7601 156.299 48.1448C157.135 47.6632 157.709 47.2385 158.062 46.8582C158.412 46.4815 158.497 46.203 158.483 45.9902C158.468 45.765 158.333 45.4627 157.922 45.0646C157.514 44.6695 156.889 44.2346 156.022 43.7453C134.238 31.4307 112.433 19.1505 90.7002 6.73201C89.294 5.92921 87.9976 5.50808 86.7381 5.46048ZM72.4833 37.4451C72.4767 37.4416 72.4701 37.438 72.4636 37.4342C70.7947 36.4698 69.1263 35.505 67.4582 34.5403C62.4799 31.6613 57.8172 28.7626 52.639 26.2796C51.8609 25.9065 51.3817 25.235 51.3054 24.3698C51.2253 23.4526 51.6406 22.6726 52.431 22.2116C62.2911 16.4601 72.3693 11.0858 82.322 5.49649C83.818 4.65851 85.2857 4.26882 86.781 4.32533C88.2716 4.38166 89.7462 4.87935 91.2634 5.74549C112.993 18.1623 134.795 30.4404 156.581 42.7562C157.481 43.264 158.202 43.7547 158.712 44.2485C159.219 44.7395 159.575 45.2898 159.616 45.9156C159.658 46.5539 159.365 47.1249 158.894 47.6312C158.428 48.134 157.74 48.6258 156.866 49.1292C134.955 61.742 112.618 73.691 90.9951 86.7915C89.5947 87.6395 88.2791 88.1189 86.9384 88.1672C85.5938 88.2156 84.2842 87.8282 82.9008 87.0474C79.2923 85.0108 75.6484 82.9996 72.0017 80.9868C66.3748 77.881 60.7666 74.7539 55.0957 71.7354C53.7461 71.017 52.4025 70.1758 51.2317 68.9768C51.0557 68.7966 51.0194 68.5221 51.1425 68.3024C51.8341 67.0677 52.7935 66.2845 53.7864 65.6802C63.7353 59.6262 74.0785 53.8208 84.289 48.2027C84.7518 47.948 85.1515 47.7281 85.49 47.4336C85.8966 47.0799 86.1744 46.6444 86.2056 45.9311C86.2318 45.3684 86.0462 44.9135 85.5676 44.6058C82.7507 42.7947 79.5115 41.3192 76.5724 39.6715C75.6099 39.1319 74.654 38.596 73.7085 38.0634C49.2538 51.671 0.838852 79.174 0.838852 79.174C0.838852 79.174 0.225418 79.2787 0.0508843 79.0181C-0.123649 78.7574 0.206807 78.2301 0.206807 78.2301C0.206807 78.2301 48.2269 50.9376 72.4833 37.4451Z"
+            fill="#C5C5C5"
+         />
+         <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M139.37 59.0849C139.521 58.8101 139.866 58.7101 140.141 58.8615C150.54 64.5917 171.538 76.1497 171.538 76.1497L171.502 66.5857C171.562 65.9597 171.649 65.4179 171.794 64.9852C171.939 64.5548 172.166 64.1571 172.558 63.92C172.958 63.6774 173.415 63.6719 173.865 63.7752C174.309 63.8773 174.811 64.1001 175.374 64.406C182.624 68.3532 189.857 72.33 197.066 76.3535C197.614 76.6598 198.066 76.9376 198.385 77.2062C198.687 77.4599 198.998 77.8114 199 78.282C199.002 78.7535 198.692 79.1071 198.39 79.3628C198.072 79.6334 197.619 79.9135 197.067 80.2229C191.45 83.3781 185.81 86.4972 180.218 89.5897C178.069 90.7781 175.928 91.9626 173.797 93.1436C173.633 93.2343 173.436 93.2386 173.268 93.1552C172.432 92.7386 171.891 91.5173 171.891 91.5173C171.891 91.5173 171.632 81.8398 171.538 77.3628C171.538 77.3628 181.57 82.8127 169.781 76.3655C157.992 69.9183 151.382 66.3036 139.593 59.8564C139.593 59.8564 139.218 59.3596 139.37 59.0849ZM172.973 89.9302C172.975 90.3758 172.9 90.827 172.999 91.2676C173.055 91.5136 173.176 91.7625 173.525 91.9954C175.566 90.8644 177.616 89.7307 179.672 88.5937C185.262 85.5019 190.897 82.3856 196.511 79.2323C197.057 78.9258 197.427 78.6906 197.655 78.4967C197.785 78.3866 197.836 78.3179 197.855 78.286C197.836 78.2542 197.785 78.1853 197.654 78.0751C197.425 77.8822 197.056 77.6491 196.512 77.3453C189.308 73.3242 182.079 69.3497 174.832 65.4041C174.299 65.1145 173.904 64.9498 173.61 64.8823C173.322 64.8159 173.201 64.8585 173.146 64.8918C173.082 64.9305 172.975 65.0363 172.871 65.347C172.767 65.6551 172.633 66.692 172.633 66.692C172.633 66.692 172.946 82.1988 172.973 89.9302Z"
+            fill="#C5C5C5"
+         />
+         <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M130.214 2.31035C130.245 1.99818 130.523 1.77008 130.835 1.80088C131.67 1.88323 132.755 1.96706 133.849 2.05155L133.855 2.05201C134.946 2.13632 136.046 2.22131 136.894 2.30527C137.075 2.32326 137.237 2.42749 137.329 2.58539C137.42 2.74329 137.431 2.93562 137.356 3.10229L134.848 8.71348C134.72 8.99985 134.384 9.12821 134.097 9.00019C133.811 8.87217 133.682 8.53623 133.811 8.24986L135.622 4.19821C131.349 6.57909 127.112 8.93948 122.893 11.2898C118.871 13.5304 114.865 15.7618 110.861 17.9931C110.587 18.1458 110.241 18.0475 110.089 17.7734C109.936 17.4994 110.034 17.1535 110.308 17.0008C114.313 14.7692 118.319 12.5378 122.341 10.2972C126.518 7.97019 130.713 5.63335 134.943 3.27629C134.56 3.24584 134.164 3.21526 133.767 3.18459L133.751 3.18336C132.665 3.09945 131.57 3.01489 130.724 2.93135C130.411 2.90056 130.183 2.62253 130.214 2.31035Z"
+            fill="#C5C5C5"
+         />
       </g>
    </svg>
-
-)
+);
 
 export const LogoIcon = (props: any) => {
    return (
-      <svg width={`${props.width ?? 288}`} height={`${props.height ?? 68}`} viewBox="0 0 288 68" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <svg
+         width={`${props.width ?? 288}`}
+         height={`${props.height ?? 68}`}
+         viewBox="0 0 288 68"
+         fill="none"
+         xmlns="http://www.w3.org/2000/svg"
+      >
          <g clip-path="url(#clip0_2063_9293)">
-            <path d="M15.4219 17.2542L0.0740662 26.1054L15.4219 34.985L30.7413 26.1054L15.4219 17.2542Z" fill="#E30613" />
-            <path d="M245.228 49.0289C245.321 49.8087 245.521 50.3628 245.829 50.6911C246.372 51.276 247.378 51.5684 248.845 51.5684C249.707 51.5684 250.389 51.4402 250.892 51.1837C251.405 50.9271 251.662 50.5423 251.662 50.0293C251.662 49.5368 251.457 49.1623 251.046 48.9057C250.636 48.6492 249.112 48.208 246.475 47.5821C244.577 47.1101 243.238 46.5201 242.458 45.8121C241.678 45.1143 241.288 44.1088 241.288 42.7954C241.288 41.246 241.893 39.9172 243.104 38.809C244.325 37.6906 246.039 37.1314 248.245 37.1314C250.338 37.1314 252.041 37.5521 253.355 38.3935C254.679 39.2246 255.438 40.6662 255.633 42.7184H251.246C251.185 42.1541 251.026 41.7077 250.769 41.3794C250.287 40.7842 249.466 40.4867 248.307 40.4867C247.352 40.4867 246.67 40.6355 246.259 40.933C245.859 41.2306 245.659 41.5795 245.659 41.9796C245.659 42.4824 245.875 42.8467 246.306 43.0724C246.737 43.3084 248.26 43.7137 250.877 44.2883C252.621 44.6988 253.929 45.3196 254.802 46.1507C255.664 46.9921 256.095 48.0438 256.095 49.3059C256.095 50.9682 255.474 52.3277 254.232 53.3846C253.001 54.4312 251.092 54.9545 248.507 54.9545C245.87 54.9545 243.92 54.4004 242.658 53.2923C241.406 52.1738 240.78 50.7527 240.78 49.0289H245.228Z" fill="#3E444E" />
-            <path d="M224.942 57.6018L225.497 57.6326C225.928 57.6531 226.338 57.6378 226.728 57.5864C227.118 57.5351 227.446 57.4171 227.713 57.2324C227.969 57.058 228.205 56.6937 228.421 56.1397C228.647 55.5856 228.739 55.247 228.698 55.1238L222.541 37.6085H227.42L231.084 49.9831L234.547 37.6085H239.21L233.454 54.108C232.346 57.2889 231.468 59.259 230.822 60.0183C230.176 60.7878 228.883 61.1726 226.943 61.1726C226.553 61.1726 226.24 61.1675 226.004 61.1572C225.768 61.1572 225.414 61.1418 224.942 61.1111V57.6018Z" fill="#3E444E" />
-            <path d="M215.969 46.2276C215.692 46.4021 215.41 46.5457 215.123 46.6586C214.846 46.7612 214.461 46.8587 213.968 46.951L212.983 47.1357C212.06 47.2999 211.398 47.5 210.998 47.736C210.321 48.1362 209.982 48.757 209.982 49.5983C209.982 50.3474 210.187 50.8912 210.598 51.2298C211.018 51.5582 211.526 51.7224 212.121 51.7224C213.065 51.7224 213.933 51.4453 214.723 50.8912C215.523 50.3371 215.939 49.3264 215.969 47.8591V46.2276ZM213.307 44.1806C214.117 44.078 214.697 43.9497 215.046 43.7958C215.672 43.529 215.985 43.1135 215.985 42.5491C215.985 41.8616 215.744 41.3896 215.261 41.1331C214.789 40.8663 214.092 40.7329 213.168 40.7329C212.132 40.7329 211.398 40.9895 210.967 41.5025C210.659 41.8822 210.454 42.3952 210.351 43.0416H206.119C206.211 41.5743 206.622 40.3687 207.35 39.4247C208.51 37.9471 210.5 37.2083 213.322 37.2083C215.159 37.2083 216.79 37.5726 218.216 38.3011C219.643 39.0296 220.356 40.4046 220.356 42.426V50.1217C220.356 50.6552 220.366 51.3017 220.387 52.061C220.417 52.6356 220.505 53.0255 220.648 53.2307C220.792 53.4359 221.007 53.6052 221.295 53.7386V54.3851H216.523C216.39 54.0464 216.298 53.7284 216.246 53.4308C216.195 53.1332 216.154 52.7946 216.123 52.415C215.518 53.0717 214.82 53.6309 214.03 54.0926C213.086 54.6364 212.019 54.9084 210.829 54.9084C209.31 54.9084 208.053 54.4774 207.058 53.6155C206.073 52.7433 205.58 51.512 205.58 49.9216C205.58 47.8591 206.375 46.3662 207.966 45.4427C208.838 44.9399 210.121 44.5808 211.814 44.3653L213.307 44.1806Z" fill="#3E444E" />
-            <path d="M190.096 37.6085H194.545L197.1 49.6907L199.716 37.6085H204.287L199.424 54.3851H194.914L192.282 42.1643L189.619 54.3851H185.064L180.354 37.6085H185.064L187.68 49.6445L190.096 37.6085Z" fill="#3E444E" />
+            <path
+               d="M15.4219 17.2542L0.0740662 26.1054L15.4219 34.985L30.7413 26.1054L15.4219 17.2542Z"
+               fill="#E30613"
+            />
+            <path
+               d="M245.228 49.0289C245.321 49.8087 245.521 50.3628 245.829 50.6911C246.372 51.276 247.378 51.5684 248.845 51.5684C249.707 51.5684 250.389 51.4402 250.892 51.1837C251.405 50.9271 251.662 50.5423 251.662 50.0293C251.662 49.5368 251.457 49.1623 251.046 48.9057C250.636 48.6492 249.112 48.208 246.475 47.5821C244.577 47.1101 243.238 46.5201 242.458 45.8121C241.678 45.1143 241.288 44.1088 241.288 42.7954C241.288 41.246 241.893 39.9172 243.104 38.809C244.325 37.6906 246.039 37.1314 248.245 37.1314C250.338 37.1314 252.041 37.5521 253.355 38.3935C254.679 39.2246 255.438 40.6662 255.633 42.7184H251.246C251.185 42.1541 251.026 41.7077 250.769 41.3794C250.287 40.7842 249.466 40.4867 248.307 40.4867C247.352 40.4867 246.67 40.6355 246.259 40.933C245.859 41.2306 245.659 41.5795 245.659 41.9796C245.659 42.4824 245.875 42.8467 246.306 43.0724C246.737 43.3084 248.26 43.7137 250.877 44.2883C252.621 44.6988 253.929 45.3196 254.802 46.1507C255.664 46.9921 256.095 48.0438 256.095 49.3059C256.095 50.9682 255.474 52.3277 254.232 53.3846C253.001 54.4312 251.092 54.9545 248.507 54.9545C245.87 54.9545 243.92 54.4004 242.658 53.2923C241.406 52.1738 240.78 50.7527 240.78 49.0289H245.228Z"
+               fill="#3E444E"
+            />
+            <path
+               d="M224.942 57.6018L225.497 57.6326C225.928 57.6531 226.338 57.6378 226.728 57.5864C227.118 57.5351 227.446 57.4171 227.713 57.2324C227.969 57.058 228.205 56.6937 228.421 56.1397C228.647 55.5856 228.739 55.247 228.698 55.1238L222.541 37.6085H227.42L231.084 49.9831L234.547 37.6085H239.21L233.454 54.108C232.346 57.2889 231.468 59.259 230.822 60.0183C230.176 60.7878 228.883 61.1726 226.943 61.1726C226.553 61.1726 226.24 61.1675 226.004 61.1572C225.768 61.1572 225.414 61.1418 224.942 61.1111V57.6018Z"
+               fill="#3E444E"
+            />
+            <path
+               d="M215.969 46.2276C215.692 46.4021 215.41 46.5457 215.123 46.6586C214.846 46.7612 214.461 46.8587 213.968 46.951L212.983 47.1357C212.06 47.2999 211.398 47.5 210.998 47.736C210.321 48.1362 209.982 48.757 209.982 49.5983C209.982 50.3474 210.187 50.8912 210.598 51.2298C211.018 51.5582 211.526 51.7224 212.121 51.7224C213.065 51.7224 213.933 51.4453 214.723 50.8912C215.523 50.3371 215.939 49.3264 215.969 47.8591V46.2276ZM213.307 44.1806C214.117 44.078 214.697 43.9497 215.046 43.7958C215.672 43.529 215.985 43.1135 215.985 42.5491C215.985 41.8616 215.744 41.3896 215.261 41.1331C214.789 40.8663 214.092 40.7329 213.168 40.7329C212.132 40.7329 211.398 40.9895 210.967 41.5025C210.659 41.8822 210.454 42.3952 210.351 43.0416H206.119C206.211 41.5743 206.622 40.3687 207.35 39.4247C208.51 37.9471 210.5 37.2083 213.322 37.2083C215.159 37.2083 216.79 37.5726 218.216 38.3011C219.643 39.0296 220.356 40.4046 220.356 42.426V50.1217C220.356 50.6552 220.366 51.3017 220.387 52.061C220.417 52.6356 220.505 53.0255 220.648 53.2307C220.792 53.4359 221.007 53.6052 221.295 53.7386V54.3851H216.523C216.39 54.0464 216.298 53.7284 216.246 53.4308C216.195 53.1332 216.154 52.7946 216.123 52.415C215.518 53.0717 214.82 53.6309 214.03 54.0926C213.086 54.6364 212.019 54.9084 210.829 54.9084C209.31 54.9084 208.053 54.4774 207.058 53.6155C206.073 52.7433 205.58 51.512 205.58 49.9216C205.58 47.8591 206.375 46.3662 207.966 45.4427C208.838 44.9399 210.121 44.5808 211.814 44.3653L213.307 44.1806Z"
+               fill="#3E444E"
+            />
+            <path
+               d="M190.096 37.6085H194.545L197.1 49.6907L199.716 37.6085H204.287L199.424 54.3851H194.914L192.282 42.1643L189.619 54.3851H185.064L180.354 37.6085H185.064L187.68 49.6445L190.096 37.6085Z"
+               fill="#3E444E"
+            />
             <path d="M177.891 54.3851H173.505V31.6982H177.891V54.3851Z" fill="#3E444E" />
-            <path d="M157.19 45.8121H162.946L160.114 36.8851L157.19 45.8121ZM157.482 31.6982H162.838L170.873 54.3851H165.732L164.27 49.7215H155.912L154.342 54.3851H149.386L157.482 31.6982Z" fill="#3E444E" />
-            <path d="M126.161 57.6018L126.715 57.6326C127.146 57.6531 127.556 57.6378 127.946 57.5864C128.336 57.5351 128.665 57.4171 128.931 57.2324C129.188 57.058 129.424 56.6937 129.639 56.1397C129.865 55.5856 129.957 55.247 129.916 55.1238L123.76 37.6085H128.639L132.302 49.9831L135.765 37.6085H140.429L134.672 54.108C133.564 57.2889 132.687 59.259 132.04 60.0183C131.394 60.7878 130.101 61.1726 128.162 61.1726C127.772 61.1726 127.459 61.1675 127.223 61.1572C126.987 61.1572 126.633 61.1418 126.161 61.1111V57.6018Z" fill="#3E444E" />
-            <path d="M113.263 40.8869V37.7624H115.602V33.0834H119.943V37.7624H122.667V40.8869H119.943V49.7523C119.943 50.4397 120.03 50.8707 120.204 51.0451C120.379 51.2093 120.912 51.2914 121.805 51.2914C121.939 51.2914 122.077 51.2914 122.221 51.2914C122.375 51.2811 122.523 51.2709 122.667 51.2606V54.539L120.589 54.6159C118.517 54.6877 117.101 54.3286 116.341 53.5385C115.849 53.0357 115.602 52.261 115.602 51.2144V40.8869H113.263Z" fill="#3E444E" />
-            <path d="M110.723 35.6076H106.275V31.5597H110.723V35.6076ZM106.275 37.6085H110.723V54.3851H106.275V37.6085Z" fill="#3E444E" />
+            <path
+               d="M157.19 45.8121H162.946L160.114 36.8851L157.19 45.8121ZM157.482 31.6982H162.838L170.873 54.3851H165.732L164.27 49.7215H155.912L154.342 54.3851H149.386L157.482 31.6982Z"
+               fill="#3E444E"
+            />
+            <path
+               d="M126.161 57.6018L126.715 57.6326C127.146 57.6531 127.556 57.6378 127.946 57.5864C128.336 57.5351 128.665 57.4171 128.931 57.2324C129.188 57.058 129.424 56.6937 129.639 56.1397C129.865 55.5856 129.957 55.247 129.916 55.1238L123.76 37.6085H128.639L132.302 49.9831L135.765 37.6085H140.429L134.672 54.108C133.564 57.2889 132.687 59.259 132.04 60.0183C131.394 60.7878 130.101 61.1726 128.162 61.1726C127.772 61.1726 127.459 61.1675 127.223 61.1572C126.987 61.1572 126.633 61.1418 126.161 61.1111V57.6018Z"
+               fill="#3E444E"
+            />
+            <path
+               d="M113.263 40.8869V37.7624H115.602V33.0834H119.943V37.7624H122.667V40.8869H119.943V49.7523C119.943 50.4397 120.03 50.8707 120.204 51.0451C120.379 51.2093 120.912 51.2914 121.805 51.2914C121.939 51.2914 122.077 51.2914 122.221 51.2914C122.375 51.2811 122.523 51.2709 122.667 51.2606V54.539L120.589 54.6159C118.517 54.6877 117.101 54.3286 116.341 53.5385C115.849 53.0357 115.602 52.261 115.602 51.2144V40.8869H113.263Z"
+               fill="#3E444E"
+            />
+            <path
+               d="M110.723 35.6076H106.275V31.5597H110.723V35.6076ZM106.275 37.6085H110.723V54.3851H106.275V37.6085Z"
+               fill="#3E444E"
+            />
             <path d="M101.92 54.3851H97.533V31.6982H101.92V54.3851Z" fill="#3E444E" />
-            <path d="M89.1447 46.2276C88.8677 46.4021 88.5855 46.5457 88.2982 46.6586C88.0212 46.7612 87.6364 46.8587 87.1439 46.951L86.1588 47.1357C85.2353 47.2999 84.5735 47.5 84.1733 47.736C83.4961 48.1362 83.1575 48.757 83.1575 49.5983C83.1575 50.3474 83.3627 50.8912 83.7732 51.2298C84.1939 51.5582 84.7018 51.7224 85.2969 51.7224C86.2409 51.7224 87.1079 51.4453 87.898 50.8912C88.6984 50.3371 89.1139 49.3264 89.1447 47.8591V46.2276ZM86.482 44.1806C87.2926 44.078 87.8724 43.9497 88.2212 43.7958C88.8472 43.529 89.1601 43.1135 89.1601 42.5491C89.1601 41.8616 88.919 41.3896 88.4367 41.1331C87.9647 40.8663 87.267 40.7329 86.3435 40.7329C85.3072 40.7329 84.5735 40.9895 84.1425 41.5025C83.8347 41.8822 83.6295 42.3952 83.5269 43.0416H79.2943C79.3866 41.5743 79.7971 40.3687 80.5256 39.4247C81.6851 37.9471 83.6757 37.2083 86.4974 37.2083C88.3341 37.2083 89.9656 37.5726 91.3919 38.3011C92.8181 39.0296 93.5313 40.4046 93.5313 42.426V50.1217C93.5313 50.6552 93.5415 51.3017 93.562 52.061C93.5928 52.6356 93.68 53.0255 93.8237 53.2307C93.9673 53.4359 94.1828 53.6052 94.4701 53.7386V54.3851H89.6988C89.5654 54.0464 89.4731 53.7284 89.4218 53.4308C89.3705 53.1332 89.3294 52.7946 89.2986 52.415C88.6932 53.0717 87.9955 53.6309 87.2054 54.0926C86.2614 54.6364 85.1943 54.9084 84.004 54.9084C82.4854 54.9084 81.2285 54.4774 80.2331 53.6155C79.2481 52.7433 78.7556 51.512 78.7556 49.9216C78.7556 47.8591 79.5508 46.3662 81.1412 45.4427C82.0134 44.9399 83.296 44.5808 84.9891 44.3653L86.482 44.1806Z" fill="#3E444E" />
-            <path d="M64.9957 37.6085V47.7206C64.9957 48.6749 65.1086 49.3931 65.3343 49.8754C65.7345 50.727 66.5195 51.1529 67.6892 51.1529C69.1873 51.1529 70.2134 50.5475 70.7675 49.3367C71.0548 48.68 71.1984 47.813 71.1984 46.7356V37.6085H75.6465V54.3851H71.3831V52.0148C71.3421 52.0661 71.2395 52.22 71.0753 52.4765C70.9111 52.733 70.7162 52.9588 70.4904 53.1537C69.803 53.7694 69.136 54.1901 68.4896 54.4158C67.8534 54.6416 67.1043 54.7544 66.2424 54.7544C63.7593 54.7544 62.0868 53.8617 61.2249 52.0764C60.7426 51.0913 60.5015 49.6394 60.5015 47.7206V37.6085H64.9957Z" fill="#3E444E" />
-            <path d="M46.4338 50.999C46.9776 50.999 47.5009 50.9323 48.0037 50.7989C48.2807 50.727 48.6347 50.5988 49.0657 50.4141L46.7724 48.2285L49.2196 45.6736L51.5129 47.8591C51.8721 47.1203 52.1234 46.4739 52.2671 45.9198C52.4928 45.0887 52.6057 44.119 52.6057 43.0109C52.6057 40.4662 52.0824 38.5012 51.0358 37.116C49.9994 35.7205 48.4808 35.0228 46.48 35.0228C44.6022 35.0228 43.1041 35.6897 41.9857 37.0236C40.8672 38.3575 40.308 40.3533 40.308 43.0109C40.308 46.1199 41.1084 48.3465 42.7091 49.6907C43.7454 50.5629 44.987 50.999 46.4338 50.999ZM57.3462 42.6722C57.3462 44.6936 57.1 46.3867 56.6075 47.7514C56.2073 49.0545 55.6173 50.137 54.8374 50.999L57.454 53.4462L54.976 56.0319L52.2363 53.4462C51.4052 53.949 50.6869 54.303 50.0815 54.5082C49.0657 54.8468 47.8498 55.0161 46.4338 55.0161C43.4786 55.0161 41.0366 54.1337 39.1075 52.3688C36.768 50.2448 35.5983 47.1255 35.5983 43.0109C35.5983 38.8655 36.7988 35.7308 39.1999 33.6068C41.1597 31.8727 43.5966 31.0056 46.5107 31.0056C49.4454 31.0056 51.908 31.924 53.8986 33.7607C56.197 35.8847 57.3462 38.8552 57.3462 42.6722Z" fill="#3E444E" />
-            <path d="M195.668 10.3505V7.22601H198.008V2.54705H202.348V7.22601H205.072V10.3505H202.348V19.2159C202.348 19.9033 202.435 20.3343 202.61 20.5087C202.784 20.6729 203.318 20.755 204.21 20.755C204.344 20.755 204.482 20.755 204.626 20.755C204.78 20.7447 204.929 20.7345 205.072 20.7242V24.0026L202.994 24.0795C200.922 24.1513 199.506 23.7922 198.746 23.0021C198.254 22.4993 198.008 21.7246 198.008 20.678V10.3505H195.668Z" fill="#3E444E" />
-            <path d="M183.263 18.4925C183.355 19.2723 183.555 19.8264 183.863 20.1547C184.407 20.7396 185.412 21.032 186.88 21.032C187.742 21.032 188.424 20.9038 188.927 20.6473C189.44 20.3907 189.696 20.0059 189.696 19.4929C189.696 19.0004 189.491 18.6259 189.081 18.3693C188.67 18.1128 187.146 17.6716 184.509 17.0457C182.611 16.5737 181.272 15.9837 180.492 15.2757C179.712 14.5779 179.323 13.5724 179.323 12.259C179.323 10.7096 179.928 9.3808 181.139 8.27262C182.36 7.15419 184.073 6.59497 186.279 6.59497C188.373 6.59497 190.076 7.01566 191.389 7.85706C192.713 8.68819 193.472 10.1298 193.667 12.182H189.281C189.219 11.6177 189.06 11.1713 188.804 10.843C188.321 10.2478 187.5 9.95028 186.341 9.95028C185.387 9.95028 184.704 10.0991 184.294 10.3966C183.894 10.6942 183.694 11.0431 183.694 11.4432C183.694 11.946 183.909 12.3103 184.34 12.536C184.771 12.772 186.295 13.1773 188.911 13.7519C190.656 14.1624 191.964 14.7832 192.836 15.6143C193.698 16.4557 194.129 17.5074 194.129 18.7695C194.129 20.4318 193.508 21.7913 192.267 22.8482C191.035 23.8948 189.127 24.4181 186.541 24.4181C183.904 24.4181 181.954 23.864 180.692 22.7559C179.441 21.6374 178.815 20.2163 178.815 18.4925H183.263Z" fill="#3E444E" />
-            <path d="M176.675 6.67192C176.757 6.67192 176.824 6.67705 176.875 6.68731C176.937 6.68731 177.065 6.69245 177.26 6.70271V11.197C176.983 11.1662 176.737 11.1457 176.521 11.1354C176.306 11.1251 176.131 11.12 175.998 11.12C174.233 11.12 173.048 11.6946 172.443 12.8438C172.104 13.4903 171.935 14.4856 171.935 15.8298V23.8486H167.517V7.0721H171.704V9.99645C172.381 8.87801 172.971 8.11358 173.474 7.70314C174.295 7.01566 175.362 6.67192 176.675 6.67192Z" fill="#3E444E" />
-            <path d="M163.3 5.07123H158.852V1.02331H163.3V5.07123ZM158.852 7.0721H163.3V23.8486H158.852V7.0721Z" fill="#3E444E" />
-            <path d="M139.875 1.19261H155.959V5.17896H144.584V10.3966H154.543V14.3368H144.584V23.8486H139.875V1.19261Z" fill="#3E444E" />
-            <path d="M113.879 27.0654L114.433 27.0962C114.864 27.1167 115.274 27.1014 115.664 27.05C116.054 26.9987 116.382 26.8807 116.649 26.696C116.906 26.5216 117.142 26.1573 117.357 25.6033C117.583 25.0492 117.675 24.7106 117.634 24.5874L111.478 7.0721H116.357L120.02 19.4467L123.483 7.0721H128.146L122.39 23.5716C121.282 26.7525 120.405 28.7226 119.758 29.4819C119.112 30.2514 117.819 30.6362 115.879 30.6362C115.49 30.6362 115.177 30.6311 114.941 30.6208C114.705 30.6208 114.351 30.6054 113.879 30.5747V27.0654Z" fill="#3E444E" />
-            <path d="M100.981 10.3505V7.22601H103.32V2.54705H107.66V7.22601H110.385V10.3505H107.66V19.2159C107.66 19.9033 107.748 20.3343 107.922 20.5087C108.097 20.6729 108.63 20.755 109.523 20.755C109.656 20.755 109.795 20.755 109.938 20.755C110.092 20.7447 110.241 20.7345 110.385 20.7242V24.0026L108.307 24.0795C106.234 24.1513 104.818 23.7922 104.059 23.0021C103.566 22.4993 103.32 21.7246 103.32 20.678V10.3505H100.981Z" fill="#3E444E" />
-            <path d="M91.7766 10.2427C90.7608 10.2427 89.9707 10.5608 89.4064 11.197C88.8523 11.8331 88.5034 12.6951 88.3598 13.7827H95.1781C95.1063 12.6232 94.7523 11.7459 94.1161 11.1508C93.4902 10.5454 92.7104 10.2427 91.7766 10.2427ZM91.7766 6.62575C93.1721 6.62575 94.4291 6.8874 95.5475 7.41071C96.666 7.93401 97.5894 8.76001 98.318 9.88871C98.9747 10.884 99.4005 12.0384 99.5954 13.3518C99.7083 14.1213 99.7545 15.2295 99.734 16.6763H88.252C88.3136 18.3591 88.842 19.5391 89.8373 20.2163C90.4427 20.637 91.1713 20.8473 92.0229 20.8473C92.9259 20.8473 93.6595 20.5908 94.2239 20.0778C94.5317 19.8007 94.8036 19.4159 95.0396 18.9234H99.5185C99.4056 19.9187 98.8874 20.9294 97.964 21.9555C96.5274 23.587 94.5163 24.4027 91.9306 24.4027C89.7963 24.4027 87.9134 23.7153 86.2819 22.3403C84.6505 20.9653 83.8347 18.7285 83.8347 15.6297C83.8347 12.7258 84.5684 10.4992 86.0357 8.94984C87.5132 7.40045 89.4269 6.62575 91.7766 6.62575Z" fill="#3E444E" />
-            <path d="M80.8488 0.930957C81.1258 0.930957 81.3772 0.941218 81.603 0.96174C81.8287 0.972001 82.1365 0.992523 82.5265 1.02331V4.59409C82.2802 4.56331 81.8646 4.54279 81.2798 4.53253C80.7051 4.51201 80.305 4.64027 80.0792 4.91731C79.8638 5.18409 79.756 5.48166 79.756 5.81001C79.756 6.13836 79.756 6.61036 79.756 7.22601H82.6342V10.3197H79.756V23.8486H75.3849V10.3197H72.9377V7.22601H75.3387V6.14862C75.3387 4.35296 75.6414 3.11653 76.2468 2.43931C76.883 1.43374 78.417 0.930957 80.8488 0.930957Z" fill="#3E444E" />
-            <path d="M66.3656 15.6912C66.0885 15.8657 65.8063 16.0093 65.519 16.1222C65.242 16.2248 64.8572 16.3223 64.3647 16.4146L63.3796 16.5993C62.4562 16.7635 61.7943 16.9636 61.3942 17.1996C60.7169 17.5998 60.3783 18.2206 60.3783 19.0619C60.3783 19.811 60.5835 20.3548 60.994 20.6934C61.4147 21.0218 61.9226 21.1859 62.5177 21.1859C63.4617 21.1859 64.3288 20.9089 65.1189 20.3548C65.9192 19.8007 66.3348 18.79 66.3656 17.3227V15.6912ZM63.7029 13.6442C64.5135 13.5416 65.0932 13.4133 65.4421 13.2594C66.068 12.9926 66.3809 12.5771 66.3809 12.0127C66.3809 11.3252 66.1398 10.8532 65.6576 10.5967C65.1856 10.3299 64.4878 10.1965 63.5643 10.1965C62.528 10.1965 61.7943 10.4531 61.3634 10.9661C61.0555 11.3458 60.8503 11.8588 60.7477 12.5052H56.5151C56.6075 11.0379 57.0179 9.83228 57.7464 8.88828C58.9059 7.41071 60.8965 6.67192 63.7182 6.67192C65.5549 6.67192 67.1864 7.03619 68.6127 7.76471C70.039 8.49323 70.7521 9.86819 70.7521 11.8896V19.5853C70.7521 20.1188 70.7623 20.7653 70.7829 21.5246C70.8137 22.0992 70.9009 22.4891 71.0445 22.6943C71.1882 22.8995 71.4037 23.0688 71.691 23.2022V23.8486H66.9196C66.7863 23.51 66.6939 23.192 66.6426 22.8944C66.5913 22.5968 66.5503 22.2582 66.5195 21.8786C65.9141 22.5353 65.2163 23.0945 64.4262 23.5562C63.4822 24.1 62.4151 24.372 61.2249 24.372C59.7062 24.372 58.4493 23.941 57.454 23.0791C56.4689 22.2069 55.9764 20.9756 55.9764 19.3852C55.9764 17.3227 56.7716 15.8298 58.3621 14.9063C59.2342 14.4035 60.5168 14.0444 62.2099 13.8289L63.7029 13.6442Z" fill="#3E444E" />
-            <path d="M39.8771 16.8456C40.0207 17.8819 40.3029 18.6566 40.7236 19.1697C41.4932 20.1034 42.8117 20.5703 44.6792 20.5703C45.7976 20.5703 46.7057 20.4472 47.4034 20.2009C48.7271 19.7289 49.3889 18.8516 49.3889 17.569C49.3889 16.8199 49.0606 16.2402 48.4039 15.8298C47.7472 15.4296 46.716 15.0756 45.3102 14.7678L42.9092 14.2291C40.5492 13.6955 38.9177 13.1158 38.0147 12.4898C36.4858 11.4432 35.7214 9.80663 35.7214 7.58001C35.7214 5.54836 36.4602 3.86044 37.9378 2.51626C39.4153 1.17209 41.5855 0.5 44.4483 0.5C46.8391 0.5 48.8759 1.13618 50.5587 2.40853C52.2517 3.67061 53.1393 5.50731 53.2214 7.91862H48.6655C48.5834 6.55392 47.9883 5.58427 46.8801 5.00966C46.1413 4.63001 45.223 4.44018 44.1251 4.44018C42.904 4.44018 41.9292 4.68644 41.2007 5.17896C40.4722 5.67149 40.1079 6.35897 40.1079 7.2414C40.1079 8.05201 40.4671 8.65741 41.1853 9.05758C41.6471 9.32436 42.6321 9.63732 44.1405 9.99645L48.0499 10.9353C49.7634 11.3458 51.0563 11.8947 51.9285 12.5822C53.2829 13.6493 53.9601 15.1936 53.9601 17.215C53.9601 19.2877 53.1649 21.0115 51.5745 22.3865C49.9943 23.7512 47.7574 24.4335 44.8639 24.4335C41.9087 24.4335 39.5846 23.7614 37.8916 22.4173C36.1985 21.0628 35.352 19.2056 35.352 16.8456H39.8771Z" fill="#3E444E" />
-            <path d="M229.545 17.2819L229.22 17.7821L246.836 29.2265L247.486 28.2271L229.869 16.7817L229.545 17.2819Z" fill="#E30B18" />
-            <path d="M230.111 14.1199C230.111 11.1878 227.74 8.80605 224.797 8.80605C221.855 8.80605 219.484 11.1878 219.484 14.1199C219.484 17.0512 221.866 19.4338 224.797 19.4338C227.73 19.4338 230.111 17.0626 230.111 14.1199ZM231.304 14.1199C231.304 17.7225 228.386 20.6266 224.797 20.6266C221.208 20.6266 218.291 17.7095 218.291 14.1199C218.291 10.5312 221.195 7.61322 224.797 7.61322C228.4 7.61322 231.304 10.5312 231.304 14.1199Z" fill="#E30B18" />
-            <path d="M246.776 22.9884C246.778 21.2108 248.708 20.1192 250.242 20.999L250.243 20.9981L286.236 41.557C287.795 42.4427 287.796 44.6962 286.237 45.5819L286.235 45.5838L250.015 65.9071L250.013 65.908C248.465 66.7707 246.549 65.663 246.565 63.8822L246.595 58.0614H247.787L247.757 63.8908V63.8927C247.75 64.6874 248.556 65.2233 249.288 64.9355L249.433 64.8672L285.652 44.5439C286.403 44.114 286.402 43.0213 285.649 42.5931L249.651 22.0331L249.65 22.0322C248.897 21.5996 247.968 22.1423 247.968 22.9912V22.9941L247.91 34.1076H246.718L246.776 22.9884Z" fill="#E30B18" />
+            <path
+               d="M89.1447 46.2276C88.8677 46.4021 88.5855 46.5457 88.2982 46.6586C88.0212 46.7612 87.6364 46.8587 87.1439 46.951L86.1588 47.1357C85.2353 47.2999 84.5735 47.5 84.1733 47.736C83.4961 48.1362 83.1575 48.757 83.1575 49.5983C83.1575 50.3474 83.3627 50.8912 83.7732 51.2298C84.1939 51.5582 84.7018 51.7224 85.2969 51.7224C86.2409 51.7224 87.1079 51.4453 87.898 50.8912C88.6984 50.3371 89.1139 49.3264 89.1447 47.8591V46.2276ZM86.482 44.1806C87.2926 44.078 87.8724 43.9497 88.2212 43.7958C88.8472 43.529 89.1601 43.1135 89.1601 42.5491C89.1601 41.8616 88.919 41.3896 88.4367 41.1331C87.9647 40.8663 87.267 40.7329 86.3435 40.7329C85.3072 40.7329 84.5735 40.9895 84.1425 41.5025C83.8347 41.8822 83.6295 42.3952 83.5269 43.0416H79.2943C79.3866 41.5743 79.7971 40.3687 80.5256 39.4247C81.6851 37.9471 83.6757 37.2083 86.4974 37.2083C88.3341 37.2083 89.9656 37.5726 91.3919 38.3011C92.8181 39.0296 93.5313 40.4046 93.5313 42.426V50.1217C93.5313 50.6552 93.5415 51.3017 93.562 52.061C93.5928 52.6356 93.68 53.0255 93.8237 53.2307C93.9673 53.4359 94.1828 53.6052 94.4701 53.7386V54.3851H89.6988C89.5654 54.0464 89.4731 53.7284 89.4218 53.4308C89.3705 53.1332 89.3294 52.7946 89.2986 52.415C88.6932 53.0717 87.9955 53.6309 87.2054 54.0926C86.2614 54.6364 85.1943 54.9084 84.004 54.9084C82.4854 54.9084 81.2285 54.4774 80.2331 53.6155C79.2481 52.7433 78.7556 51.512 78.7556 49.9216C78.7556 47.8591 79.5508 46.3662 81.1412 45.4427C82.0134 44.9399 83.296 44.5808 84.9891 44.3653L86.482 44.1806Z"
+               fill="#3E444E"
+            />
+            <path
+               d="M64.9957 37.6085V47.7206C64.9957 48.6749 65.1086 49.3931 65.3343 49.8754C65.7345 50.727 66.5195 51.1529 67.6892 51.1529C69.1873 51.1529 70.2134 50.5475 70.7675 49.3367C71.0548 48.68 71.1984 47.813 71.1984 46.7356V37.6085H75.6465V54.3851H71.3831V52.0148C71.3421 52.0661 71.2395 52.22 71.0753 52.4765C70.9111 52.733 70.7162 52.9588 70.4904 53.1537C69.803 53.7694 69.136 54.1901 68.4896 54.4158C67.8534 54.6416 67.1043 54.7544 66.2424 54.7544C63.7593 54.7544 62.0868 53.8617 61.2249 52.0764C60.7426 51.0913 60.5015 49.6394 60.5015 47.7206V37.6085H64.9957Z"
+               fill="#3E444E"
+            />
+            <path
+               d="M46.4338 50.999C46.9776 50.999 47.5009 50.9323 48.0037 50.7989C48.2807 50.727 48.6347 50.5988 49.0657 50.4141L46.7724 48.2285L49.2196 45.6736L51.5129 47.8591C51.8721 47.1203 52.1234 46.4739 52.2671 45.9198C52.4928 45.0887 52.6057 44.119 52.6057 43.0109C52.6057 40.4662 52.0824 38.5012 51.0358 37.116C49.9994 35.7205 48.4808 35.0228 46.48 35.0228C44.6022 35.0228 43.1041 35.6897 41.9857 37.0236C40.8672 38.3575 40.308 40.3533 40.308 43.0109C40.308 46.1199 41.1084 48.3465 42.7091 49.6907C43.7454 50.5629 44.987 50.999 46.4338 50.999ZM57.3462 42.6722C57.3462 44.6936 57.1 46.3867 56.6075 47.7514C56.2073 49.0545 55.6173 50.137 54.8374 50.999L57.454 53.4462L54.976 56.0319L52.2363 53.4462C51.4052 53.949 50.6869 54.303 50.0815 54.5082C49.0657 54.8468 47.8498 55.0161 46.4338 55.0161C43.4786 55.0161 41.0366 54.1337 39.1075 52.3688C36.768 50.2448 35.5983 47.1255 35.5983 43.0109C35.5983 38.8655 36.7988 35.7308 39.1999 33.6068C41.1597 31.8727 43.5966 31.0056 46.5107 31.0056C49.4454 31.0056 51.908 31.924 53.8986 33.7607C56.197 35.8847 57.3462 38.8552 57.3462 42.6722Z"
+               fill="#3E444E"
+            />
+            <path
+               d="M195.668 10.3505V7.22601H198.008V2.54705H202.348V7.22601H205.072V10.3505H202.348V19.2159C202.348 19.9033 202.435 20.3343 202.61 20.5087C202.784 20.6729 203.318 20.755 204.21 20.755C204.344 20.755 204.482 20.755 204.626 20.755C204.78 20.7447 204.929 20.7345 205.072 20.7242V24.0026L202.994 24.0795C200.922 24.1513 199.506 23.7922 198.746 23.0021C198.254 22.4993 198.008 21.7246 198.008 20.678V10.3505H195.668Z"
+               fill="#3E444E"
+            />
+            <path
+               d="M183.263 18.4925C183.355 19.2723 183.555 19.8264 183.863 20.1547C184.407 20.7396 185.412 21.032 186.88 21.032C187.742 21.032 188.424 20.9038 188.927 20.6473C189.44 20.3907 189.696 20.0059 189.696 19.4929C189.696 19.0004 189.491 18.6259 189.081 18.3693C188.67 18.1128 187.146 17.6716 184.509 17.0457C182.611 16.5737 181.272 15.9837 180.492 15.2757C179.712 14.5779 179.323 13.5724 179.323 12.259C179.323 10.7096 179.928 9.3808 181.139 8.27262C182.36 7.15419 184.073 6.59497 186.279 6.59497C188.373 6.59497 190.076 7.01566 191.389 7.85706C192.713 8.68819 193.472 10.1298 193.667 12.182H189.281C189.219 11.6177 189.06 11.1713 188.804 10.843C188.321 10.2478 187.5 9.95028 186.341 9.95028C185.387 9.95028 184.704 10.0991 184.294 10.3966C183.894 10.6942 183.694 11.0431 183.694 11.4432C183.694 11.946 183.909 12.3103 184.34 12.536C184.771 12.772 186.295 13.1773 188.911 13.7519C190.656 14.1624 191.964 14.7832 192.836 15.6143C193.698 16.4557 194.129 17.5074 194.129 18.7695C194.129 20.4318 193.508 21.7913 192.267 22.8482C191.035 23.8948 189.127 24.4181 186.541 24.4181C183.904 24.4181 181.954 23.864 180.692 22.7559C179.441 21.6374 178.815 20.2163 178.815 18.4925H183.263Z"
+               fill="#3E444E"
+            />
+            <path
+               d="M176.675 6.67192C176.757 6.67192 176.824 6.67705 176.875 6.68731C176.937 6.68731 177.065 6.69245 177.26 6.70271V11.197C176.983 11.1662 176.737 11.1457 176.521 11.1354C176.306 11.1251 176.131 11.12 175.998 11.12C174.233 11.12 173.048 11.6946 172.443 12.8438C172.104 13.4903 171.935 14.4856 171.935 15.8298V23.8486H167.517V7.0721H171.704V9.99645C172.381 8.87801 172.971 8.11358 173.474 7.70314C174.295 7.01566 175.362 6.67192 176.675 6.67192Z"
+               fill="#3E444E"
+            />
+            <path
+               d="M163.3 5.07123H158.852V1.02331H163.3V5.07123ZM158.852 7.0721H163.3V23.8486H158.852V7.0721Z"
+               fill="#3E444E"
+            />
+            <path
+               d="M139.875 1.19261H155.959V5.17896H144.584V10.3966H154.543V14.3368H144.584V23.8486H139.875V1.19261Z"
+               fill="#3E444E"
+            />
+            <path
+               d="M113.879 27.0654L114.433 27.0962C114.864 27.1167 115.274 27.1014 115.664 27.05C116.054 26.9987 116.382 26.8807 116.649 26.696C116.906 26.5216 117.142 26.1573 117.357 25.6033C117.583 25.0492 117.675 24.7106 117.634 24.5874L111.478 7.0721H116.357L120.02 19.4467L123.483 7.0721H128.146L122.39 23.5716C121.282 26.7525 120.405 28.7226 119.758 29.4819C119.112 30.2514 117.819 30.6362 115.879 30.6362C115.49 30.6362 115.177 30.6311 114.941 30.6208C114.705 30.6208 114.351 30.6054 113.879 30.5747V27.0654Z"
+               fill="#3E444E"
+            />
+            <path
+               d="M100.981 10.3505V7.22601H103.32V2.54705H107.66V7.22601H110.385V10.3505H107.66V19.2159C107.66 19.9033 107.748 20.3343 107.922 20.5087C108.097 20.6729 108.63 20.755 109.523 20.755C109.656 20.755 109.795 20.755 109.938 20.755C110.092 20.7447 110.241 20.7345 110.385 20.7242V24.0026L108.307 24.0795C106.234 24.1513 104.818 23.7922 104.059 23.0021C103.566 22.4993 103.32 21.7246 103.32 20.678V10.3505H100.981Z"
+               fill="#3E444E"
+            />
+            <path
+               d="M91.7766 10.2427C90.7608 10.2427 89.9707 10.5608 89.4064 11.197C88.8523 11.8331 88.5034 12.6951 88.3598 13.7827H95.1781C95.1063 12.6232 94.7523 11.7459 94.1161 11.1508C93.4902 10.5454 92.7104 10.2427 91.7766 10.2427ZM91.7766 6.62575C93.1721 6.62575 94.4291 6.8874 95.5475 7.41071C96.666 7.93401 97.5894 8.76001 98.318 9.88871C98.9747 10.884 99.4005 12.0384 99.5954 13.3518C99.7083 14.1213 99.7545 15.2295 99.734 16.6763H88.252C88.3136 18.3591 88.842 19.5391 89.8373 20.2163C90.4427 20.637 91.1713 20.8473 92.0229 20.8473C92.9259 20.8473 93.6595 20.5908 94.2239 20.0778C94.5317 19.8007 94.8036 19.4159 95.0396 18.9234H99.5185C99.4056 19.9187 98.8874 20.9294 97.964 21.9555C96.5274 23.587 94.5163 24.4027 91.9306 24.4027C89.7963 24.4027 87.9134 23.7153 86.2819 22.3403C84.6505 20.9653 83.8347 18.7285 83.8347 15.6297C83.8347 12.7258 84.5684 10.4992 86.0357 8.94984C87.5132 7.40045 89.4269 6.62575 91.7766 6.62575Z"
+               fill="#3E444E"
+            />
+            <path
+               d="M80.8488 0.930957C81.1258 0.930957 81.3772 0.941218 81.603 0.96174C81.8287 0.972001 82.1365 0.992523 82.5265 1.02331V4.59409C82.2802 4.56331 81.8646 4.54279 81.2798 4.53253C80.7051 4.51201 80.305 4.64027 80.0792 4.91731C79.8638 5.18409 79.756 5.48166 79.756 5.81001C79.756 6.13836 79.756 6.61036 79.756 7.22601H82.6342V10.3197H79.756V23.8486H75.3849V10.3197H72.9377V7.22601H75.3387V6.14862C75.3387 4.35296 75.6414 3.11653 76.2468 2.43931C76.883 1.43374 78.417 0.930957 80.8488 0.930957Z"
+               fill="#3E444E"
+            />
+            <path
+               d="M66.3656 15.6912C66.0885 15.8657 65.8063 16.0093 65.519 16.1222C65.242 16.2248 64.8572 16.3223 64.3647 16.4146L63.3796 16.5993C62.4562 16.7635 61.7943 16.9636 61.3942 17.1996C60.7169 17.5998 60.3783 18.2206 60.3783 19.0619C60.3783 19.811 60.5835 20.3548 60.994 20.6934C61.4147 21.0218 61.9226 21.1859 62.5177 21.1859C63.4617 21.1859 64.3288 20.9089 65.1189 20.3548C65.9192 19.8007 66.3348 18.79 66.3656 17.3227V15.6912ZM63.7029 13.6442C64.5135 13.5416 65.0932 13.4133 65.4421 13.2594C66.068 12.9926 66.3809 12.5771 66.3809 12.0127C66.3809 11.3252 66.1398 10.8532 65.6576 10.5967C65.1856 10.3299 64.4878 10.1965 63.5643 10.1965C62.528 10.1965 61.7943 10.4531 61.3634 10.9661C61.0555 11.3458 60.8503 11.8588 60.7477 12.5052H56.5151C56.6075 11.0379 57.0179 9.83228 57.7464 8.88828C58.9059 7.41071 60.8965 6.67192 63.7182 6.67192C65.5549 6.67192 67.1864 7.03619 68.6127 7.76471C70.039 8.49323 70.7521 9.86819 70.7521 11.8896V19.5853C70.7521 20.1188 70.7623 20.7653 70.7829 21.5246C70.8137 22.0992 70.9009 22.4891 71.0445 22.6943C71.1882 22.8995 71.4037 23.0688 71.691 23.2022V23.8486H66.9196C66.7863 23.51 66.6939 23.192 66.6426 22.8944C66.5913 22.5968 66.5503 22.2582 66.5195 21.8786C65.9141 22.5353 65.2163 23.0945 64.4262 23.5562C63.4822 24.1 62.4151 24.372 61.2249 24.372C59.7062 24.372 58.4493 23.941 57.454 23.0791C56.4689 22.2069 55.9764 20.9756 55.9764 19.3852C55.9764 17.3227 56.7716 15.8298 58.3621 14.9063C59.2342 14.4035 60.5168 14.0444 62.2099 13.8289L63.7029 13.6442Z"
+               fill="#3E444E"
+            />
+            <path
+               d="M39.8771 16.8456C40.0207 17.8819 40.3029 18.6566 40.7236 19.1697C41.4932 20.1034 42.8117 20.5703 44.6792 20.5703C45.7976 20.5703 46.7057 20.4472 47.4034 20.2009C48.7271 19.7289 49.3889 18.8516 49.3889 17.569C49.3889 16.8199 49.0606 16.2402 48.4039 15.8298C47.7472 15.4296 46.716 15.0756 45.3102 14.7678L42.9092 14.2291C40.5492 13.6955 38.9177 13.1158 38.0147 12.4898C36.4858 11.4432 35.7214 9.80663 35.7214 7.58001C35.7214 5.54836 36.4602 3.86044 37.9378 2.51626C39.4153 1.17209 41.5855 0.5 44.4483 0.5C46.8391 0.5 48.8759 1.13618 50.5587 2.40853C52.2517 3.67061 53.1393 5.50731 53.2214 7.91862H48.6655C48.5834 6.55392 47.9883 5.58427 46.8801 5.00966C46.1413 4.63001 45.223 4.44018 44.1251 4.44018C42.904 4.44018 41.9292 4.68644 41.2007 5.17896C40.4722 5.67149 40.1079 6.35897 40.1079 7.2414C40.1079 8.05201 40.4671 8.65741 41.1853 9.05758C41.6471 9.32436 42.6321 9.63732 44.1405 9.99645L48.0499 10.9353C49.7634 11.3458 51.0563 11.8947 51.9285 12.5822C53.2829 13.6493 53.9601 15.1936 53.9601 17.215C53.9601 19.2877 53.1649 21.0115 51.5745 22.3865C49.9943 23.7512 47.7574 24.4335 44.8639 24.4335C41.9087 24.4335 39.5846 23.7614 37.8916 22.4173C36.1985 21.0628 35.352 19.2056 35.352 16.8456H39.8771Z"
+               fill="#3E444E"
+            />
+            <path
+               d="M229.545 17.2819L229.22 17.7821L246.836 29.2265L247.486 28.2271L229.869 16.7817L229.545 17.2819Z"
+               fill="#E30B18"
+            />
+            <path
+               d="M230.111 14.1199C230.111 11.1878 227.74 8.80605 224.797 8.80605C221.855 8.80605 219.484 11.1878 219.484 14.1199C219.484 17.0512 221.866 19.4338 224.797 19.4338C227.73 19.4338 230.111 17.0626 230.111 14.1199ZM231.304 14.1199C231.304 17.7225 228.386 20.6266 224.797 20.6266C221.208 20.6266 218.291 17.7095 218.291 14.1199C218.291 10.5312 221.195 7.61322 224.797 7.61322C228.4 7.61322 231.304 10.5312 231.304 14.1199Z"
+               fill="#E30B18"
+            />
+            <path
+               d="M246.776 22.9884C246.778 21.2108 248.708 20.1192 250.242 20.999L250.243 20.9981L286.236 41.557C287.795 42.4427 287.796 44.6962 286.237 45.5819L286.235 45.5838L250.015 65.9071L250.013 65.908C248.465 66.7707 246.549 65.663 246.565 63.8822L246.595 58.0614H247.787L247.757 63.8908V63.8927C247.75 64.6874 248.556 65.2233 249.288 64.9355L249.433 64.8672L285.652 44.5439C286.403 44.114 286.402 43.0213 285.649 42.5931L249.651 22.0331L249.65 22.0322C248.897 21.5996 247.968 22.1423 247.968 22.9912V22.9941L247.91 34.1076H246.718L246.776 22.9884Z"
+               fill="#E30B18"
+            />
          </g>
          <defs>
             <clipPath id="clip0_2063_9293">
@@ -5214,8 +3997,5 @@ export const LogoIcon = (props: any) => {
             </clipPath>
          </defs>
       </svg>
-
    );
 };
-
-
