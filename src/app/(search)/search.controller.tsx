@@ -14,10 +14,10 @@ export const useSearchController = (): ISearchViewModel => {
    const [isLoading, setIsLoading] = useState(false);
    const [isFetchingMore, setIsFetchingMore] = useState(false);
    const [jobs, setJobs] = useState<IJob[]>([]);
-   const [totalResults, setTotalResults] = useState(0);
-   const [page, setPage] = useState(1);
-   const [hasMore, setHasMore] = useState(true);
-   const [currentKeywords, setCurrentKeywords] = useState('');
+   const [totalResults, setTotalResults] = useState<number>(0);
+   const [page, setPage] = useState<number>(1);
+   const [hasMore, setHasMore] = useState<boolean>(true);
+   const [currentKeywords, setCurrentKeywords] = useState<string>('');
 
    const {
       control,

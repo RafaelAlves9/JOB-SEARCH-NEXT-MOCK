@@ -1,12 +1,19 @@
 'use client';
 
-import React from 'react';
+import React, { forwardRef } from 'react';
 import Image from 'next/image';
 import { Building2, MapPin, Clock } from 'lucide-react';
 import { IJob } from '../../app/(search)/search.type';
 
-export const JobCard = ({ job }: { job: IJob }) => (
-   <div className="bg-white border border-slate-200 rounded-2xl shadow-lg hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 flex flex-col">
+interface IJobCardProps {
+   job: IJob;
+}
+
+const JobCardComponent = forwardRef<HTMLDivElement, IJobCardProps>(({ job }, ref) => (
+   <div
+      ref={ref}
+      className="bg-white border border-slate-200 rounded-2xl shadow-lg hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 flex flex-col"
+   >
       <div className="p-6">
          <div className="flex items-start mb-4">
             <div className="w-16 h-16 flex-shrink-0 mr-5 bg-slate-100 rounded-xl flex items-center justify-center">
@@ -48,7 +55,10 @@ export const JobCard = ({ job }: { job: IJob }) => (
          </a>
       </div>
    </div>
-);
+));
+JobCardComponent.displayName = 'JobCard';
+
+export const JobCard = JobCardComponent;
 
 export const SkeletonCard = () => (
    <div className="bg-white border border-slate-200 rounded-2xl shadow-lg p-6">
