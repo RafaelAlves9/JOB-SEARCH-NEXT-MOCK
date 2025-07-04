@@ -13,7 +13,7 @@ export async function POST(req: NextRequest) {
       const queryOptions = {
          keyword: keywords,
          location: 'Brazil',
-         dateRange: 'last week',
+         dateSincePosted: 'past Week',
          limit: 20,
          page: page,
       };
